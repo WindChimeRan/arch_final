@@ -1,0 +1,130 @@
+model                      : simple
+dataset                    : programl
+benchmarks                 : ['machsuite',
+                           :  'poly']
+tag                        : whole-machsuite-poly
+encoder_path               : None
+model_path                 : None
+class_model_path           : None
+num_features               : 124
+task                       : regression
+subtask                    : train
+val_ratio                  : 0.15
+explorer                   : exhaustive
+model_tag                  : test
+prune_util                 : True
+prune_class                : True
+activation                 : elu
+force_regen                : True
+no_pragma                  : False
+ordered_pids               : ['__PARA__L3',
+                           :  '__PIPE__L2',
+                           :  '__PARA__L1',
+                           :  '__PIPE__L0',
+                           :  '__TILE__L2',
+                           :  '__TILE__L0',
+                           :  '__PARA__L2',
+                           :  '__PIPE__L0']
+target                     : ['perf',
+                           :  'util-LUT',
+                           :  'util-FF',
+                           :  'util-DSP',
+                           :  'util-BRAM']
+separate_perf              : False
+num_layers                 : 6
+no_graph                   : False
+only_pragma                : False
+gnn_type                   : transformer
+encode_edge                : False
+loss                       : RMSE
+jkn_mode                   : max
+jkn_enable                 : True
+node_attention             : True
+epsilon                    : 0.001
+normalizer                 : 10000000.0
+max_number                 : 10000000000.0
+norm_method                : speedup-log2
+invalid                    : False
+all_kernels                : True
+multi_target               : True
+save_model                 : True
+encode_log                 : False
+D                          : 64
+batch_size                 : 64
+epoch_num                  : 1000
+device                     : cpu
+print_every_iter           : 100
+plot_pred_points           : False
+user                       : hzz5361
+hostname                   : e5-cse-cbnlp01
+ts                         : 2022-12-01T16-42-22.325441
+
+Net(
+  (conv_first): TransformerConv(151, 64, heads=1)
+  (conv_layers): ModuleList(
+    (0): TransformerConv(64, 64, heads=1)
+    (1): TransformerConv(64, 64, heads=1)
+    (2): TransformerConv(64, 64, heads=1)
+    (3): TransformerConv(64, 64, heads=1)
+    (4): TransformerConv(64, 64, heads=1)
+  )
+  (jkn): JumpingKnowledge(max)
+  (loss_fucntion): MSELoss()
+  (MLPs): ModuleDict(
+    (perf): MLP(
+      (activation): ELU(alpha=1.0)
+      (layers): ModuleList(
+        (0): Linear(in_features=64, out_features=32, bias=True)
+        (1): Linear(in_features=32, out_features=16, bias=True)
+        (2): Linear(in_features=16, out_features=8, bias=True)
+        (3): Linear(in_features=8, out_features=1, bias=True)
+      )
+    )
+    (util-LUT): MLP(
+      (activation): ELU(alpha=1.0)
+      (layers): ModuleList(
+        (0): Linear(in_features=64, out_features=32, bias=True)
+        (1): Linear(in_features=32, out_features=16, bias=True)
+        (2): Linear(in_features=16, out_features=8, bias=True)
+        (3): Linear(in_features=8, out_features=1, bias=True)
+      )
+    )
+    (util-FF): MLP(
+      (activation): ELU(alpha=1.0)
+      (layers): ModuleList(
+        (0): Linear(in_features=64, out_features=32, bias=True)
+        (1): Linear(in_features=32, out_features=16, bias=True)
+        (2): Linear(in_features=16, out_features=8, bias=True)
+        (3): Linear(in_features=8, out_features=1, bias=True)
+      )
+    )
+    (util-DSP): MLP(
+      (activation): ELU(alpha=1.0)
+      (layers): ModuleList(
+        (0): Linear(in_features=64, out_features=32, bias=True)
+        (1): Linear(in_features=32, out_features=16, bias=True)
+        (2): Linear(in_features=16, out_features=8, bias=True)
+        (3): Linear(in_features=8, out_features=1, bias=True)
+      )
+    )
+    (util-BRAM): MLP(
+      (activation): ELU(alpha=1.0)
+      (layers): ModuleList(
+        (0): Linear(in_features=64, out_features=32, bias=True)
+        (1): Linear(in_features=32, out_features=16, bias=True)
+        (2): Linear(in_features=16, out_features=8, bias=True)
+        (3): Linear(in_features=8, out_features=1, bias=True)
+      )
+    )
+  )
+  (gate_nn): Sequential(
+    (0): Linear(in_features=64, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=64, out_features=1, bias=True)
+  )
+  (glob): MyGlobalAttention(gate_nn=Sequential(
+    (0): Linear(in_features=64, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=64, out_features=1, bias=True)
+  ), nn=None)
+)

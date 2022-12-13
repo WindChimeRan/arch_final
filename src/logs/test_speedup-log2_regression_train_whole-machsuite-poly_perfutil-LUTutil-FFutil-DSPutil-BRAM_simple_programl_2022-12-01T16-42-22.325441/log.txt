@@ -1,0 +1,2108 @@
+Found 23 gexf files under /data/hzz5361/arch/GNN-DSE/dse_database/programl/**/processed/**
+aes_processed_result
+db_paths for aes:
+../dse_database/machsuite/databases/original-size/aes_result_updated-0.db
+num keys for aes: 89 and lv2 keys: 45
+reference point for aes is 7692.0
+aes g.variants 45 tot_configs 45
+	ntypes 4
+	ptypes 5 Counter({'None': 77265, 'ACCEL TILE AUTO{<>}': 45, 'ACCEL PIPELINE ': 30, 'ACCEL PIPELINE flatten': 30, 'ACCEL PIPELINE off': 30})
+	numerics 6 Counter({0: 77355, 1: 9, 13: 9, 2: 9, 4: 9, 8: 9})
+gemm-blocked_processed_result
+db_paths for gemm-blocked:
+../dse_database/machsuite/databases/original-size/gemm-blocked_result_updated-0.db
+num keys for gemm-blocked: 899 and lv2 keys: 243
+reference point for gemm-blocked is 2164899.0
+gemm-blocked g.variants 227 tot_configs 272
+	ntypes 4
+	ptypes 6 Counter({'None': 135831, 'ACCEL TILE AUTO{<>}': 953, 'ACCEL PIPELINE off': 558, 'ACCEL PARALLEL AUTO{<>}': 227, 'ACCEL PIPELINE ': 221, 'ACCEL PIPELINE flatten': 219})
+	numerics 9 Counter({0: 136829, 1: 791, 8: 123, 4: 90, 2: 83, 64: 32, 16: 29, 32: 23, 13: 9})
+gemm-ncubed_processed_result
+db_paths for gemm-ncubed:
+../dse_database/machsuite/databases/original-size/gemm-ncubed_result_updated-0.db
+num keys for gemm-ncubed: 860 and lv2 keys: 362
+reference point for gemm-ncubed is 12531777.0
+gemm-ncubed g.variants 273 tot_configs 545
+	ntypes 4
+	ptypes 7 Counter({'None': 180876, 'ACCEL TILE AUTO{<>}': 1499, 'ACCEL PIPELINE off': 844, 'ACCEL PARALLEL AUTO{<>}': 773, 'ACCEL PIPELINE ': 392, 'ACCEL PIPELINE flatten': 308, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 9 Counter({0: 182420, 1: 1574, 8: 222, 2: 217, 4: 206, 64: 121, 16: 99, 32: 97, 13: 9})
+nw_processed_result
+db_paths for nw:
+../dse_database/machsuite/databases/original-size/nw_result_updated-0.db
+num keys for nw: 1422 and lv2 keys: 386
+reference point for nw is 149424.0
+nw g.variants 153 tot_configs 698
+	ntypes 4
+	ptypes 7 Counter({'None': 247125, 'ACCEL TILE AUTO{<>}': 1652, 'ACCEL PARALLEL AUTO{<>}': 1385, 'ACCEL PIPELINE off': 903, 'ACCEL PIPELINE ': 427, 'ACCEL PIPELINE flatten': 367, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 12 Counter({0: 248822, 1: 1894, 2: 308, 8: 286, 4: 273, 16: 184, 32: 141, 64: 121, 128: 37, 3: 30, 129: 27, 13: 9})
+spmv-crs_processed_result
+db_paths for spmv-crs:
+../dse_database/machsuite/databases/original-size/spmv-crs_result_updated-0.db
+num keys for spmv-crs: 190 and lv2 keys: 73
+reference point for spmv-crs is 54780.0
+spmv-crs g.variants 53 tot_configs 751
+	ntypes 4
+	ptypes 7 Counter({'None': 256188, 'ACCEL TILE AUTO{<>}': 1705, 'ACCEL PARALLEL AUTO{<>}': 1438, 'ACCEL PIPELINE off': 915, 'ACCEL PIPELINE ': 441, 'ACCEL PIPELINE flatten': 394, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 15 Counter({0: 257938, 1: 1914, 2: 326, 8: 310, 4: 293, 16: 189, 32: 146, 64: 121, 128: 37, 3: 30, 129: 27, 13: 14, 26: 5, 19: 3, 494: 1})
+spmv-ellpack_processed_result
+db_paths for spmv-ellpack:
+../dse_database/machsuite/databases/original-size/spmv-ellpack_result_updated-0.db
+num keys for spmv-ellpack: 231 and lv2 keys: 114
+reference point for spmv-ellpack is 70891.0
+spmv-ellpack g.variants 84 tot_configs 835
+	ntypes 4
+	ptypes 7 Counter({'None': 269040, 'ACCEL TILE AUTO{<>}': 1789, 'ACCEL PARALLEL AUTO{<>}': 1522, 'ACCEL PIPELINE off': 941, 'ACCEL PIPELINE ': 470, 'ACCEL PIPELINE flatten': 423, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 15 Counter({0: 270874, 1: 1948, 2: 358, 8: 343, 4: 326, 16: 200, 32: 146, 64: 121, 128: 37, 3: 30, 129: 27, 13: 26, 19: 13, 26: 5, 494: 4})
+stencil_stencil2d_processed_result
+db_paths for stencil:
+../dse_database/machsuite/databases/original-size/stencil_result_updated-0.db
+num keys for stencil: 1641 and lv2 keys: 524
+reference point for stencil is 2690120.0
+stencil g.variants 341 tot_configs 1176
+	ntypes 4
+	ptypes 7 Counter({'None': 332807, 'ACCEL TILE AUTO{<>}': 2471, 'ACCEL PARALLEL AUTO{<>}': 2204, 'ACCEL PIPELINE off': 1459, 'ACCEL PIPELINE ': 755, 'ACCEL PIPELINE flatten': 643, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 22 Counter({0: 335664, 1: 2744, 2: 463, 8: 425, 4: 407, 16: 236, 32: 182, 64: 121, 126: 88, 3: 50, 62: 50, 31: 40, 128: 37, 129: 27, 13: 26, 7: 18, 19: 13, 6: 7, 26: 5, 494: 4, 14: 3, 9: 2})
+2mm_processed_result
+db_paths for 2mm:
+../dse_database/poly/databases/2mm_result_updated-0.db
+num keys for 2mm: 712 and lv2 keys: 388
+reference point for 2mm is 13525191.0
+2mm g.variants 250 tot_configs 1426
+	ntypes 4
+	ptypes 7 Counter({'None': 417807, 'ACCEL PARALLEL AUTO{<>}': 3704, 'ACCEL TILE AUTO{<>}': 3471, 'ACCEL PIPELINE off': 2078, 'ACCEL PIPELINE ': 945, 'ACCEL PIPELINE flatten': 834, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 30 Counter({0: 421664, 1: 4686, 2: 576, 8: 497, 4: 474, 16: 266, 32: 244, 64: 121, 126: 88, 3: 50, 62: 50, 5: 45, 50: 45, 7: 41, 80: 41, 31: 40, 128: 37, 129: 27, 13: 26, 10: 23, 70: 23, 19: 13, 25: 9, 6: 7, 26: 5, 14: 5, 494: 4, 9: 2, 40: 2, 20: 1})
+3mm_processed_result
+db_paths for 3mm:
+../dse_database/poly/databases/3mm_result_updated-0.db
+num keys for 3mm: 1160 and lv2 keys: 467
+reference point for 3mm is 29128854.0
+3mm g.variants 327 tot_configs 1753
+	ntypes 4
+	ptypes 7 Counter({'None': 570516, 'ACCEL PARALLEL AUTO{<>}': 6647, 'ACCEL TILE AUTO{<>}': 5433, 'ACCEL PIPELINE off': 3703, 'ACCEL PIPELINE ': 1073, 'ACCEL PIPELINE flatten': 1043, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 34 Counter({0: 576335, 1: 8893, 2: 681, 8: 549, 4: 527, 32: 349, 16: 323, 64: 121, 50: 111, 5: 90, 126: 88, 7: 81, 10: 72, 80: 56, 3: 50, 62: 50, 60: 42, 31: 40, 128: 37, 25: 29, 129: 27, 13: 26, 20: 26, 70: 23, 19: 13, 30: 11, 6: 8, 14: 7, 26: 5, 12: 5, 494: 4, 40: 4, 15: 3, 9: 2})
+adi_processed_result
+db_paths for adi:
+../dse_database/poly/databases/adi_result_updated-0.db
+num keys for adi: 800 and lv2 keys: 322
+reference point for adi is 55581803.0
+adi g.variants 162 tot_configs 1915
+	ntypes 4
+	ptypes 7 Counter({'None': 738024, 'ACCEL PARALLEL AUTO{<>}': 7781, 'ACCEL TILE AUTO{<>}': 5919, 'ACCEL PIPELINE off': 4150, 'ACCEL PIPELINE ': 1084, 'ACCEL PIPELINE flatten': 1071, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273})
+	numerics 36 Counter({0: 744329, 1: 10167, 2: 800, 8: 591, 4: 572, 32: 390, 16: 357, 64: 121, 50: 111, 5: 90, 126: 88, 7: 81, 10: 72, 80: 56, 3: 50, 62: 50, 60: 42, 29: 42, 31: 40, 128: 37, 25: 29, 129: 27, 13: 26, 20: 26, 70: 23, 58: 23, 19: 13, 30: 11, 6: 8, 14: 7, 26: 5, 12: 5, 494: 4, 40: 4, 15: 3, 9: 2})
+atax_processed_result
+db_paths for atax:
+../dse_database/poly/databases/atax_result_updated-0.db
+num keys for atax: 895 and lv2 keys: 227
+reference point for atax is 211550.0
+atax g.variants 188 tot_configs 2103
+	ntypes 4
+	ptypes 9 Counter({'None': 780512, 'ACCEL PARALLEL AUTO{<>}': 7969, 'ACCEL TILE AUTO{<>}': 6107, 'ACCEL PIPELINE off': 4275, 'ACCEL PIPELINE ': 1133, 'ACCEL PIPELINE flatten': 1085, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 38 Counter({0: 787005, 1: 10447, 2: 857, 8: 663, 4: 645, 32: 469, 16: 397, 64: 121, 50: 111, 5: 90, 126: 88, 7: 81, 31: 80, 10: 72, 124: 62, 80: 56, 3: 50, 62: 50, 29: 47, 116: 44, 60: 42, 128: 37, 25: 29, 129: 27, 13: 26, 20: 26, 70: 23, 58: 23, 19: 13, 30: 11, 6: 8, 14: 7, 26: 5, 12: 5, 494: 4, 40: 4, 15: 3, 9: 2})
+bicg_processed_result
+db_paths for bicg:
+../dse_database/poly/databases/bicg_result_updated-0.db
+num keys for bicg: 637 and lv2 keys: 347
+reference point for bicg is 279056.0
+bicg g.variants 313 tot_configs 2416
+	ntypes 4
+	ptypes 10 Counter({'None': 852502, 'ACCEL PARALLEL AUTO{<>}': 8595, 'ACCEL TILE AUTO{<>}': 6420, 'ACCEL PIPELINE off': 4371, 'ACCEL PIPELINE ': 1263, 'ACCEL PIPELINE flatten': 1172, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 38 Counter({0: 859308, 1: 10718, 2: 1212, 8: 844, 4: 791, 32: 547, 16: 513, 64: 121, 50: 111, 31: 97, 5: 90, 126: 88, 29: 88, 7: 81, 124: 78, 116: 75, 10: 72, 80: 56, 3: 50, 62: 50, 60: 42, 128: 37, 25: 29, 129: 27, 13: 26, 20: 26, 70: 23, 58: 23, 19: 13, 30: 11, 6: 8, 14: 7, 26: 5, 12: 5, 494: 4, 40: 4, 15: 3, 9: 2})
+doitgen_processed_result
+db_paths for doitgen:
+../dse_database/poly/databases/doitgen_result_updated-0.db
+num keys for doitgen: 258 and lv2 keys: 74
+reference point for doitgen is 7729501.0
+doitgen g.variants 69 tot_configs 2485
+	ntypes 4
+	ptypes 10 Counter({'None': 868924, 'ACCEL PARALLEL AUTO{<>}': 8595, 'ACCEL TILE AUTO{<>}': 6627, 'ACCEL PIPELINE off': 4479, 'ACCEL PIPELINE ': 1321, 'ACCEL PIPELINE flatten': 1213, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 38 Counter({0: 875937, 1: 10862, 2: 1226, 8: 854, 4: 804, 32: 547, 16: 513, 64: 121, 50: 111, 31: 97, 5: 90, 126: 88, 29: 88, 7: 81, 124: 78, 116: 75, 10: 72, 80: 56, 3: 50, 62: 50, 60: 42, 25: 38, 128: 37, 20: 34, 129: 27, 13: 26, 70: 23, 58: 23, 30: 20, 19: 13, 6: 8, 14: 7, 26: 5, 12: 5, 494: 4, 40: 4, 15: 3, 9: 2})
+fdtd-2d_processed_result
+db_paths for fdtd-2d:
+../dse_database/poly/databases/fdtd-2d_result_updated-0.db
+num keys for fdtd-2d: 783 and lv2 keys: 289
+reference point for fdtd-2d is 2826391.0
+fdtd-2d g.variants 147 tot_configs 2632
+	ntypes 4
+	ptypes 10 Counter({'None': 943159, 'ACCEL PARALLEL AUTO{<>}': 9771, 'ACCEL TILE AUTO{<>}': 7215, 'ACCEL PIPELINE off': 4881, 'ACCEL PIPELINE ': 1403, 'ACCEL PIPELINE flatten': 1317, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 40 Counter({0: 950760, 1: 12218, 2: 1284, 8: 916, 4: 850, 16: 616, 32: 607, 64: 121, 50: 111, 31: 97, 5: 93, 126: 88, 29: 88, 7: 81, 124: 78, 10: 75, 116: 75, 3: 62, 80: 56, 62: 50, 60: 50, 20: 44, 25: 38, 128: 37, 129: 27, 13: 26, 30: 24, 70: 23, 58: 23, 12: 17, 19: 13, 15: 12, 6: 10, 59: 9, 14: 7, 79: 7, 26: 5, 494: 4, 40: 4, 9: 2})
+gemm-p_processed_result
+db_paths for gemm-p:
+../dse_database/poly/databases/gemm-p_result_updated-0.db
+num keys for gemm-p: 727 and lv2 keys: 303
+reference point for gemm-p is 3906568.0
+gemm-p g.variants 198 tot_configs 2830
+	ntypes 4
+	ptypes 11 Counter({'None': 984541, 'ACCEL PARALLEL AUTO{<>}': 10365, 'ACCEL TILE AUTO{<>}': 7611, 'ACCEL PIPELINE off': 5104, 'ACCEL PIPELINE ': 1527, 'ACCEL PIPELINE flatten': 1366, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 40 Counter({0: 992538, 1: 12709, 2: 1339, 8: 977, 4: 937, 32: 694, 16: 677, 70: 156, 5: 146, 64: 121, 10: 115, 50: 111, 80: 107, 31: 97, 126: 88, 29: 88, 3: 84, 7: 84, 124: 78, 116: 75, 60: 59, 20: 52, 62: 50, 25: 38, 128: 37, 129: 27, 14: 27, 13: 26, 30: 24, 58: 23, 6: 17, 12: 17, 19: 13, 15: 12, 59: 9, 79: 7, 26: 5, 494: 4, 40: 4, 9: 2})
+gemver_processed_result
+db_paths for gemver:
+../dse_database/poly/databases/gemver_result_updated-0.db
+num keys for gemver: 648 and lv2 keys: 380
+reference point for gemver is 1705536.0
+gemver g.variants 200 tot_configs 3030
+	ntypes 4
+	ptypes 14 Counter({'None': 1063541, 'ACCEL PARALLEL AUTO{<>}': 10965, 'ACCEL TILE AUTO{<>}': 8211, 'ACCEL PIPELINE off': 5368, 'ACCEL PIPELINE ': 1655, 'ACCEL PIPELINE flatten': 1574, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 42 Counter({0: 1072138, 1: 14197, 2: 1457, 8: 1085, 4: 970, 32: 759, 16: 708, 5: 159, 70: 156, 10: 126, 64: 121, 50: 111, 3: 110, 80: 107, 31: 97, 126: 88, 29: 88, 7: 84, 124: 78, 116: 75, 20: 69, 60: 59, 62: 50, 30: 46, 25: 38, 128: 37, 6: 32, 129: 27, 14: 27, 13: 26, 12: 24, 58: 23, 120: 21, 24: 20, 15: 17, 19: 13, 59: 9, 79: 7, 26: 5, 494: 4, 40: 4, 9: 2})
+gesummv_processed_result
+db_paths for gesummv:
+../dse_database/poly/databases/gesummv_result_updated-0.db
+num keys for gesummv: 349 and lv2 keys: 159
+reference point for gesummv is 155476.0
+gesummv g.variants 114 tot_configs 3144
+	ntypes 4
+	ptypes 14 Counter({'None': 1093409, 'ACCEL PARALLEL AUTO{<>}': 11193, 'ACCEL TILE AUTO{<>}': 8325, 'ACCEL PIPELINE off': 5426, 'ACCEL PIPELINE ': 1702, 'ACCEL PIPELINE flatten': 1583, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 44 Counter({0: 1102120, 1: 14318, 2: 1490, 8: 1096, 4: 984, 32: 775, 16: 734, 5: 169, 70: 156, 10: 135, 64: 121, 3: 117, 50: 111, 80: 107, 31: 97, 126: 88, 29: 88, 7: 84, 124: 78, 116: 75, 30: 70, 20: 69, 60: 59, 62: 50, 6: 45, 25: 38, 128: 37, 15: 31, 129: 27, 14: 27, 13: 26, 12: 24, 58: 23, 120: 21, 24: 20, 18: 20, 90: 15, 19: 13, 9: 11, 59: 9, 79: 7, 26: 5, 494: 4, 40: 4})
+heat-3d_processed_result
+db_paths for heat-3d:
+../dse_database/poly/databases/heat-3d_result_updated-0.db
+num keys for heat-3d: 1850 and lv2 keys: 225
+reference point for heat-3d is 7606201.0
+heat-3d g.variants 72 tot_configs 3216
+	ntypes 4
+	ptypes 14 Counter({'None': 1151585, 'ACCEL PARALLEL AUTO{<>}': 11265, 'ACCEL TILE AUTO{<>}': 8685, 'ACCEL PIPELINE off': 5716, 'ACCEL PIPELINE ': 1720, 'ACCEL PIPELINE flatten': 1635, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 44 Counter({0: 1160656, 1: 14625, 2: 1551, 8: 1108, 4: 999, 32: 775, 16: 734, 5: 169, 70: 156, 10: 135, 64: 121, 3: 117, 50: 111, 80: 107, 31: 97, 126: 88, 29: 88, 7: 84, 124: 78, 116: 75, 30: 70, 20: 69, 60: 59, 18: 56, 62: 50, 6: 45, 25: 38, 128: 37, 15: 31, 129: 27, 14: 27, 13: 26, 12: 24, 58: 23, 120: 21, 24: 20, 90: 15, 19: 13, 9: 11, 59: 9, 79: 7, 26: 5, 40: 5, 494: 4})
+jacobi-1d_processed_result
+db_paths for jacobi-1d:
+../dse_database/poly/databases/jacobi-1d_result_updated-0.db
+num keys for jacobi-1d: 752 and lv2 keys: 222
+reference point for jacobi-1d is 439263.0
+jacobi-1d g.variants 217 tot_configs 3433
+	ntypes 4
+	ptypes 14 Counter({'None': 1193466, 'ACCEL PARALLEL AUTO{<>}': 11916, 'ACCEL TILE AUTO{<>}': 8902, 'ACCEL PIPELINE off': 5816, 'ACCEL PIPELINE ': 1819, 'ACCEL PIPELINE flatten': 1653, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 45 Counter({0: 1202754, 1: 14895, 2: 1613, 8: 1161, 4: 1072, 32: 920, 16: 792, 5: 191, 70: 156, 10: 141, 64: 121, 3: 117, 50: 111, 80: 107, 118: 101, 31: 97, 20: 96, 126: 88, 29: 88, 7: 84, 124: 78, 116: 75, 30: 70, 60: 59, 40: 56, 18: 56, 62: 50, 6: 45, 25: 38, 128: 37, 15: 31, 129: 27, 14: 27, 13: 26, 12: 24, 58: 23, 120: 21, 24: 20, 90: 15, 19: 13, 9: 11, 59: 9, 79: 7, 26: 5, 494: 4})
+jacobi-2d_processed_result
+db_paths for jacobi-2d:
+../dse_database/poly/databases/jacobi-2d_result_updated-0.db
+num keys for jacobi-2d: 2305 and lv2 keys: 524
+reference point for jacobi-2d is 3334401.0
+jacobi-2d g.variants 172 tot_configs 3605
+	ntypes 4
+	ptypes 14 Counter({'None': 1258654, 'ACCEL PARALLEL AUTO{<>}': 12776, 'ACCEL TILE AUTO{<>}': 9418, 'ACCEL PIPELINE off': 6185, 'ACCEL PIPELINE ': 1918, 'ACCEL PIPELINE flatten': 1701, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 48 Counter({0: 1268458, 1: 15700, 2: 1744, 8: 1454, 4: 1126, 32: 920, 16: 813, 5: 191, 70: 156, 10: 141, 64: 121, 3: 117, 50: 111, 80: 107, 118: 101, 31: 97, 20: 96, 126: 88, 29: 88, 40: 87, 7: 84, 124: 78, 116: 75, 30: 70, 60: 59, 18: 56, 62: 50, 6: 45, 25: 38, 128: 37, 15: 31, 129: 27, 14: 27, 13: 26, 12: 24, 11: 24, 58: 23, 120: 21, 24: 20, 88: 16, 90: 15, 19: 13, 9: 11, 59: 9, 79: 7, 26: 5, 494: 4, 22: 1})
+mvt_processed_result
+db_paths for mvt:
+../dse_database/poly/databases/mvt_result_updated-0.db
+num keys for mvt: 1120 and lv2 keys: 476
+reference point for mvt is 490204.0
+mvt g.variants 315 tot_configs 3920
+	ntypes 4
+	ptypes 16 Counter({'None': 1321024, 'ACCEL PARALLEL AUTO{<>}': 13406, 'ACCEL TILE AUTO{<>}': 10048, 'ACCEL PIPELINE off': 6479, 'ACCEL PIPELINE ': 2060, 'ACCEL PIPELINE flatten': 1895, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = X1 AUTO{<>}': 315, 'ACCEL PARALLEL REDUCTION = X2 AUTO{<>}': 315, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 48 Counter({0: 1331458, 1: 16822, 2: 1879, 8: 1649, 4: 1177, 32: 940, 16: 864, 5: 202, 10: 196, 70: 156, 3: 154, 20: 123, 64: 121, 50: 111, 80: 107, 118: 101, 31: 97, 126: 88, 29: 88, 40: 87, 30: 85, 7: 84, 15: 81, 124: 78, 12: 75, 116: 75, 6: 62, 120: 61, 60: 59, 18: 56, 62: 50, 25: 38, 128: 37, 24: 33, 129: 27, 14: 27, 13: 26, 11: 24, 58: 23, 88: 16, 90: 15, 19: 13, 9: 11, 59: 9, 79: 7, 26: 5, 494: 4, 22: 1})
+seidel-2d_processed_result
+db_paths for seidel-2d:
+../dse_database/poly/databases/seidel-2d_result_updated-0.db
+num keys for seidel-2d: 1351 and lv2 keys: 56
+reference point for seidel-2d is 94129836.0
+seidel-2d g.variants 15 tot_configs 3935
+	ntypes 4
+	ptypes 16 Counter({'None': 1325644, 'ACCEL PARALLEL AUTO{<>}': 13451, 'ACCEL TILE AUTO{<>}': 10078, 'ACCEL PIPELINE off': 6509, 'ACCEL PIPELINE ': 2060, 'ACCEL PIPELINE flatten': 1895, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = X1 AUTO{<>}': 315, 'ACCEL PARALLEL REDUCTION = X2 AUTO{<>}': 315, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 48 Counter({0: 1336108, 1: 16875, 2: 1882, 8: 1652, 4: 1180, 32: 940, 16: 867, 5: 202, 10: 196, 70: 156, 3: 154, 20: 123, 64: 121, 50: 111, 80: 107, 118: 106, 31: 97, 40: 92, 126: 88, 29: 88, 30: 85, 7: 84, 15: 81, 124: 78, 12: 75, 116: 75, 6: 62, 120: 61, 60: 59, 18: 56, 62: 50, 25: 38, 128: 37, 24: 33, 129: 27, 14: 27, 13: 26, 11: 24, 58: 23, 88: 16, 90: 15, 19: 13, 9: 11, 59: 9, 79: 7, 26: 5, 494: 4, 22: 1})
+Done 22 files tot_configs 3935
+	ntypes 4
+	ptypes 16 Counter({'None': 1325644, 'ACCEL PARALLEL AUTO{<>}': 13451, 'ACCEL TILE AUTO{<>}': 10078, 'ACCEL PIPELINE off': 6509, 'ACCEL PIPELINE ': 2060, 'ACCEL PIPELINE flatten': 1895, 'ACCEL PARALLEL REDUCTION=X AUTO{<>}': 400, 'ACCEL PARALLEL REDUCTION = X1 AUTO{<>}': 315, 'ACCEL PARALLEL REDUCTION = X2 AUTO{<>}': 315, 'ACCEL PARALLEL REDUCTION = D AUTO{<>}': 313, 'ACCEL PARALLEL REDUCTION=SUM AUTO{<>}': 273, 'ACCEL PARALLEL REDUCTION=A AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=W AUTO{<>}': 200, 'ACCEL PARALLEL REDUCTION=C AUTO{<>}': 198, 'ACCEL PARALLEL REDUCTION=TMP AUTO{<>}': 188, 'ACCEL PARALLEL REDUCTION=Y AUTO{<>}': 188})
+	numerics 48 Counter({0: 1336108, 1: 16875, 2: 1882, 8: 1652, 4: 1180, 32: 940, 16: 867, 5: 202, 10: 196, 70: 156, 3: 154, 20: 123, 64: 121, 50: 111, 80: 107, 118: 106, 31: 97, 40: 92, 126: 88, 29: 88, 30: 85, 7: 84, 15: 81, 124: 78, 12: 75, 116: 75, 6: 62, 120: 61, 60: 59, 18: 56, 62: 50, 25: 38, 128: 37, 24: 33, 129: 27, 14: 27, 13: 26, 11: 24, 58: 23, 88: 16, 90: 15, 19: 13, 9: 11, 59: 9, 79: 7, 26: 5, 494: 4, 22: 1})
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+edge_index created
+dataset[0].num_features
+--- Analyzing distribution of perf_ys (len=3935)
+perf_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 0.51	0.94	2.73	5.42	7.46	11.30	12.27	12.74	12.74
+	np.min(data)	 0.0
+	np.max(data)	 12.741361618041992
+	np.mean(data)	 3.4756071076387434
+	np.std(data)	 2.870684012396447
+perf_ys
+--- Analyzing distribution of quality_ys (len=3935)
+quality_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 -9739215.00	-864990.55	6682.11	1946132.30	8794146.16	10000000000.00	702010976815351332864.00	1509206337677707706368.00	1509206337677707706368.00
+	np.min(data)	 -6.53843852900717e+19
+	np.max(data)	 1.5092063376777077e+21
+	np.mean(data)	 2.712871419648026e+18
+	np.std(data)	 5.028946926162447e+19
+quality_ys
+--- Analyzing distribution of util-BRAM_ys (len=3935)
+util-BRAM_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 0.01	0.03	0.06	0.17	0.39	1.32	2.31	2.72	2.72
+	np.min(data)	 0.0
+	np.max(data)	 2.7200000286102295
+	np.mean(data)	 0.15944091439427005
+	np.std(data)	 0.2711994017449001
+util-BRAM_ys
+--- Analyzing distribution of util-DSP_ys (len=3935)
+util-DSP_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 0.00	0.00	0.04	0.26	0.57	6.14	7.86	8.41	8.41
+	np.min(data)	 0.0
+	np.max(data)	 8.40999984741211
+	np.mean(data)	 0.2938830979386158
+	np.std(data)	 0.8081563276362208
+util-DSP_ys
+--- Analyzing distribution of util-LUT_ys (len=3935)
+util-LUT_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 0.01	0.02	0.07	0.22	0.49	2.79	3.40	4.26	4.26
+	np.min(data)	 0.0
+	np.max(data)	 4.260000228881836
+	np.mean(data)	 0.20856670868953422
+	np.std(data)	 0.4143741661257992
+util-LUT_ys
+--- Analyzing distribution of util-FF_ys (len=3935)
+util-FF_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 0.00	0.01	0.05	0.17	0.39	2.20	2.70	3.19	3.19
+	np.min(data)	 0.0
+	np.max(data)	 3.190000057220459
+	np.mean(data)	 0.1579237612946553
+	np.std(data)	 0.3224779944412918
+util-FF_ys
+--- Analyzing distribution of total-BRAM_ys (len=3935)
+total-BRAM_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 48.00	139.00	296.00	738.00	1702.08	5746.37	10013.56	11778.00	11778.00
+	np.min(data)	 0.0
+	np.max(data)	 11778.0
+	np.mean(data)	 707.618043202033
+	np.std(data)	 1172.4882225420129
+total-BRAM_ys
+--- Analyzing distribution of total-DSP_ys (len=3935)
+total-DSP_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 0.00	0.00	340.00	1791.60	3922.00	42004.00	53806.46	57531.00	57531.00
+	np.min(data)	 0.0
+	np.max(data)	 57531.0
+	np.mean(data)	 2030.9382465057179
+	np.std(data)	 5531.047402089967
+total-DSP_ys
+--- Analyzing distribution of total-LUT_ys (len=3935)
+total-LUT_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 13829.00	25096.00	88911.00	269916.00	587822.00	3304570.14	4022153.98	5041239.00	5041239.00
+	np.min(data)	 0.0
+	np.max(data)	 5041239.0
+	np.mean(data)	 251788.28894536215
+	np.std(data)	 490186.42514123255
+total-LUT_ys
+--- Analyzing distribution of total-FF_ys (len=3935)
+total-FF_ys 3935
+	prob     	 0.1	0.25	0.5	0.75	0.9	0.99	0.999	0.9999	0.99999
+	quantiles	 0.00	26815.60	125971.00	424692.40	923981.00	5224344.38	6398865.65	7558355.00	7558355.00
+	np.min(data)	 0.0
+	np.max(data)	 7558355.0
+	np.mean(data)	 382038.50851334183
+	np.std(data)	 763680.2717725651
+total-FF_ys
+Saving 3935 to disk /data/hzz5361/arch/GNN-DSE/save/programl/new-train-regression_with-invalid_False-normalization_speedup-log2_no_pragma_False_tag_whole-machsuite-poly_perfutil-DSPutil-BRAMutil-LUTutil-FF; Deleting existing files
+[0m] INFO: Reading dataset from /data/hzz5361/arch/GNN-DSE/save/programl/new-train-regression_with-invalid_False-normalization_speedup-log2_no_pragma_False_tag_whole-machsuite-poly_perfutil-DSPutil-BRAMutil-LUTutil-FF
+3935 graphs in total: 2754 train 590 val 591 test
+Epoch 1 train
+Epoch 1 val
+Epoch 1 test
+Train loss breakdown {'perf': 3.161406619982286, 'util-LUT': 0.40020171823826706, 'util-FF': 0.3196649067103863, 'util-DSP': 0.7632914459840818, 'util-BRAM': 0.27705948461185803}
+Test loss breakdown {'perf': 2.85201952457428, 'util-LUT': 0.31624556630849837, 'util-FF': 0.24453117251396178, 'util-DSP': 0.527568131685257, 'util-BRAM': 0.2043142721056938}
+Val loss breakdown {'perf': 2.92888765335083, 'util-LUT': 0.42834930419921874, 'util-FF': 0.3330332517623901, 'util-DSP': 0.812823835015297, 'util-BRAM': 0.2166724443435669}
+Epoch: 001, Train Loss: 4.9105, Val loss: 4.7198, Test: 4.1447) Time: 1.000 min
+Epoch 2 train
+Epoch 2 val
+Saved val model at epoch 1
+Saved train model at epoch 1
+Epoch 2 test
+Saved test model at epoch 1
+Train loss breakdown {'perf': 2.7680058750239285, 'util-LUT': 0.3770753951235251, 'util-FF': 0.2972561341117729, 'util-DSP': 0.7438580803573132, 'util-BRAM': 0.2323708307336677}
+Test loss breakdown {'perf': 2.630906271934509, 'util-LUT': 0.3240611955523491, 'util-FF': 0.27965940833091735, 'util-DSP': 0.5064830005168914, 'util-BRAM': 0.2112463891506195}
+Val loss breakdown {'perf': 2.6604257345199587, 'util-LUT': 0.4287220001220703, 'util-FF': 0.35444172769784926, 'util-DSP': 0.8006538361310959, 'util-BRAM': 0.21691239923238753}
+Epoch: 002, Train Loss: 4.4024, Val loss: 4.4612, Test: 3.9524) Time: 58.092 secs
+Epoch 3 train
+Epoch 3 val
+Saved val model at epoch 2
+Saved train model at epoch 2
+Epoch 3 test
+Saved test model at epoch 2
+Train loss breakdown {'perf': 2.4349238574504852, 'util-LUT': 0.3729457181285728, 'util-FF': 0.3059310872446407, 'util-DSP': 0.7323004335842349, 'util-BRAM': 0.22878233411095358}
+Test loss breakdown {'perf': 2.4533994674682615, 'util-LUT': 0.33517360836267474, 'util-FF': 0.2841134503483772, 'util-DSP': 0.5139680206775665, 'util-BRAM': 0.23374232798814773}
+Val loss breakdown {'perf': 2.4539902210235596, 'util-LUT': 0.43299573957920073, 'util-FF': 0.3541667819023132, 'util-DSP': 0.7918516904115677, 'util-BRAM': 0.23311505168676377}
+Epoch: 003, Train Loss: 4.0633, Val loss: 4.2661, Test: 3.8204) Time: 59.596 secs
+Epoch 4 train
+Epoch 4 val
+Saved val model at epoch 3
+Saved train model at epoch 3
+Epoch 4 test
+Saved test model at epoch 3
+Train loss breakdown {'perf': 2.3314116434617476, 'util-LUT': 0.3775009587407112, 'util-FF': 0.2966596440158107, 'util-DSP': 0.7249652472409335, 'util-BRAM': 0.22075321948663754}
+Test loss breakdown {'perf': 2.402767777442932, 'util-LUT': 0.29841289222240447, 'util-FF': 0.26951407045125964, 'util-DSP': 0.5105418860912323, 'util-BRAM': 0.22316685318946838}
+Val loss breakdown {'perf': 2.4102696895599367, 'util-LUT': 0.41299875527620317, 'util-FF': 0.3454699248075485, 'util-DSP': 0.7894421339035034, 'util-BRAM': 0.2258058711886406}
+Epoch: 004, Train Loss: 3.9389, Val loss: 4.1840, Test: 3.7044) Time: 58.848 secs
+Epoch 5 train
+Epoch 5 val
+Saved val model at epoch 4
+Saved train model at epoch 4
+Epoch 5 test
+Saved test model at epoch 4
+Train loss breakdown {'perf': 2.2862520705569875, 'util-LUT': 0.3756076486950571, 'util-FF': 0.30340745401653374, 'util-DSP': 0.7207839644768022, 'util-BRAM': 0.21836240792816336}
+Test loss breakdown {'perf': 2.397968053817749, 'util-LUT': 0.28655031472444537, 'util-FF': 0.23577192425727844, 'util-DSP': 0.5081376910209656, 'util-BRAM': 0.22724256813526153}
+Val loss breakdown {'perf': 2.414805769920349, 'util-LUT': 0.41091023236513136, 'util-FF': 0.3261891558766365, 'util-DSP': 0.7886335045099259, 'util-BRAM': 0.22919932752847672}
+Epoch: 005, Train Loss: 3.8953, Val loss: 4.1697, Test: 3.6557) Time: 1.000 min
+Epoch 6 train
+Epoch 6 val
+Saved val model at epoch 5
+Saved train model at epoch 5
+Epoch 6 test
+Saved test model at epoch 5
+Train loss breakdown {'perf': 2.2675261687148702, 'util-LUT': 0.3732844056053595, 'util-FF': 0.2947433792393316, 'util-DSP': 0.7200890806588259, 'util-BRAM': 0.22517171197316863}
+Test loss breakdown {'perf': 2.346939969062805, 'util-LUT': 0.2846035249531269, 'util-FF': 0.24863858073949813, 'util-DSP': 0.4987045764923096, 'util-BRAM': 0.1915376216173172}
+Val loss breakdown {'perf': 2.3725561261177064, 'util-LUT': 0.4169315189123154, 'util-FF': 0.3338989421725273, 'util-DSP': 0.786314070224762, 'util-BRAM': 0.20324277728796006}
+Epoch: 006, Train Loss: 3.8744, Val loss: 4.1129, Test: 3.5704) Time: 58.844 secs
+Epoch 7 train
+Epoch 7 val
+Saved val model at epoch 6
+Saved train model at epoch 6
+Epoch 7 test
+Saved test model at epoch 6
+Train loss breakdown {'perf': 2.1932876895774496, 'util-LUT': 0.3690008832649751, 'util-FF': 0.2942020791498097, 'util-DSP': 0.7166017158464952, 'util-BRAM': 0.2203753754835237}
+Test loss breakdown {'perf': 2.254607880115509, 'util-LUT': 0.2831032797694206, 'util-FF': 0.24371856451034546, 'util-DSP': 0.49575400054454805, 'util-BRAM': 0.20894614160060881}
+Val loss breakdown {'perf': 2.3204713582992555, 'util-LUT': 0.4112484037876129, 'util-FF': 0.3337861657142639, 'util-DSP': 0.785237318277359, 'util-BRAM': 0.21714202016592027}
+Epoch: 007, Train Loss: 3.7969, Val loss: 4.0679, Test: 3.4861) Time: 1.000 min
+Epoch 8 train
+Epoch 8 val
+Saved val model at epoch 7
+Saved train model at epoch 7
+Epoch 8 test
+Saved test model at epoch 7
+Train loss breakdown {'perf': 1.9451349486004224, 'util-LUT': 0.3604855879463933, 'util-FF': 0.2975248382850127, 'util-DSP': 0.7042537737976421, 'util-BRAM': 0.22341189279474996}
+Test loss breakdown {'perf': 1.8949671983718872, 'util-LUT': 0.2964486017823219, 'util-FF': 0.2138280376791954, 'util-DSP': 0.4983533814549446, 'util-BRAM': 0.2227103367447853}
+Val loss breakdown {'perf': 1.952625286579132, 'util-LUT': 0.4121305584907532, 'util-FF': 0.32727520167827606, 'util-DSP': 0.7794688045978546, 'util-BRAM': 0.2296730101108551}
+Epoch: 008, Train Loss: 3.5689, Val loss: 3.7012, Test: 3.1263) Time: 59.366 secs
+Epoch 9 train
+Epoch 9 val
+Saved val model at epoch 8
+Saved train model at epoch 8
+Epoch 9 test
+Saved test model at epoch 8
+Train loss breakdown {'perf': 1.7067835913463072, 'util-LUT': 0.35861525955525314, 'util-FF': 0.2796461885287003, 'util-DSP': 0.6894601282070983, 'util-BRAM': 0.21771429656920108}
+Test loss breakdown {'perf': 1.8201809763908385, 'util-LUT': 0.2839711278676987, 'util-FF': 0.2729758873581886, 'util-DSP': 0.4915675401687622, 'util-BRAM': 0.21181189864873887}
+Val loss breakdown {'perf': 1.8817425847053528, 'util-LUT': 0.40861288756132125, 'util-FF': 0.35163378715515137, 'util-DSP': 0.776223236322403, 'util-BRAM': 0.2194443851709366}
+Epoch: 009, Train Loss: 3.2974, Val loss: 3.6377, Test: 3.0805) Time: 59.251 secs
+Epoch 10 train
+Epoch 10 val
+Saved val model at epoch 9
+Saved train model at epoch 9
+Epoch 10 test
+Saved test model at epoch 9
+Train loss breakdown {'perf': 1.6783915582028301, 'util-LUT': 0.36041900380091235, 'util-FF': 0.2879303030415692, 'util-DSP': 0.6921974505213174, 'util-BRAM': 0.2182946806265549}
+Test loss breakdown {'perf': 1.7777691602706909, 'util-LUT': 0.2748610883951187, 'util-FF': 0.24761677384376526, 'util-DSP': 0.49664169549942017, 'util-BRAM': 0.22560737431049346}
+Val loss breakdown {'perf': 1.7913127422332764, 'util-LUT': 0.3932261735200882, 'util-FF': 0.32723507285118103, 'util-DSP': 0.7646716445684433, 'util-BRAM': 0.22582150846719742}
+Epoch: 010, Train Loss: 3.2785, Val loss: 3.5023, Test: 3.0225) Time: 58.235 secs
+Epoch 11 train
+Epoch 11 val
+Saved train model at epoch 10
+Epoch 11 test
+Saved test model at epoch 10
+Train loss breakdown {'perf': 1.6292110275138507, 'util-LUT': 0.3492805961180817, 'util-FF': 0.27404382441785524, 'util-DSP': 0.6784849258309061, 'util-BRAM': 0.22227514738386328}
+Test loss breakdown {'perf': 1.8187053799629211, 'util-LUT': 0.2745864473283291, 'util-FF': 0.2349581465125084, 'util-DSP': 0.4689157515764236, 'util-BRAM': 0.21174246221780776}
+Val loss breakdown {'perf': 1.8769850611686707, 'util-LUT': 0.39829848408699037, 'util-FF': 0.3216646447777748, 'util-DSP': 0.7597991973161697, 'util-BRAM': 0.21780334860086442}
+Epoch: 011, Train Loss: 3.2050, Val loss: 3.5746, Test: 3.0089) Time: 59.416 secs
+Epoch 12 train
+Epoch 12 val
+Saved val model at epoch 11
+Saved train model at epoch 11
+Epoch 12 test
+Saved test model at epoch 11
+Train loss breakdown {'perf': 1.6285686980594287, 'util-LUT': 0.34766725213690236, 'util-FF': 0.27278356186368247, 'util-DSP': 0.6662502417510207, 'util-BRAM': 0.22374889339235696}
+Test loss breakdown {'perf': 1.6540502667427064, 'util-LUT': 0.2651862293481827, 'util-FF': 0.23393989354372025, 'util-DSP': 0.46493233293294906, 'util-BRAM': 0.20045367777347564}
+Val loss breakdown {'perf': 1.6820542812347412, 'util-LUT': 0.3818633645772934, 'util-FF': 0.3074862718582153, 'util-DSP': 0.7261228412389755, 'util-BRAM': 0.20847473591566085}
+Epoch: 012, Train Loss: 3.1750, Val loss: 3.3060, Test: 2.8186) Time: 59.843 secs
+Epoch 13 train
+Epoch 13 val
+Saved val model at epoch 12
+Saved train model at epoch 12
+Epoch 13 test
+Train loss breakdown {'perf': 1.5576281269842929, 'util-LUT': 0.3116356696594845, 'util-FF': 0.25301282116296614, 'util-DSP': 0.6243218078532002, 'util-BRAM': 0.22199495102871547}
+Test loss breakdown {'perf': 1.6529841303825379, 'util-LUT': 0.3183915540575981, 'util-FF': 0.19957531318068505, 'util-DSP': 0.47175576984882356, 'util-BRAM': 0.19566720873117446}
+Val loss breakdown {'perf': 1.769400405883789, 'util-LUT': 0.3612152948975563, 'util-FF': 0.25509244948625565, 'util-DSP': 0.651525542140007, 'util-BRAM': 0.2063610792160034}
+Epoch: 013, Train Loss: 3.0138, Val loss: 3.2436, Test: 2.8384) Time: 59.480 secs
+Epoch 14 train
+Epoch 14 val
+Saved val model at epoch 13
+Saved train model at epoch 13
+Epoch 14 test
+Train loss breakdown {'perf': 1.5111774124882438, 'util-LUT': 0.2795756780965762, 'util-FF': 0.20943092487075113, 'util-DSP': 0.5119304951619018, 'util-BRAM': 0.21424199420620094}
+Test loss breakdown {'perf': 1.6374391674995423, 'util-LUT': 0.2873701676726341, 'util-FF': 0.21924764215946196, 'util-DSP': 0.5306020587682724, 'util-BRAM': 0.19823182374238968}
+Val loss breakdown {'perf': 1.6859591007232666, 'util-LUT': 0.31270858347415925, 'util-FF': 0.25603361427783966, 'util-DSP': 0.5703228861093521, 'util-BRAM': 0.21152605712413788}
+Epoch: 014, Train Loss: 2.7658, Val loss: 3.0366, Test: 2.8729) Time: 59.739 secs
+Epoch 15 train
+Epoch 15 val
+Saved val model at epoch 14
+Saved train model at epoch 14
+Epoch 15 test
+Saved test model at epoch 14
+Train loss breakdown {'perf': 1.4833029522137209, 'util-LUT': 0.2361034289933741, 'util-FF': 0.18508197587322106, 'util-DSP': 0.40810549817979336, 'util-BRAM': 0.20981948365542022}
+Test loss breakdown {'perf': 1.5407423973083496, 'util-LUT': 0.2699273869395256, 'util-FF': 0.18193387538194655, 'util-DSP': 0.43083334267139434, 'util-BRAM': 0.1964978113770485}
+Val loss breakdown {'perf': 1.5792342901229859, 'util-LUT': 0.3008712410926819, 'util-FF': 0.2245314821600914, 'util-DSP': 0.5198104768991471, 'util-BRAM': 0.19947337061166764}
+Epoch: 015, Train Loss: 2.5609, Val loss: 2.8239, Test: 2.6199) Time: 1.000 min
+Epoch 16 train
+Epoch 16 val
+Saved val model at epoch 15
+Saved train model at epoch 15
+Epoch 16 test
+Saved test model at epoch 15
+Train loss breakdown {'perf': 1.4361462152817033, 'util-LUT': 0.2199908174066381, 'util-FF': 0.17048994485627522, 'util-DSP': 0.3612515023824843, 'util-BRAM': 0.20469806775112043}
+Test loss breakdown {'perf': 1.6296149730682372, 'util-LUT': 0.22014216482639312, 'util-FF': 0.18069954365491867, 'util-DSP': 0.3549932464957237, 'util-BRAM': 0.2072608858346939}
+Val loss breakdown {'perf': 1.6117537379264832, 'util-LUT': 0.25068529695272446, 'util-FF': 0.21525932848453522, 'util-DSP': 0.4356644943356514, 'util-BRAM': 0.20784202963113785}
+Epoch: 016, Train Loss: 2.4305, Val loss: 2.7212, Test: 2.5927) Time: 59.572 secs
+Epoch 17 train
+Epoch 17 val
+Saved val model at epoch 16
+Saved train model at epoch 16
+Epoch 17 test
+Saved test model at epoch 16
+Train loss breakdown {'perf': 1.3932350738482042, 'util-LUT': 0.20182190742343664, 'util-FF': 0.15926474806937305, 'util-DSP': 0.33229756727814674, 'util-BRAM': 0.20672127560035072}
+Test loss breakdown {'perf': 1.5559856295585632, 'util-LUT': 0.20532889813184738, 'util-FF': 0.18461574018001556, 'util-DSP': 0.2821022212505341, 'util-BRAM': 0.17777813822031022}
+Val loss breakdown {'perf': 1.5570691347122192, 'util-LUT': 0.2393471360206604, 'util-FF': 0.2186144396662712, 'util-DSP': 0.3913156524300575, 'util-BRAM': 0.18752311766147614}
+Epoch: 017, Train Loss: 2.3303, Val loss: 2.5939, Test: 2.4058) Time: 59.714 secs
+Epoch 18 train
+Epoch 18 val
+Saved val model at epoch 17
+Saved train model at epoch 17
+Epoch 18 test
+Saved test model at epoch 17
+Train loss breakdown {'perf': 1.3817731148817323, 'util-LUT': 0.1931624538688497, 'util-FF': 0.15877401024441828, 'util-DSP': 0.31915009851482784, 'util-BRAM': 0.19083050486039033}
+Test loss breakdown {'perf': 1.5851754426956177, 'util-LUT': 0.18685807660222054, 'util-FF': 0.13753870278596877, 'util-DSP': 0.27763780355453493, 'util-BRAM': 0.19569065421819687}
+Val loss breakdown {'perf': 1.5379588842391967, 'util-LUT': 0.2395131252706051, 'util-FF': 0.1868416763842106, 'util-DSP': 0.3983646512031555, 'util-BRAM': 0.2016755759716034}
+Epoch: 018, Train Loss: 2.2848, Val loss: 2.5644, Test: 2.3829) Time: 59.624 secs
+Epoch 19 train
+Epoch 19 val
+Saved val model at epoch 18
+Saved train model at epoch 18
+Epoch 19 test
+Saved test model at epoch 18
+Train loss breakdown {'perf': 1.3416951976039193, 'util-LUT': 0.17865895344452423, 'util-FF': 0.1402206839993596, 'util-DSP': 0.3285479698838158, 'util-BRAM': 0.1812673481181264}
+Test loss breakdown {'perf': 1.5258358597755433, 'util-LUT': 0.1853832148015499, 'util-FF': 0.1479638174176216, 'util-DSP': 0.245997554063797, 'util-BRAM': 0.18239929676055908}
+Val loss breakdown {'perf': 1.5148627758026123, 'util-LUT': 0.2217575006186962, 'util-FF': 0.18461164310574532, 'util-DSP': 0.35832952708005905, 'util-BRAM': 0.21011526584625245}
+Epoch: 019, Train Loss: 2.2096, Val loss: 2.4897, Test: 2.2876) Time: 59.934 secs
+Epoch 20 train
+Epoch 20 val
+Saved val model at epoch 19
+Epoch 20 test
+Saved test model at epoch 19
+Train loss breakdown {'perf': 1.3578455637801776, 'util-LUT': 0.1916833914477717, 'util-FF': 0.15393095785243946, 'util-DSP': 0.31259720399975777, 'util-BRAM': 0.18816299736499786}
+Test loss breakdown {'perf': 1.525897490978241, 'util-LUT': 0.18591406643390657, 'util-FF': 0.12025631964206696, 'util-DSP': 0.26333205550909045, 'util-BRAM': 0.18756276965141297}
+Val loss breakdown {'perf': 1.4879120349884034, 'util-LUT': 0.21584175676107406, 'util-FF': 0.16740520521998406, 'util-DSP': 0.34119648635387423, 'util-BRAM': 0.1968777909874916}
+Epoch: 020, Train Loss: 2.2197, Val loss: 2.4092, Test: 2.2830) Time: 1.000 min
+Epoch 21 train
+Epoch 21 val
+Saved train model at epoch 20
+Epoch 21 test
+Saved test model at epoch 20
+Train loss breakdown {'perf': 1.3330752077427777, 'util-LUT': 0.17774473638697105, 'util-FF': 0.14048305196179586, 'util-DSP': 0.30020326134664094, 'util-BRAM': 0.17896573702720078}
+Test loss breakdown {'perf': 1.4420917272567748, 'util-LUT': 0.18429260328412056, 'util-FF': 0.1326540693640709, 'util-DSP': 0.25000038743019104, 'util-BRAM': 0.1835908278822899}
+Val loss breakdown {'perf': 1.4747895121574401, 'util-LUT': 0.2239815965294838, 'util-FF': 0.18393344134092332, 'util-DSP': 0.38146970272064207, 'util-BRAM': 0.19477199912071227}
+Epoch: 021, Train Loss: 2.1644, Val loss: 2.4589, Test: 2.1926) Time: 59.753 secs
+Epoch 22 train
+Epoch 22 val
+Saved val model at epoch 21
+Saved train model at epoch 21
+Epoch 22 test
+Train loss breakdown {'perf': 1.273078408430923, 'util-LUT': 0.17644420587881046, 'util-FF': 0.13135553532364694, 'util-DSP': 0.30608775229616597, 'util-BRAM': 0.18419366008178753}
+Test loss breakdown {'perf': 1.4553473353385926, 'util-LUT': 0.18974540010094643, 'util-FF': 0.14645306393504143, 'util-DSP': 0.2556984484195709, 'util-BRAM': 0.16429832726716995}
+Val loss breakdown {'perf': 1.4660173892974853, 'util-LUT': 0.21957550793886185, 'util-FF': 0.18338588997721672, 'util-DSP': 0.35755677819252013, 'util-BRAM': 0.17383601665496826}
+Epoch: 022, Train Loss: 2.1015, Val loss: 2.4004, Test: 2.2115) Time: 59.744 secs
+Epoch 23 train
+Epoch 23 val
+Saved val model at epoch 22
+Saved train model at epoch 22
+Epoch 23 test
+Saved test model at epoch 22
+Train loss breakdown {'perf': 1.2689076472412457, 'util-LUT': 0.16813314921984618, 'util-FF': 0.13579819131303916, 'util-DSP': 0.28678190521895885, 'util-BRAM': 0.17834570411254058}
+Test loss breakdown {'perf': 1.42817120552063, 'util-LUT': 0.172521211206913, 'util-FF': 0.11589892730116844, 'util-DSP': 0.25374659448862075, 'util-BRAM': 0.16152429580688477}
+Val loss breakdown {'perf': 1.4429445385932922, 'util-LUT': 0.20869972929358482, 'util-FF': 0.16461839750409127, 'util-DSP': 0.3544889435172081, 'util-BRAM': 0.1765165075659752}
+Epoch: 023, Train Loss: 2.0622, Val loss: 2.3473, Test: 2.1319) Time: 58.579 secs
+Epoch 24 train
+Epoch 24 val
+Saved val model at epoch 23
+Saved train model at epoch 23
+Epoch 24 test
+Saved test model at epoch 23
+Train loss breakdown {'perf': 1.2270681841129607, 'util-LUT': 0.15875461460514503, 'util-FF': 0.12139270753091709, 'util-DSP': 0.27725145931948314, 'util-BRAM': 0.17321866467087108}
+Test loss breakdown {'perf': 1.424435591697693, 'util-LUT': 0.17973241657018663, 'util-FF': 0.12420706525444984, 'util-DSP': 0.22061577439308167, 'util-BRAM': 0.15917333364486694}
+Val loss breakdown {'perf': 1.4317263126373292, 'util-LUT': 0.21241934597492218, 'util-FF': 0.1691136971116066, 'util-DSP': 0.3303622528910637, 'util-BRAM': 0.17298026531934738}
+Epoch: 024, Train Loss: 1.9955, Val loss: 2.3166, Test: 2.1082) Time: 59.905 secs
+Epoch 25 train
+Epoch 25 val
+Saved val model at epoch 24
+Saved train model at epoch 24
+Epoch 25 test
+Saved test model at epoch 24
+Train loss breakdown {'perf': 1.2177230969748714, 'util-LUT': 0.15886888045563616, 'util-FF': 0.11972418063404885, 'util-DSP': 0.2670398459515788, 'util-BRAM': 0.16462733698162166}
+Test loss breakdown {'perf': 1.3568140149116517, 'util-LUT': 0.16166306659579277, 'util-FF': 0.11432822644710541, 'util-DSP': 0.2197522059082985, 'util-BRAM': 0.15822394266724588}
+Val loss breakdown {'perf': 1.4238278448581696, 'util-LUT': 0.20311750397086142, 'util-FF': 0.16183799058198928, 'util-DSP': 0.3227605238556862, 'util-BRAM': 0.17157967239618302}
+Epoch: 025, Train Loss: 1.9610, Val loss: 2.2831, Test: 2.0108) Time: 59.928 secs
+Epoch 26 train
+Epoch 26 val
+Saved train model at epoch 25
+Epoch 26 test
+Train loss breakdown {'perf': 1.187585242769935, 'util-LUT': 0.15180005217817696, 'util-FF': 0.1181718549606475, 'util-DSP': 0.26566212670877576, 'util-BRAM': 0.1688417589122599}
+Test loss breakdown {'perf': 1.3803027749061585, 'util-LUT': 0.16002778261899947, 'util-FF': 0.10800169482827186, 'util-DSP': 0.2189139612019062, 'util-BRAM': 0.15802730470895768}
+Val loss breakdown {'perf': 1.4431695759296417, 'util-LUT': 0.19907804131507872, 'util-FF': 0.15583932623267174, 'util-DSP': 0.31607833579182626, 'util-BRAM': 0.17108147889375686}
+Epoch: 026, Train Loss: 1.9246, Val loss: 2.2852, Test: 2.0253) Time: 59.490 secs
+Epoch 27 train
+Epoch 27 val
+Saved train model at epoch 26
+Epoch 27 test
+Train loss breakdown {'perf': 1.1835084049539133, 'util-LUT': 0.15371049076996066, 'util-FF': 0.11589905568821864, 'util-DSP': 0.26483439857309515, 'util-BRAM': 0.16357153171504085}
+Test loss breakdown {'perf': 1.3692545175552369, 'util-LUT': 0.18678826168179513, 'util-FF': 0.1770545870065689, 'util-DSP': 0.3091759204864502, 'util-BRAM': 0.1571762405335903}
+Val loss breakdown {'perf': 1.4189787566661836, 'util-LUT': 0.21047224327921868, 'util-FF': 0.20437297075986863, 'util-DSP': 0.3716087475419044, 'util-BRAM': 0.17342374995350837}
+Epoch: 027, Train Loss: 1.9122, Val loss: 2.3789, Test: 2.1994) Time: 59.102 secs
+Epoch 28 train
+Epoch 28 val
+Epoch 28 test
+Train loss breakdown {'perf': 1.193924143910408, 'util-LUT': 0.1612910748120736, 'util-FF': 0.12964364136992532, 'util-DSP': 0.2732704637402838, 'util-BRAM': 0.16493263872424987}
+Test loss breakdown {'perf': 1.443053376674652, 'util-LUT': 0.1802778109908104, 'util-FF': 0.11849063001573086, 'util-DSP': 0.2643716767430305, 'util-BRAM': 0.15749779269099234}
+Val loss breakdown {'perf': 1.50052410364151, 'util-LUT': 0.2236956037580967, 'util-FF': 0.16779272630810738, 'util-DSP': 0.3753621578216553, 'util-BRAM': 0.17412734478712083}
+Epoch: 028, Train Loss: 1.9496, Val loss: 2.4415, Test: 2.1637) Time: 1.000 min
+Epoch 29 train
+Epoch 29 val
+Epoch 29 test
+Train loss breakdown {'perf': 1.2156575301831418, 'util-LUT': 0.163956418633461, 'util-FF': 0.12575727396390654, 'util-DSP': 0.28836249255321245, 'util-BRAM': 0.16246126558292995}
+Test loss breakdown {'perf': 1.3460318386554717, 'util-LUT': 0.17940980494022368, 'util-FF': 0.12873077765107155, 'util-DSP': 0.26058683544397354, 'util-BRAM': 0.15627121031284333}
+Val loss breakdown {'perf': 1.3889800369739533, 'util-LUT': 0.2112508699297905, 'util-FF': 0.17422021329402923, 'util-DSP': 0.3503982245922089, 'util-BRAM': 0.16896764039993287}
+Epoch: 029, Train Loss: 1.9801, Val loss: 2.2938, Test: 2.0710) Time: 1.000 min
+Epoch 30 train
+Epoch 30 val
+Saved val model at epoch 29
+Saved train model at epoch 29
+Epoch 30 test
+Saved test model at epoch 29
+Train loss breakdown {'perf': 1.1815533150326123, 'util-LUT': 0.15383253043348138, 'util-FF': 0.12133281923491847, 'util-DSP': 0.2649446361782876, 'util-BRAM': 0.1623082779009234}
+Test loss breakdown {'perf': 1.3563567042350768, 'util-LUT': 0.15903952866792678, 'util-FF': 0.11521210670471191, 'util-DSP': 0.20913101807236673, 'util-BRAM': 0.15563466250896454}
+Val loss breakdown {'perf': 1.4184115469455718, 'util-LUT': 0.19610211998224258, 'util-FF': 0.15868935212492943, 'util-DSP': 0.3151847764849663, 'util-BRAM': 0.16318939179182052}
+Epoch: 030, Train Loss: 1.8966, Val loss: 2.2516, Test: 1.9954) Time: 59.809 secs
+Epoch 31 train
+Epoch 31 val
+Saved val model at epoch 30
+Saved train model at epoch 30
+Epoch 31 test
+Saved test model at epoch 30
+Train loss breakdown {'perf': 1.1521730558438734, 'util-LUT': 0.1495508151975545, 'util-FF': 0.1164399270306934, 'util-DSP': 0.25745713321322744, 'util-BRAM': 0.16150658084502953}
+Test loss breakdown {'perf': 1.3598973751068115, 'util-LUT': 0.15603707134723663, 'util-FF': 0.09929987639188767, 'util-DSP': 0.21175436973571776, 'util-BRAM': 0.15181460082530976}
+Val loss breakdown {'perf': 1.4094482600688933, 'util-LUT': 0.19378036111593247, 'util-FF': 0.14660490080714225, 'util-DSP': 0.30021253898739814, 'util-BRAM': 0.16457804292440414}
+Epoch: 031, Train Loss: 1.8588, Val loss: 2.2146, Test: 1.9788) Time: 58.444 secs
+Epoch 32 train
+Epoch 32 val
+Epoch 32 test
+Train loss breakdown {'perf': 1.1598549749363551, 'util-LUT': 0.15536614321172237, 'util-FF': 0.12480461665175178, 'util-DSP': 0.2718990814279426, 'util-BRAM': 0.16086856758391316}
+Test loss breakdown {'perf': 1.288279366493225, 'util-LUT': 0.16846993789076806, 'util-FF': 0.14571336060762405, 'util-DSP': 0.2372864678502083, 'util-BRAM': 0.15098778232932092}
+Val loss breakdown {'perf': 1.3362567842006683, 'util-LUT': 0.21474662125110627, 'util-FF': 0.18488883525133132, 'util-DSP': 0.34399088770151137, 'util-BRAM': 0.1658669412136078}
+Epoch: 032, Train Loss: 1.8967, Val loss: 2.2458, Test: 1.9907) Time: 57.292 secs
+Epoch 33 train
+Epoch 33 val
+Saved val model at epoch 32
+Saved train model at epoch 32
+Epoch 33 test
+Saved test model at epoch 32
+Train loss breakdown {'perf': 1.1391831534830006, 'util-LUT': 0.1493539083749056, 'util-FF': 0.12012921730903062, 'util-DSP': 0.2628935863348571, 'util-BRAM': 0.15207880227403206}
+Test loss breakdown {'perf': 1.2602282345294953, 'util-LUT': 0.16107721477746964, 'util-FF': 0.11831367909908294, 'util-DSP': 0.20034703239798546, 'util-BRAM': 0.15173453092575073}
+Val loss breakdown {'perf': 1.3373343884944915, 'util-LUT': 0.19470021426677703, 'util-FF': 0.15300500467419625, 'util-DSP': 0.2848164916038513, 'util-BRAM': 0.16557544022798537}
+Epoch: 033, Train Loss: 1.8510, Val loss: 2.1354, Test: 1.8917) Time: 57.021 secs
+Epoch 34 train
+Epoch 34 val
+Saved train model at epoch 33
+Epoch 34 test
+Train loss breakdown {'perf': 1.158829316496849, 'util-LUT': 0.15101636370474641, 'util-FF': 0.11766937087205323, 'util-DSP': 0.24982623315670274, 'util-BRAM': 0.15287911832671275}
+Test loss breakdown {'perf': 1.3589056491851808, 'util-LUT': 0.1585732787847519, 'util-FF': 0.10714746117591858, 'util-DSP': 0.21972615346312524, 'util-BRAM': 0.15137426257133485}
+Val loss breakdown {'perf': 1.4232442259788514, 'util-LUT': 0.18766661435365678, 'util-FF': 0.1498429961502552, 'util-DSP': 0.3031401701271534, 'util-BRAM': 0.16424147337675093}
+Epoch: 034, Train Loss: 1.8484, Val loss: 2.2281, Test: 1.9957) Time: 57.908 secs
+Epoch 35 train
+Epoch 35 val
+Saved train model at epoch 34
+Epoch 35 test
+Train loss breakdown {'perf': 1.1440185051072727, 'util-LUT': 0.15002400055527687, 'util-FF': 0.11547660014846108, 'util-DSP': 0.2652906636622819, 'util-BRAM': 0.15126595764674924}
+Test loss breakdown {'perf': 1.2423295974731445, 'util-LUT': 0.18573188185691833, 'util-FF': 0.12405232340097427, 'util-DSP': 0.2158554121851921, 'util-BRAM': 0.16686149686574936}
+Val loss breakdown {'perf': 1.2789853811264038, 'util-LUT': 0.21250260770320892, 'util-FF': 0.1597786597907543, 'util-DSP': 0.31034810543060304, 'util-BRAM': 0.1804843232035637}
+Epoch: 035, Train Loss: 1.8482, Val loss: 2.1421, Test: 1.9348) Time: 58.989 secs
+Epoch 36 train
+Epoch 36 val
+Saved val model at epoch 35
+Saved train model at epoch 35
+Epoch 36 test
+Saved test model at epoch 35
+Train loss breakdown {'perf': 1.1146892390467904, 'util-LUT': 0.14548523309217257, 'util-FF': 0.11265342834998261, 'util-DSP': 0.24252494576979766, 'util-BRAM': 0.15458342593840577}
+Test loss breakdown {'perf': 1.2556403160095215, 'util-LUT': 0.166013465821743, 'util-FF': 0.09837238155305386, 'util-DSP': 0.21169134825468064, 'util-BRAM': 0.15826838836073875}
+Val loss breakdown {'perf': 1.322938734292984, 'util-LUT': 0.19622169882059098, 'util-FF': 0.1390265293419361, 'util-DSP': 0.2888378582894802, 'util-BRAM': 0.16585831493139266}
+Epoch: 036, Train Loss: 1.7886, Val loss: 2.1129, Test: 1.8900) Time: 57.929 secs
+Epoch 37 train
+Epoch 37 val
+Epoch 37 test
+Saved test model at epoch 36
+Train loss breakdown {'perf': 1.107972808859565, 'util-LUT': 0.1525259573351253, 'util-FF': 0.11733364483172243, 'util-DSP': 0.26762689057398925, 'util-BRAM': 0.15293244729665192}
+Test loss breakdown {'perf': 1.2454676270484923, 'util-LUT': 0.1583694599568844, 'util-FF': 0.10153412222862243, 'util-DSP': 0.21785819083452224, 'util-BRAM': 0.1544187180697918}
+Val loss breakdown {'perf': 1.3183446764945983, 'util-LUT': 0.1866275869309902, 'util-FF': 0.14396054968237876, 'util-DSP': 0.31287735104560854, 'util-BRAM': 0.164737468957901}
+Epoch: 037, Train Loss: 1.8256, Val loss: 2.1265, Test: 1.8776) Time: 58.041 secs
+Epoch 38 train
+Epoch 38 val
+Saved val model at epoch 37
+Saved train model at epoch 37
+Epoch 38 test
+Train loss breakdown {'perf': 1.055318850346587, 'util-LUT': 0.1413814483041113, 'util-FF': 0.10859034760770472, 'util-DSP': 0.2568914917382327, 'util-BRAM': 0.14583609100769868}
+Test loss breakdown {'perf': 1.2287639677524567, 'util-LUT': 0.17136216089129447, 'util-FF': 0.12062368020415307, 'util-DSP': 0.2291737288236618, 'util-BRAM': 0.16653762981295586}
+Val loss breakdown {'perf': 1.2688625693321227, 'util-LUT': 0.18619708493351936, 'util-FF': 0.14525152146816253, 'util-DSP': 0.2892778769135475, 'util-BRAM': 0.1666880428791046}
+Epoch: 038, Train Loss: 1.7356, Val loss: 2.0563, Test: 1.9165) Time: 57.426 secs
+Epoch 39 train
+Epoch 39 val
+Epoch 39 test
+Saved test model at epoch 38
+Train loss breakdown {'perf': 1.1027228845791384, 'util-LUT': 0.14817742342976006, 'util-FF': 0.11509991648860952, 'util-DSP': 0.25090440438891, 'util-BRAM': 0.15535932897844099}
+Test loss breakdown {'perf': 1.2371792912483215, 'util-LUT': 0.15752131640911102, 'util-FF': 0.105738340690732, 'util-DSP': 0.2132483273744583, 'util-BRAM': 0.15706356540322303}
+Val loss breakdown {'perf': 1.2946556329727172, 'util-LUT': 0.183712250739336, 'util-FF': 0.14337707459926605, 'util-DSP': 0.2919397741556168, 'util-BRAM': 0.16894789189100265}
+Epoch: 039, Train Loss: 1.7924, Val loss: 2.0826, Test: 1.8708) Time: 57.985 secs
+Epoch 40 train
+Epoch 40 val
+Epoch 40 test
+Saved test model at epoch 39
+Train loss breakdown {'perf': 1.0414653379808774, 'util-LUT': 0.14895758760923689, 'util-FF': 0.11335167163898321, 'util-DSP': 0.25612756169655104, 'util-BRAM': 0.1536696188532832}
+Test loss breakdown {'perf': 1.213970524072647, 'util-LUT': 0.1516242578625679, 'util-FF': 0.10933666080236434, 'util-DSP': 0.22866027802228928, 'util-BRAM': 0.1494574524462223}
+Val loss breakdown {'perf': 1.240067720413208, 'util-LUT': 0.18967920690774917, 'util-FF': 0.15614459961652755, 'util-DSP': 0.3226646915078163, 'util-BRAM': 0.16029031276702882}
+Epoch: 040, Train Loss: 1.7366, Val loss: 2.0688, Test: 1.8530) Time: 59.156 secs
+Epoch 41 train
+Epoch 41 val
+Saved val model at epoch 40
+Saved train model at epoch 40
+Epoch 41 test
+Saved test model at epoch 40
+Train loss breakdown {'perf': 1.0128745179284702, 'util-LUT': 0.13840368732979352, 'util-FF': 0.11132747150788252, 'util-DSP': 0.24461929821832615, 'util-BRAM': 0.14584142257544128}
+Test loss breakdown {'perf': 1.210612988471985, 'util-LUT': 0.1528254948556423, 'util-FF': 0.09349002912640572, 'util-DSP': 0.20590343028306962, 'util-BRAM': 0.15291599184274673}
+Val loss breakdown {'perf': 1.2289812207221984, 'util-LUT': 0.17636936753988267, 'util-FF': 0.11977812051773071, 'util-DSP': 0.25483900457620623, 'util-BRAM': 0.1598602943122387}
+Epoch: 041, Train Loss: 1.6683, Val loss: 1.9398, Test: 1.8157) Time: 58.098 secs
+Epoch 42 train
+Epoch 42 val
+Saved train model at epoch 41
+Epoch 42 test
+Saved test model at epoch 41
+Train loss breakdown {'perf': 0.9829816327176311, 'util-LUT': 0.13440764610740272, 'util-FF': 0.10140305677090179, 'util-DSP': 0.22978523691100153, 'util-BRAM': 0.1428356392478401}
+Test loss breakdown {'perf': 1.1967100143432616, 'util-LUT': 0.14560918733477593, 'util-FF': 0.10408129133284091, 'util-DSP': 0.2039627179503441, 'util-BRAM': 0.1509301096200943}
+Val loss breakdown {'perf': 1.2381661474704742, 'util-LUT': 0.17281241416931153, 'util-FF': 0.13421676829457282, 'util-DSP': 0.2604558154940605, 'util-BRAM': 0.1612389251589775}
+Epoch: 042, Train Loss: 1.6196, Val loss: 1.9669, Test: 1.8013) Time: 58.447 secs
+Epoch 43 train
+Epoch 43 val
+Saved val model at epoch 42
+Saved train model at epoch 42
+Epoch 43 test
+Saved test model at epoch 42
+Train loss breakdown {'perf': 0.9797250113703988, 'util-LUT': 0.12912857955829662, 'util-FF': 0.09673545312729072, 'util-DSP': 0.22717766751619903, 'util-BRAM': 0.13841757978397337}
+Test loss breakdown {'perf': 1.151471209526062, 'util-LUT': 0.14615022018551826, 'util-FF': 0.0957964736968279, 'util-DSP': 0.1919098600745201, 'util-BRAM': 0.14457487985491752}
+Val loss breakdown {'perf': 1.1805471122264861, 'util-LUT': 0.181612066924572, 'util-FF': 0.14046075865626334, 'util-DSP': 0.27722674757242205, 'util-BRAM': 0.15856467336416244}
+Epoch: 043, Train Loss: 1.6009, Val loss: 1.9384, Test: 1.7299) Time: 59.687 secs
+Epoch 44 train
+Epoch 44 val
+Saved val model at epoch 43
+Saved train model at epoch 43
+Epoch 44 test
+Train loss breakdown {'perf': 0.9543679017912258, 'util-LUT': 0.13290973972867837, 'util-FF': 0.0984696474942294, 'util-DSP': 0.2215994130820036, 'util-BRAM': 0.14092215396125207}
+Test loss breakdown {'perf': 1.1467911064624787, 'util-LUT': 0.1408196348696947, 'util-FF': 0.1160470612347126, 'util-DSP': 0.19986341297626495, 'util-BRAM': 0.15108813121914863}
+Val loss breakdown {'perf': 1.1927756547927857, 'util-LUT': 0.16674433648586273, 'util-FF': 0.1464020237326622, 'util-DSP': 0.24545842707157134, 'util-BRAM': 0.1655069887638092}
+Epoch: 044, Train Loss: 1.5592, Val loss: 1.9169, Test: 1.7546) Time: 58.444 secs
+Epoch 45 train
+Epoch 45 val
+Saved train model at epoch 44
+Epoch 45 test
+Train loss breakdown {'perf': 0.9359180382029577, 'util-LUT': 0.12688972233709964, 'util-FF': 0.10134282623502341, 'util-DSP': 0.2233461749485948, 'util-BRAM': 0.14276363543996756}
+Test loss breakdown {'perf': 1.1778297424316406, 'util-LUT': 0.1475137062370777, 'util-FF': 0.10369199551641942, 'util-DSP': 0.1961243487894535, 'util-BRAM': 0.14982277229428292}
+Val loss breakdown {'perf': 1.207571166753769, 'util-LUT': 0.16988969817757607, 'util-FF': 0.1320403203368187, 'util-DSP': 0.2490717813372612, 'util-BRAM': 0.16322123557329177}
+Epoch: 045, Train Loss: 1.5583, Val loss: 1.9218, Test: 1.7750) Time: 58.195 secs
+Epoch 46 train
+Epoch 46 val
+Saved val model at epoch 45
+Saved train model at epoch 45
+Epoch 46 test
+Train loss breakdown {'perf': 0.907576861706647, 'util-LUT': 0.13275398915125566, 'util-FF': 0.09533761166544123, 'util-DSP': 0.21918958222324197, 'util-BRAM': 0.14102998282760382}
+Test loss breakdown {'perf': 1.1367156445980071, 'util-LUT': 0.14320830777287483, 'util-FF': 0.11868555545806884, 'util-DSP': 0.1995639145374298, 'util-BRAM': 0.14614713415503502}
+Val loss breakdown {'perf': 1.139981633424759, 'util-LUT': 0.17132940515875816, 'util-FF': 0.15208129733800888, 'util-DSP': 0.2655369140207767, 'util-BRAM': 0.15807844698429108}
+Epoch: 046, Train Loss: 1.5185, Val loss: 1.8870, Test: 1.7443) Time: 59.396 secs
+Epoch 47 train
+Epoch 47 val
+Saved train model at epoch 46
+Epoch 47 test
+Saved test model at epoch 46
+Train loss breakdown {'perf': 0.9123987162655051, 'util-LUT': 0.1272035902366042, 'util-FF': 0.10097831250591711, 'util-DSP': 0.21729788387363608, 'util-BRAM': 0.14340982010418718}
+Test loss breakdown {'perf': 1.1327849864959716, 'util-LUT': 0.14601457826793193, 'util-FF': 0.10149150528013706, 'util-DSP': 0.1911269597709179, 'util-BRAM': 0.15004855766892433}
+Val loss breakdown {'perf': 1.2386342704296112, 'util-LUT': 0.17623258680105208, 'util-FF': 0.14305285140872, 'util-DSP': 0.27414954304695127, 'util-BRAM': 0.1600318118929863}
+Epoch: 047, Train Loss: 1.5107, Val loss: 1.9921, Test: 1.7215) Time: 59.822 secs
+Epoch 48 train
+Epoch 48 val
+Epoch 48 test
+Train loss breakdown {'perf': 0.9087764637714083, 'util-LUT': 0.13306869414042344, 'util-FF': 0.10334477370435541, 'util-DSP': 0.2252167725766247, 'util-BRAM': 0.14325214465233413}
+Test loss breakdown {'perf': 1.125844955444336, 'util-LUT': 0.15296855345368385, 'util-FF': 0.11639086827635765, 'util-DSP': 0.20190489366650582, 'util-BRAM': 0.16054880768060684}
+Val loss breakdown {'perf': 1.2062235951423645, 'util-LUT': 0.18892939165234565, 'util-FF': 0.16018462255597116, 'util-DSP': 0.28136435225605966, 'util-BRAM': 0.17392725646495819}
+Epoch: 048, Train Loss: 1.5321, Val loss: 2.0106, Test: 1.7577) Time: 59.058 secs
+Epoch 49 train
+Epoch 49 val
+Saved train model at epoch 48
+Epoch 49 test
+Train loss breakdown {'perf': 0.8907237933440642, 'util-LUT': 0.12720675842667167, 'util-FF': 0.10001177891072902, 'util-DSP': 0.21673614540222017, 'util-BRAM': 0.13873875183476644}
+Test loss breakdown {'perf': 1.1624748170375825, 'util-LUT': 0.14300683625042437, 'util-FF': 0.10267367549240589, 'util-DSP': 0.18771354407072066, 'util-BRAM': 0.1490575611591339}
+Val loss breakdown {'perf': 1.2105920314788818, 'util-LUT': 0.16350594088435172, 'util-FF': 0.12876056358218194, 'util-DSP': 0.24215444624423982, 'util-BRAM': 0.1605214521288872}
+Epoch: 049, Train Loss: 1.4957, Val loss: 1.9055, Test: 1.7449) Time: 59.196 secs
+Epoch 50 train
+Epoch 50 val
+Epoch 50 test
+Train loss breakdown {'perf': 0.9250867034901272, 'util-LUT': 0.12646813258867373, 'util-FF': 0.097411480224268, 'util-DSP': 0.21969907493753868, 'util-BRAM': 0.13807177988135003}
+Test loss breakdown {'perf': 1.161313110589981, 'util-LUT': 0.1431299712508917, 'util-FF': 0.0977873120456934, 'util-DSP': 0.19461824148893356, 'util-BRAM': 0.14275237396359444}
+Val loss breakdown {'perf': 1.2310172080993653, 'util-LUT': 0.1720937691628933, 'util-FF': 0.1337461419403553, 'util-DSP': 0.25840114504098893, 'util-BRAM': 0.15621010288596154}
+Epoch: 050, Train Loss: 1.5352, Val loss: 1.9515, Test: 1.7396) Time: 59.332 secs
+Epoch 51 train
+Epoch 51 val
+Saved val model at epoch 50
+Epoch 51 test
+Train loss breakdown {'perf': 0.8971721624786203, 'util-LUT': 0.13043231855739246, 'util-FF': 0.09897481298751452, 'util-DSP': 0.2242004204202782, 'util-BRAM': 0.1387114692479372}
+Test loss breakdown {'perf': 1.1386479139328003, 'util-LUT': 0.14329149574041367, 'util-FF': 0.10437988117337227, 'util-DSP': 0.20059801042079925, 'util-BRAM': 0.14156439825892447}
+Val loss breakdown {'perf': 1.1209826111793517, 'util-LUT': 0.17106022089719772, 'util-FF': 0.14906944036483766, 'util-DSP': 0.27703368961811065, 'util-BRAM': 0.15522307753562928}
+Epoch: 051, Train Loss: 1.5073, Val loss: 1.8734, Test: 1.7285) Time: 1.000 min
+Epoch 52 train
+Epoch 52 val
+Saved train model at epoch 51
+Epoch 52 test
+Saved test model at epoch 51
+Train loss breakdown {'perf': 0.8617270466956225, 'util-LUT': 0.12528450118208473, 'util-FF': 0.10373269631104036, 'util-DSP': 0.22562269307672977, 'util-BRAM': 0.1326311328025027}
+Test loss breakdown {'perf': 1.1040832102298737, 'util-LUT': 0.14327677264809607, 'util-FF': 0.09366335570812226, 'util-DSP': 0.19469890296459197, 'util-BRAM': 0.14146715477108956}
+Val loss breakdown {'perf': 1.1618273258209229, 'util-LUT': 0.1802443467080593, 'util-FF': 0.14546566233038902, 'util-DSP': 0.2831852279603481, 'util-BRAM': 0.15889572501182556}
+Epoch: 052, Train Loss: 1.4535, Val loss: 1.9296, Test: 1.6772) Time: 59.957 secs
+Epoch 53 train
+Epoch 53 val
+Saved train model at epoch 52
+Epoch 53 test
+Train loss breakdown {'perf': 0.8510327704928138, 'util-LUT': 0.12615677422251215, 'util-FF': 0.09811855488541452, 'util-DSP': 0.21330153349448333, 'util-BRAM': 0.1346837565810843}
+Test loss breakdown {'perf': 1.1235002636909486, 'util-LUT': 0.14103909209370613, 'util-FF': 0.12043223232030868, 'util-DSP': 0.21681764274835585, 'util-BRAM': 0.14754610881209373}
+Val loss breakdown {'perf': 1.1629246473312378, 'util-LUT': 0.17253199145197867, 'util-FF': 0.16010141894221305, 'util-DSP': 0.28459593951702117, 'util-BRAM': 0.15927451401948928}
+Epoch: 053, Train Loss: 1.4456, Val loss: 1.9394, Test: 1.7493) Time: 59.744 secs
+Epoch 54 train
+Epoch 54 val
+Saved val model at epoch 53
+Saved train model at epoch 53
+Epoch 54 test
+Saved test model at epoch 53
+Train loss breakdown {'perf': 0.8373100632293657, 'util-LUT': 0.12177170127291571, 'util-FF': 0.09736321375451305, 'util-DSP': 0.2107770104299892, 'util-BRAM': 0.13208546345545488}
+Test loss breakdown {'perf': 1.0902947008609771, 'util-LUT': 0.14158325493335724, 'util-FF': 0.09324232004582882, 'util-DSP': 0.19858966767787933, 'util-BRAM': 0.14389243870973586}
+Val loss breakdown {'perf': 1.0635499954223633, 'util-LUT': 0.16576417572796345, 'util-FF': 0.13032064214348793, 'util-DSP': 0.26680197939276695, 'util-BRAM': 0.15411014407873153}
+Epoch: 054, Train Loss: 1.4230, Val loss: 1.7805, Test: 1.6676) Time: 1.000 min, 1.678 secs
+Epoch 55 train
+Epoch 55 val
+Saved train model at epoch 54
+Epoch 55 test
+Train loss breakdown {'perf': 0.808931677178903, 'util-LUT': 0.12181747984141111, 'util-FF': 0.09508692392740738, 'util-DSP': 0.2111025953834707, 'util-BRAM': 0.1336203247562728}
+Test loss breakdown {'perf': 1.1263628244400024, 'util-LUT': 0.14288725554943085, 'util-FF': 0.10195789635181426, 'util-DSP': 0.18318180739879608, 'util-BRAM': 0.1384347289800644}
+Val loss breakdown {'perf': 1.2003653526306153, 'util-LUT': 0.17041222453117372, 'util-FF': 0.145698631554842, 'util-DSP': 0.2591518200933933, 'util-BRAM': 0.15550322979688644}
+Epoch: 055, Train Loss: 1.3886, Val loss: 1.9311, Test: 1.6928) Time: 58.954 secs
+Epoch 56 train
+Epoch 56 val
+Epoch 56 test
+Train loss breakdown {'perf': 0.8203389759768139, 'util-LUT': 0.12323053255253895, 'util-FF': 0.09206233956766399, 'util-DSP': 0.20622549951076508, 'util-BRAM': 0.13007977706464854}
+Test loss breakdown {'perf': 1.0887393593788146, 'util-LUT': 0.1432119145989418, 'util-FF': 0.09794980250298976, 'util-DSP': 0.1986408695578575, 'util-BRAM': 0.14626605808734894}
+Val loss breakdown {'perf': 1.084815216064453, 'util-LUT': 0.16365782022476197, 'util-FF': 0.13116070851683617, 'util-DSP': 0.2599483296275139, 'util-BRAM': 0.15718320831656457}
+Epoch: 056, Train Loss: 1.3900, Val loss: 1.7968, Test: 1.6748) Time: 59.840 secs
+Epoch 57 train
+Epoch 57 val
+Saved train model at epoch 56
+Epoch 57 test
+Train loss breakdown {'perf': 0.822455495595932, 'util-LUT': 0.12312134863300757, 'util-FF': 0.09175322484225035, 'util-DSP': 0.20306163382801143, 'util-BRAM': 0.1302450435574759}
+Test loss breakdown {'perf': 1.0863704800605773, 'util-LUT': 0.1468716397881508, 'util-FF': 0.09497907124459744, 'util-DSP': 0.19966094046831132, 'util-BRAM': 0.14272277504205705}
+Val loss breakdown {'perf': 1.1153607487678527, 'util-LUT': 0.17034800052642823, 'util-FF': 0.11878549233078957, 'util-DSP': 0.24545435309410096, 'util-BRAM': 0.14435302466154099}
+Epoch: 057, Train Loss: 1.3739, Val loss: 1.7943, Test: 1.6706) Time: 59.878 secs
+Epoch 58 train
+Epoch 58 val
+Epoch 58 test
+Train loss breakdown {'perf': 0.8179626979611136, 'util-LUT': 0.12850895727222617, 'util-FF': 0.09810631349682808, 'util-DSP': 0.2210102482614192, 'util-BRAM': 0.13635452548888596}
+Test loss breakdown {'perf': 1.1184257745742798, 'util-LUT': 0.1572658248245716, 'util-FF': 0.10793590284883976, 'util-DSP': 0.21827854365110397, 'util-BRAM': 0.1469959355890751}
+Val loss breakdown {'perf': 1.1341995298862457, 'util-LUT': 0.17888973876833916, 'util-FF': 0.15171755254268646, 'util-DSP': 0.27630547285079954, 'util-BRAM': 0.16085464730858803}
+Epoch: 058, Train Loss: 1.4176, Val loss: 1.9020, Test: 1.7489) Time: 59.710 secs
+Epoch 59 train
+Epoch 59 val
+Saved val model at epoch 58
+Epoch 59 test
+Train loss breakdown {'perf': 0.8473056907003577, 'util-LUT': 0.12535835277627816, 'util-FF': 0.105653926984153, 'util-DSP': 0.22264328277246517, 'util-BRAM': 0.13495679297061128}
+Test loss breakdown {'perf': 1.1270076930522919, 'util-LUT': 0.14639091566205026, 'util-FF': 0.10267824530601502, 'util-DSP': 0.20390367433428763, 'util-BRAM': 0.14737210497260095}
+Val loss breakdown {'perf': 1.0720766305923461, 'util-LUT': 0.15412922129034995, 'util-FF': 0.12034359946846962, 'util-DSP': 0.24515076130628585, 'util-BRAM': 0.15362876057624816}
+Epoch: 059, Train Loss: 1.4546, Val loss: 1.7453, Test: 1.7274) Time: 59.611 secs
+Epoch 60 train
+Epoch 60 val
+Epoch 60 test
+Train loss breakdown {'perf': 0.9924391128800132, 'util-LUT': 0.15194264291362328, 'util-FF': 0.11158154786310413, 'util-DSP': 0.2527761481363665, 'util-BRAM': 0.14810684357177129}
+Test loss breakdown {'perf': 1.2400085270404815, 'util-LUT': 0.1729964032769203, 'util-FF': 0.16113816276192666, 'util-DSP': 0.2570706449449062, 'util-BRAM': 0.15454884469509125}
+Val loss breakdown {'perf': 1.1965621411800385, 'util-LUT': 0.2052968442440033, 'util-FF': 0.19835771024227142, 'util-DSP': 0.35950787663459777, 'util-BRAM': 0.16213890239596368}
+Epoch: 060, Train Loss: 1.6431, Val loss: 2.1219, Test: 1.9858) Time: 59.125 secs
+Epoch 61 train
+Epoch 61 val
+Epoch 61 test
+Train loss breakdown {'perf': 0.9051759933883493, 'util-LUT': 0.14013340129432353, 'util-FF': 0.11804420093540102, 'util-DSP': 0.25060345147821034, 'util-BRAM': 0.1486266814172268}
+Test loss breakdown {'perf': 1.1048496305942535, 'util-LUT': 0.1691858485341072, 'util-FF': 0.13252068012952806, 'util-DSP': 0.2319583237171173, 'util-BRAM': 0.15486499592661856}
+Val loss breakdown {'perf': 1.100505805015564, 'util-LUT': 0.19397796094417571, 'util-FF': 0.16722361966967583, 'util-DSP': 0.29704201966524124, 'util-BRAM': 0.15814771130681038}
+Epoch: 061, Train Loss: 1.5827, Val loss: 1.9169, Test: 1.7934) Time: 58.822 secs
+Epoch 62 train
+Epoch 62 val
+Epoch 62 test
+Saved test model at epoch 61
+Train loss breakdown {'perf': 0.8290849473666061, 'util-LUT': 0.13088663667440414, 'util-FF': 0.10629408751529726, 'util-DSP': 0.22225128385153683, 'util-BRAM': 0.13519029852680184}
+Test loss breakdown {'perf': 1.012448513507843, 'util-LUT': 0.14580190181732178, 'util-FF': 0.11297568008303642, 'util-DSP': 0.20667119994759559, 'util-BRAM': 0.1448012389242649}
+Val loss breakdown {'perf': 1.0444746375083924, 'util-LUT': 0.17811548188328744, 'util-FF': 0.1489462971687317, 'util-DSP': 0.29685570299625397, 'util-BRAM': 0.14828956872224808}
+Epoch: 062, Train Loss: 1.4474, Val loss: 1.8167, Test: 1.6227) Time: 59.230 secs
+Epoch 63 train
+Epoch 63 val
+Saved train model at epoch 62
+Epoch 63 test
+Saved test model at epoch 62
+Train loss breakdown {'perf': 0.7804333567619324, 'util-LUT': 0.1259325524284081, 'util-FF': 0.0961874896152453, 'util-DSP': 0.2135064625604586, 'util-BRAM': 0.13319796154444868}
+Test loss breakdown {'perf': 1.0016890108585357, 'util-LUT': 0.14588435515761375, 'util-FF': 0.1142489731311798, 'util-DSP': 0.1980856917798519, 'util-BRAM': 0.15046152248978614}
+Val loss breakdown {'perf': 1.0215302288532258, 'util-LUT': 0.17802693024277688, 'util-FF': 0.15356285721063614, 'util-DSP': 0.2849037602543831, 'util-BRAM': 0.16061269715428353}
+Epoch: 063, Train Loss: 1.3685, Val loss: 1.7986, Test: 1.6104) Time: 59.135 secs
+Epoch 64 train
+Epoch 64 val
+Epoch 64 test
+Train loss breakdown {'perf': 0.8045224899595435, 'util-LUT': 0.11913335441865704, 'util-FF': 0.095819762844423, 'util-DSP': 0.20404376174238595, 'util-BRAM': 0.1337568104605783}
+Test loss breakdown {'perf': 1.0211059689521789, 'util-LUT': 0.15230224952101706, 'util-FF': 0.09659487530589103, 'util-DSP': 0.21087487637996674, 'util-BRAM': 0.15671324506402015}
+Val loss breakdown {'perf': 1.1065232694149016, 'util-LUT': 0.18929824754595756, 'util-FF': 0.14004588425159453, 'util-DSP': 0.27955124005675314, 'util-BRAM': 0.16721716597676278}
+Epoch: 064, Train Loss: 1.3704, Val loss: 1.8826, Test: 1.6376) Time: 59.902 secs
+Epoch 65 train
+Epoch 65 val
+Saved train model at epoch 64
+Epoch 65 test
+Train loss breakdown {'perf': 0.7666928006166761, 'util-LUT': 0.1167073484340852, 'util-FF': 0.0898281317204237, 'util-DSP': 0.19752512804486536, 'util-BRAM': 0.12917521274225277}
+Test loss breakdown {'perf': 1.021055519580841, 'util-LUT': 0.14967437237501144, 'util-FF': 0.12126922383904457, 'util-DSP': 0.20551540404558183, 'util-BRAM': 0.15277861580252647}
+Val loss breakdown {'perf': 1.0415460526943208, 'util-LUT': 0.17533400058746337, 'util-FF': 0.1491328574717045, 'util-DSP': 0.2730440281331539, 'util-BRAM': 0.15292132645845413}
+Epoch: 065, Train Loss: 1.3203, Val loss: 1.7920, Test: 1.6503) Time: 1.000 min
+Epoch 66 train
+Epoch 66 val
+Epoch 66 test
+Train loss breakdown {'perf': 0.7733316387642514, 'util-LUT': 0.12174789234995842, 'util-FF': 0.09505497503348372, 'util-DSP': 0.20671685649590057, 'util-BRAM': 0.12709654575552454}
+Test loss breakdown {'perf': 1.007598638534546, 'util-LUT': 0.15191390812397004, 'util-FF': 0.1237030304968357, 'util-DSP': 0.2047412298619747, 'util-BRAM': 0.15551359429955483}
+Val loss breakdown {'perf': 1.039225882291794, 'util-LUT': 0.18473523408174514, 'util-FF': 0.15251915529370308, 'util-DSP': 0.28317072093486784, 'util-BRAM': 0.15741524174809457}
+Epoch: 066, Train Loss: 1.3362, Val loss: 1.8171, Test: 1.6435) Time: 59.048 secs
+Epoch 67 train
+Epoch 67 val
+Saved train model at epoch 66
+Epoch 67 test
+Train loss breakdown {'perf': 0.7654105729677461, 'util-LUT': 0.11732119414955378, 'util-FF': 0.09691018247130243, 'util-DSP': 0.20004567537795415, 'util-BRAM': 0.12841714558784256}
+Test loss breakdown {'perf': 1.0317578136920929, 'util-LUT': 0.14875245094299316, 'util-FF': 0.10138470903038979, 'util-DSP': 0.21655524000525475, 'util-BRAM': 0.14666792750358582}
+Val loss breakdown {'perf': 1.1059281408786774, 'util-LUT': 0.1816701039671898, 'util-FF': 0.13433247730135917, 'util-DSP': 0.28708489462733267, 'util-BRAM': 0.14509804770350457}
+Epoch: 067, Train Loss: 1.3116, Val loss: 1.8541, Test: 1.6451) Time: 59.284 secs
+Epoch 68 train
+Epoch 68 val
+Epoch 68 test
+Train loss breakdown {'perf': 0.7846896882084283, 'util-LUT': 0.12762079828164793, 'util-FF': 0.1029334230856462, 'util-DSP': 0.2190475504506718, 'util-BRAM': 0.1338501712307334}
+Test loss breakdown {'perf': 0.9891817331314087, 'util-LUT': 0.15612714365124702, 'util-FF': 0.1489030174911022, 'util-DSP': 0.2104714211076498, 'util-BRAM': 0.1471153676509857}
+Val loss breakdown {'perf': 1.053528505563736, 'util-LUT': 0.18604375645518303, 'util-FF': 0.1744024634361267, 'util-DSP': 0.2820790961384773, 'util-BRAM': 0.1496072880923748}
+Epoch: 068, Train Loss: 1.3863, Val loss: 1.8457, Test: 1.6518) Time: 1.000 min
+Epoch 69 train
+Epoch 69 val
+Saved train model at epoch 68
+Epoch 69 test
+Saved test model at epoch 68
+Train loss breakdown {'perf': 0.7243909636004404, 'util-LUT': 0.12051457793197849, 'util-FF': 0.10015055147761648, 'util-DSP': 0.20032092505557972, 'util-BRAM': 0.12407211265103384}
+Test loss breakdown {'perf': 0.9753716468811036, 'util-LUT': 0.1522786244750023, 'util-FF': 0.11714396663010121, 'util-DSP': 0.2174925036728382, 'util-BRAM': 0.14676894545555114}
+Val loss breakdown {'perf': 1.0350086390972137, 'util-LUT': 0.17028001323342323, 'util-FF': 0.13760549947619438, 'util-DSP': 0.26643174365162847, 'util-BRAM': 0.14577922523021697}
+Epoch: 069, Train Loss: 1.2874, Val loss: 1.7551, Test: 1.6091) Time: 1.000 min
+Epoch 70 train
+Epoch 70 val
+Epoch 70 test
+Train loss breakdown {'perf': 0.853374952619726, 'util-LUT': 0.14926318333230235, 'util-FF': 0.12066177143291994, 'util-DSP': 0.2523451452566819, 'util-BRAM': 0.13822883433154362}
+Test loss breakdown {'perf': 1.0298222064971925, 'util-LUT': 0.1617381140589714, 'util-FF': 0.12670367062091828, 'util-DSP': 0.21137043237686157, 'util-BRAM': 0.14563661590218543}
+Val loss breakdown {'perf': 1.076194179058075, 'util-LUT': 0.20174007266759872, 'util-FF': 0.1598014712333679, 'util-DSP': 0.2798479400575161, 'util-BRAM': 0.1519375689327717}
+Epoch: 070, Train Loss: 1.5299, Val loss: 1.8695, Test: 1.6753) Time: 59.832 secs
+Epoch 71 train
+Epoch 71 val
+Epoch 71 test
+Train loss breakdown {'perf': 0.7724407955326817, 'util-LUT': 0.133487163788893, 'util-FF': 0.10999141684310003, 'util-DSP': 0.228440974754366, 'util-BRAM': 0.14003439476205545}
+Test loss breakdown {'perf': 0.9765211939811707, 'util-LUT': 0.14688773192465304, 'util-FF': 0.13615040332078934, 'util-DSP': 0.21902074441313743, 'util-BRAM': 0.14221521392464637}
+Val loss breakdown {'perf': 1.0232399940490722, 'util-LUT': 0.18231991901993752, 'util-FF': 0.16221704483032226, 'util-DSP': 0.29324126690626146, 'util-BRAM': 0.15077939629554749}
+Epoch: 071, Train Loss: 1.4012, Val loss: 1.8118, Test: 1.6208) Time: 59.214 secs
+Epoch 72 train
+Epoch 72 val
+Epoch 72 test
+Train loss breakdown {'perf': 0.7488242171027444, 'util-LUT': 0.124041046354581, 'util-FF': 0.10588584814897993, 'util-DSP': 0.21520838141441345, 'util-BRAM': 0.1365773652214557}
+Test loss breakdown {'perf': 1.0150528490543365, 'util-LUT': 0.15599765069782734, 'util-FF': 0.12166232392191886, 'util-DSP': 0.22400619760155677, 'util-BRAM': 0.15644556805491447}
+Val loss breakdown {'perf': 1.035534405708313, 'util-LUT': 0.19304637387394905, 'util-FF': 0.15749188214540483, 'util-DSP': 0.3095340386033058, 'util-BRAM': 0.15158501714468003}
+Epoch: 072, Train Loss: 1.3490, Val loss: 1.8472, Test: 1.6732) Time: 58.478 secs
+Epoch 73 train
+Epoch 73 val
+Epoch 73 test
+Saved test model at epoch 72
+Train loss breakdown {'perf': 0.7716108831492338, 'util-LUT': 0.1279884691096165, 'util-FF': 0.11402217760174112, 'util-DSP': 0.2129629742015492, 'util-BRAM': 0.13407293910329993}
+Test loss breakdown {'perf': 0.9503156900405884, 'util-LUT': 0.1505843587219715, 'util-FF': 0.11971683502197265, 'util-DSP': 0.20524934120476246, 'util-BRAM': 0.13834190964698792}
+Val loss breakdown {'perf': 1.035792976617813, 'util-LUT': 0.17052891105413437, 'util-FF': 0.14119667932391167, 'util-DSP': 0.25597325190901754, 'util-BRAM': 0.1492464765906334}
+Epoch: 073, Train Loss: 1.3775, Val loss: 1.7527, Test: 1.5642) Time: 59.536 secs
+Epoch 74 train
+Epoch 74 val
+Saved train model at epoch 73
+Epoch 74 test
+Train loss breakdown {'perf': 0.7333915043960918, 'util-LUT': 0.12198921589350159, 'util-FF': 0.09533820860087872, 'util-DSP': 0.19422942979938604, 'util-BRAM': 0.12777428654953837}
+Test loss breakdown {'perf': 0.9459399104118347, 'util-LUT': 0.1604919731616974, 'util-FF': 0.1182762123644352, 'util-DSP': 0.226575131714344, 'util-BRAM': 0.1408703774213791}
+Val loss breakdown {'perf': 1.0735782980918884, 'util-LUT': 0.18231125622987748, 'util-FF': 0.14948080107569695, 'util-DSP': 0.2902578882873058, 'util-BRAM': 0.1489337868988514}
+Epoch: 074, Train Loss: 1.2831, Val loss: 1.8446, Test: 1.5922) Time: 1.000 min
+Epoch 75 train
+Epoch 75 val
+Saved train model at epoch 74
+Epoch 75 test
+Train loss breakdown {'perf': 0.7174083455042406, 'util-LUT': 0.11667245296253399, 'util-FF': 0.09645821611312302, 'util-DSP': 0.20018317762084983, 'util-BRAM': 0.12861951406706462}
+Test loss breakdown {'perf': 1.0015092492103577, 'util-LUT': 0.15406343564391137, 'util-FF': 0.1094368364661932, 'util-DSP': 0.22892398461699487, 'util-BRAM': 0.14432561919093131}
+Val loss breakdown {'perf': 1.1147979736328124, 'util-LUT': 0.18714887127280236, 'util-FF': 0.13615587651729583, 'util-DSP': 0.30107816532254217, 'util-BRAM': 0.1490118347108364}
+Epoch: 075, Train Loss: 1.2802, Val loss: 1.8882, Test: 1.6383) Time: 59.580 secs
+Epoch 76 train
+Epoch 76 val
+Epoch 76 test
+Train loss breakdown {'perf': 0.7613778066906062, 'util-LUT': 0.11916289410807869, 'util-FF': 0.10008451232517307, 'util-DSP': 0.19733231091363865, 'util-BRAM': 0.12598327750509436}
+Test loss breakdown {'perf': 0.9603910684585572, 'util-LUT': 0.15202381387352942, 'util-FF': 0.12962974160909652, 'util-DSP': 0.22705244943499564, 'util-BRAM': 0.17124276608228683}
+Val loss breakdown {'perf': 1.086055475473404, 'util-LUT': 0.19479090720415115, 'util-FF': 0.15920449569821357, 'util-DSP': 0.2855070516467094, 'util-BRAM': 0.17160856500267982}
+Epoch: 076, Train Loss: 1.3228, Val loss: 1.8972, Test: 1.6403) Time: 59.719 secs
+Epoch 77 train
+Epoch 77 val
+Saved train model at epoch 76
+Epoch 77 test
+Train loss breakdown {'perf': 0.7253449010578069, 'util-LUT': 0.11569812419739636, 'util-FF': 0.09395067702809518, 'util-DSP': 0.1942057829053903, 'util-BRAM': 0.13104921833358027}
+Test loss breakdown {'perf': 1.0101604163646698, 'util-LUT': 0.1602226819843054, 'util-FF': 0.1173703908920288, 'util-DSP': 0.2350335381925106, 'util-BRAM': 0.14752555638551712}
+Val loss breakdown {'perf': 1.159770703315735, 'util-LUT': 0.17818091958761215, 'util-FF': 0.13717459738254548, 'util-DSP': 0.27829189598560333, 'util-BRAM': 0.14928891286253929}
+Epoch: 077, Train Loss: 1.2751, Val loss: 1.9027, Test: 1.6703) Time: 59.902 secs
+Epoch 78 train
+Epoch 78 val
+Epoch 78 test
+Train loss breakdown {'perf': 0.8051600706848231, 'util-LUT': 0.12346344381909478, 'util-FF': 0.10252133054150776, 'util-DSP': 0.21173581751910123, 'util-BRAM': 0.1304162621752105}
+Test loss breakdown {'perf': 1.0421293318271636, 'util-LUT': 0.17032541260123252, 'util-FF': 0.1364092417061329, 'util-DSP': 0.2371482327580452, 'util-BRAM': 0.1532914273440838}
+Val loss breakdown {'perf': 1.1880019307136536, 'util-LUT': 0.21411374658346177, 'util-FF': 0.17328785583376885, 'util-DSP': 0.3388448804616928, 'util-BRAM': 0.14976683259010315}
+Epoch: 078, Train Loss: 1.3903, Val loss: 2.0640, Test: 1.7393) Time: 59.646 secs
+Epoch 79 train
+Epoch 79 val
+Epoch 79 test
+Train loss breakdown {'perf': 0.8434469456022436, 'util-LUT': 0.14227127529342065, 'util-FF': 0.11463267580521377, 'util-DSP': 0.22875642573291605, 'util-BRAM': 0.1401624699038538}
+Test loss breakdown {'perf': 0.9924284994602204, 'util-LUT': 0.1585542220622301, 'util-FF': 0.11316711977124214, 'util-DSP': 0.2138358511030674, 'util-BRAM': 0.14699441120028495}
+Val loss breakdown {'perf': 1.090968531370163, 'util-LUT': 0.1832219295203686, 'util-FF': 0.14340214803814888, 'util-DSP': 0.2949291169643402, 'util-BRAM': 0.15089994743466378}
+Epoch: 079, Train Loss: 1.4884, Val loss: 1.8634, Test: 1.6250) Time: 59.733 secs
+Epoch 80 train
+Epoch 80 val
+Epoch 80 test
+Train loss breakdown {'perf': 0.7995257187973369, 'util-LUT': 0.13080329541116953, 'util-FF': 0.10138994103974917, 'util-DSP': 0.20887207248332826, 'util-BRAM': 0.12545310028574683}
+Test loss breakdown {'perf': 0.9656498432159424, 'util-LUT': 0.15895710065960883, 'util-FF': 0.11582349687814712, 'util-DSP': 0.21383784338831902, 'util-BRAM': 0.14147194623947143}
+Val loss breakdown {'perf': 1.076662677526474, 'util-LUT': 0.18525494486093522, 'util-FF': 0.1472926676273346, 'util-DSP': 0.3039847545325756, 'util-BRAM': 0.14539336487650872}
+Epoch: 080, Train Loss: 1.3706, Val loss: 1.8586, Test: 1.5957) Time: 1.000 min
+Epoch 81 train
+Epoch 81 val
+Epoch 81 test
+Train loss breakdown {'perf': 0.7155542299151421, 'util-LUT': 0.12334369021383199, 'util-FF': 0.10334120843220841, 'util-DSP': 0.2066726999526674, 'util-BRAM': 0.12888052864846858}
+Test loss breakdown {'perf': 0.9610434353351593, 'util-LUT': 0.15076701305806636, 'util-FF': 0.11688586510717869, 'util-DSP': 0.22192034646868705, 'util-BRAM': 0.14723917990922927}
+Val loss breakdown {'perf': 1.1426945805549622, 'util-LUT': 0.17002405151724814, 'util-FF': 0.14158177226781846, 'util-DSP': 0.2717425860464573, 'util-BRAM': 0.14918936640024186}
+Epoch: 081, Train Loss: 1.2965, Val loss: 1.8752, Test: 1.5979) Time: 59.823 secs
+Epoch 82 train
+Epoch 82 val
+Saved train model at epoch 81
+Epoch 82 test
+Saved test model at epoch 81
+Train loss breakdown {'perf': 0.6943468742749908, 'util-LUT': 0.12349775315008381, 'util-FF': 0.09527902068062262, 'util-DSP': 0.191098681058396, 'util-BRAM': 0.12328243035484444}
+Test loss breakdown {'perf': 0.9119351089000702, 'util-LUT': 0.15575369969010353, 'util-FF': 0.11304747685790062, 'util-DSP': 0.20628888793289663, 'util-BRAM': 0.14395646825432779}
+Val loss breakdown {'perf': 1.0533416748046875, 'util-LUT': 0.17012130245566368, 'util-FF': 0.1378175474703312, 'util-DSP': 0.2634138807654381, 'util-BRAM': 0.14217408150434493}
+Epoch: 082, Train Loss: 1.2371, Val loss: 1.7669, Test: 1.5310) Time: 59.114 secs
+Epoch 83 train
+Epoch 83 val
+Saved train model at epoch 82
+Epoch 83 test
+Train loss breakdown {'perf': 0.7037876851179383, 'util-LUT': 0.11348753507164391, 'util-FF': 0.08720742017877373, 'util-DSP': 0.18082092964852398, 'util-BRAM': 0.12270274601707404}
+Test loss breakdown {'perf': 0.9287114679813385, 'util-LUT': 0.15195302478969097, 'util-FF': 0.1052568145096302, 'util-DSP': 0.2080352671444416, 'util-BRAM': 0.14639270976185798}
+Val loss breakdown {'perf': 1.0739763498306274, 'util-LUT': 0.16141911149024962, 'util-FF': 0.13014790192246437, 'util-DSP': 0.2471202902495861, 'util-BRAM': 0.14407110437750817}
+Epoch: 083, Train Loss: 1.2111, Val loss: 1.7567, Test: 1.5403) Time: 59.978 secs
+Epoch 84 train
+Epoch 84 val
+Saved val model at epoch 83
+Saved train model at epoch 83
+Epoch 84 test
+Saved test model at epoch 83
+Train loss breakdown {'perf': 0.6677433333613656, 'util-LUT': 0.10736080041070553, 'util-FF': 0.08334346191788261, 'util-DSP': 0.1722816112027927, 'util-BRAM': 0.12124070525169373}
+Test loss breakdown {'perf': 0.9082238614559174, 'util-LUT': 0.14942336454987526, 'util-FF': 0.10358834266662598, 'util-DSP': 0.22322234362363816, 'util-BRAM': 0.1383751131594181}
+Val loss breakdown {'perf': 1.0355781495571137, 'util-LUT': 0.16381405517458916, 'util-FF': 0.1282213620841503, 'util-DSP': 0.2695565439760685, 'util-BRAM': 0.13616040349006653}
+Epoch: 084, Train Loss: 1.1719, Val loss: 1.7333, Test: 1.5228) Time: 58.604 secs
+Epoch 85 train
+Epoch 85 val
+Epoch 85 test
+Train loss breakdown {'perf': 0.6813443235375665, 'util-LUT': 0.11286693320355633, 'util-FF': 0.08575189892541278, 'util-DSP': 0.17890357988124544, 'util-BRAM': 0.12086328847164457}
+Test loss breakdown {'perf': 0.9055765628814697, 'util-LUT': 0.15515487492084504, 'util-FF': 0.12485446706414223, 'util-DSP': 0.21853574216365815, 'util-BRAM': 0.13881038799881934}
+Val loss breakdown {'perf': 1.0663802742958068, 'util-LUT': 0.16301853358745574, 'util-FF': 0.14128042310476302, 'util-DSP': 0.24929626733064653, 'util-BRAM': 0.13892300501465799}
+Epoch: 085, Train Loss: 1.1813, Val loss: 1.7589, Test: 1.5429) Time: 58.908 secs
+Epoch 86 train
+Epoch 86 val
+Epoch 86 test
+Saved test model at epoch 85
+Train loss breakdown {'perf': 0.6929381059652026, 'util-LUT': 0.1057412193410776, 'util-FF': 0.0854459495114332, 'util-DSP': 0.1673425066665831, 'util-BRAM': 0.12195951246063817}
+Test loss breakdown {'perf': 0.9157927930355072, 'util-LUT': 0.15135417990386485, 'util-FF': 0.09974209442734719, 'util-DSP': 0.20387930199503898, 'util-BRAM': 0.13851899206638335}
+Val loss breakdown {'perf': 1.0893251776695252, 'util-LUT': 0.17688458785414696, 'util-FF': 0.12696948125958443, 'util-DSP': 0.24481197744607924, 'util-BRAM': 0.13753182664513589}
+Epoch: 086, Train Loss: 1.1934, Val loss: 1.7755, Test: 1.5093) Time: 1.000 min
+Epoch 87 train
+Epoch 87 val
+Saved train model at epoch 86
+Epoch 87 test
+Train loss breakdown {'perf': 0.6383682001720775, 'util-LUT': 0.10451417081904682, 'util-FF': 0.08310641862706027, 'util-DSP': 0.1583148454400626, 'util-BRAM': 0.12070969517596743}
+Test loss breakdown {'perf': 0.9053015589714051, 'util-LUT': 0.15462348498404027, 'util-FF': 0.09652596712112427, 'util-DSP': 0.23802025020122528, 'util-BRAM': 0.14423085302114486}
+Val loss breakdown {'perf': 1.105998122692108, 'util-LUT': 0.16522833034396173, 'util-FF': 0.11787678487598896, 'util-DSP': 0.27228755280375483, 'util-BRAM': 0.14072971791028976}
+Epoch: 087, Train Loss: 1.1256, Val loss: 1.8021, Test: 1.5387) Time: 59.415 secs
+Epoch 88 train
+Epoch 88 val
+Saved val model at epoch 87
+Epoch 88 test
+Saved test model at epoch 87
+Train loss breakdown {'perf': 0.6469414356079969, 'util-LUT': 0.105660729364238, 'util-FF': 0.08059903953901747, 'util-DSP': 0.16423845392736522, 'util-BRAM': 0.1174726149236614}
+Test loss breakdown {'perf': 0.9045929312705994, 'util-LUT': 0.13937586694955825, 'util-FF': 0.09299974106252193, 'util-DSP': 0.18945557475090027, 'util-BRAM': 0.1386708803474903}
+Val loss breakdown {'perf': 1.0782812595367433, 'util-LUT': 0.15046530365943908, 'util-FF': 0.11201390326023102, 'util-DSP': 0.22379303202033043, 'util-BRAM': 0.1374812453985214}
+Epoch: 088, Train Loss: 1.1261, Val loss: 1.7020, Test: 1.4651) Time: 1.000 min
+Epoch 89 train
+Epoch 89 val
+Saved train model at epoch 88
+Epoch 89 test
+Saved test model at epoch 88
+Train loss breakdown {'perf': 0.6495096270333637, 'util-LUT': 0.10281771362166513, 'util-FF': 0.07297764923846857, 'util-DSP': 0.14907481775365092, 'util-BRAM': 0.11911705999889156}
+Test loss breakdown {'perf': 0.8867050588130951, 'util-LUT': 0.14511942975223063, 'util-FF': 0.09310472123324871, 'util-DSP': 0.20141164883971213, 'util-BRAM': 0.1372794769704342}
+Val loss breakdown {'perf': 1.0906149625778199, 'util-LUT': 0.14779214039444924, 'util-FF': 0.10928850881755352, 'util-DSP': 0.22588471323251724, 'util-BRAM': 0.13458242565393447}
+Epoch: 089, Train Loss: 1.0975, Val loss: 1.7082, Test: 1.4636) Time: 58.603 secs
+Epoch 90 train
+Epoch 90 val
+Epoch 90 test
+Train loss breakdown {'perf': 0.6296603796495632, 'util-LUT': 0.10939031543040817, 'util-FF': 0.08085825438187881, 'util-DSP': 0.16563432037153028, 'util-BRAM': 0.11887733087959615}
+Test loss breakdown {'perf': 0.9313008487224579, 'util-LUT': 0.1449872102588415, 'util-FF': 0.12324103191494942, 'util-DSP': 0.19024240523576735, 'util-BRAM': 0.147557769715786}
+Val loss breakdown {'perf': 1.0831397414207458, 'util-LUT': 0.16423917561769485, 'util-FF': 0.14626965895295144, 'util-DSP': 0.26910785064101217, 'util-BRAM': 0.15787604451179504}
+Epoch: 090, Train Loss: 1.1230, Val loss: 1.8206, Test: 1.5373) Time: 1.000 min
+Epoch 91 train
+Epoch 91 val
+Epoch 91 test
+Train loss breakdown {'perf': 0.646358962086114, 'util-LUT': 0.10162608325481415, 'util-FF': 0.08530860072509809, 'util-DSP': 0.15803013217042794, 'util-BRAM': 0.12458075540648265}
+Test loss breakdown {'perf': 0.8954129695892334, 'util-LUT': 0.1391440611332655, 'util-FF': 0.10832936763763427, 'util-DSP': 0.1860046997666359, 'util-BRAM': 0.135713067650795}
+Val loss breakdown {'perf': 1.0733946859836578, 'util-LUT': 0.1542452782392502, 'util-FF': 0.12788187712430954, 'util-DSP': 0.24771769419312478, 'util-BRAM': 0.13659538328647614}
+Epoch: 091, Train Loss: 1.1225, Val loss: 1.7398, Test: 1.4646) Time: 1.000 min
+Epoch 92 train
+Epoch 92 val
+Epoch 92 test
+Train loss breakdown {'perf': 0.654817136851224, 'util-LUT': 0.10143018640916455, 'util-FF': 0.07706796695393595, 'util-DSP': 0.15744466503912752, 'util-BRAM': 0.11645290196280587}
+Test loss breakdown {'perf': 0.8865821421146393, 'util-LUT': 0.14742630533874035, 'util-FF': 0.09779668375849723, 'util-DSP': 0.220588119328022, 'util-BRAM': 0.13981810286641122}
+Val loss breakdown {'perf': 1.0940720438957214, 'util-LUT': 0.15077331401407718, 'util-FF': 0.1125119760632515, 'util-DSP': 0.2545716166496277, 'util-BRAM': 0.14076621010899543}
+Epoch: 092, Train Loss: 1.1123, Val loss: 1.7527, Test: 1.4922) Time: 1.000 min
+Epoch 93 train
+Epoch 93 val
+Saved val model at epoch 92
+Saved train model at epoch 92
+Epoch 93 test
+Saved test model at epoch 92
+Train loss breakdown {'perf': 0.6291513317687945, 'util-LUT': 0.09920421327379617, 'util-FF': 0.07191152544692159, 'util-DSP': 0.1497193624011495, 'util-BRAM': 0.11522329217669638}
+Test loss breakdown {'perf': 0.8458551973104477, 'util-LUT': 0.14239758104085923, 'util-FF': 0.11766049563884735, 'util-DSP': 0.191606217995286, 'util-BRAM': 0.1330422692000866}
+Val loss breakdown {'perf': 1.0081469357013702, 'util-LUT': 0.15738692358136178, 'util-FF': 0.1278760850429535, 'util-DSP': 0.23955729678273202, 'util-BRAM': 0.13596251606941223}
+Epoch: 093, Train Loss: 1.0785, Val loss: 1.6689, Test: 1.4306) Time: 59.306 secs
+Epoch 94 train
+Epoch 94 val
+Saved train model at epoch 93
+Epoch 94 test
+Train loss breakdown {'perf': 0.6300432729450139, 'util-LUT': 0.09362003190273588, 'util-FF': 0.07263060900467364, 'util-DSP': 0.13787549776448446, 'util-BRAM': 0.11798645750704137}
+Test loss breakdown {'perf': 0.932696384191513, 'util-LUT': 0.14886540006846188, 'util-FF': 0.09242823794484138, 'util-DSP': 0.1949584551155567, 'util-BRAM': 0.13050333559513091}
+Val loss breakdown {'perf': 1.0144330620765687, 'util-LUT': 0.16150163784623145, 'util-FF': 0.11535332277417183, 'util-DSP': 0.2535995826125145, 'util-BRAM': 0.13291605412960053}
+Epoch: 094, Train Loss: 1.0617, Val loss: 1.6778, Test: 1.4995) Time: 58.705 secs
+Epoch 95 train
+Epoch 95 val
+Saved train model at epoch 94
+Epoch 95 test
+Train loss breakdown {'perf': 0.6121233037926934, 'util-LUT': 0.09946446019140157, 'util-FF': 0.07304699058559808, 'util-DSP': 0.14476354166188024, 'util-BRAM': 0.11621925912120125}
+Test loss breakdown {'perf': 0.8971279919147491, 'util-LUT': 0.13893184438347816, 'util-FF': 0.09600797742605209, 'util-DSP': 0.17786080092191697, 'util-BRAM': 0.13268857300281525}
+Val loss breakdown {'perf': 1.0472708940505981, 'util-LUT': 0.15840290784835814, 'util-FF': 0.12498932778835296, 'util-DSP': 0.25542814955115317, 'util-BRAM': 0.13097193017601966}
+Epoch: 095, Train Loss: 1.0411, Val loss: 1.7171, Test: 1.4426) Time: 59.173 secs
+Epoch 96 train
+Epoch 96 val
+Epoch 96 test
+Saved test model at epoch 95
+Train loss breakdown {'perf': 0.6212237572128122, 'util-LUT': 0.09507359564304352, 'util-FF': 0.07420192633501509, 'util-DSP': 0.13965058148923246, 'util-BRAM': 0.11805800098756497}
+Test loss breakdown {'perf': 0.860275137424469, 'util-LUT': 0.14424122646450996, 'util-FF': 0.09683936461806297, 'util-DSP': 0.18233226165175437, 'util-BRAM': 0.13192995712161065}
+Val loss breakdown {'perf': 1.0405420303344726, 'util-LUT': 0.15492951199412347, 'util-FF': 0.11644275039434433, 'util-DSP': 0.2575273007154465, 'util-BRAM': 0.1439199224114418}
+Epoch: 096, Train Loss: 1.0634, Val loss: 1.7134, Test: 1.4156) Time: 59.475 secs
+Epoch 97 train
+Epoch 97 val
+Epoch 97 test
+Train loss breakdown {'perf': 0.6055428683757782, 'util-LUT': 0.10293598379939795, 'util-FF': 0.07813783830285749, 'util-DSP': 0.15262814433398572, 'util-BRAM': 0.11542424608275971}
+Test loss breakdown {'perf': 0.895309466123581, 'util-LUT': 0.15000116676092148, 'util-FF': 0.1271717965602875, 'util-DSP': 0.1992799773812294, 'util-BRAM': 0.1294686272740364}
+Val loss breakdown {'perf': 1.044348955154419, 'util-LUT': 0.152942206710577, 'util-FF': 0.13388820737600327, 'util-DSP': 0.24465288817882538, 'util-BRAM': 0.14088330343365668}
+Epoch: 097, Train Loss: 1.0617, Val loss: 1.7167, Test: 1.5012) Time: 1.000 min
+Epoch 98 train
+Epoch 98 val
+Saved val model at epoch 97
+Saved train model at epoch 97
+Epoch 98 test
+Train loss breakdown {'perf': 0.6079499945044518, 'util-LUT': 0.0946261202916503, 'util-FF': 0.07442421817474744, 'util-DSP': 0.1292968380518935, 'util-BRAM': 0.11492210961031643}
+Test loss breakdown {'perf': 0.9032250225543976, 'util-LUT': 0.13991355299949645, 'util-FF': 0.09569241665303707, 'util-DSP': 0.18260343372821808, 'util-BRAM': 0.13578846976161002}
+Val loss breakdown {'perf': 1.033551412820816, 'util-LUT': 0.15046727210283278, 'util-FF': 0.11781720966100692, 'util-DSP': 0.2207975573837757, 'util-BRAM': 0.1379142627120018}
+Epoch: 098, Train Loss: 1.0302, Val loss: 1.6605, Test: 1.4572) Time: 1.000 min
+Epoch 99 train
+Epoch 99 val
+Saved train model at epoch 98
+Epoch 99 test
+Saved test model at epoch 98
+Train loss breakdown {'perf': 0.581421903080561, 'util-LUT': 0.08881123990497806, 'util-FF': 0.07211179548705166, 'util-DSP': 0.12215864726088264, 'util-BRAM': 0.1090500950389965}
+Test loss breakdown {'perf': 0.856430733203888, 'util-LUT': 0.13455411065369843, 'util-FF': 0.08364409953355789, 'util-DSP': 0.18470788821578027, 'util-BRAM': 0.1290157951414585}
+Val loss breakdown {'perf': 1.0390890061855316, 'util-LUT': 0.15711109563708306, 'util-FF': 0.11426617801189423, 'util-DSP': 0.23806906417012214, 'util-BRAM': 0.13219975531101227}
+Epoch: 099, Train Loss: 0.9876, Val loss: 1.6807, Test: 1.3884) Time: 1.000 min
+Epoch 100 train
+Epoch 100 val
+Saved train model at epoch 99
+Epoch 100 test
+Train loss breakdown {'perf': 0.5763922889124263, 'util-LUT': 0.08949545753950422, 'util-FF': 0.06643619769337503, 'util-DSP': 0.12074191876771775, 'util-BRAM': 0.10924333587966183}
+Test loss breakdown {'perf': 0.8395162522792816, 'util-LUT': 0.13968004062771797, 'util-FF': 0.103725615888834, 'util-DSP': 0.1853850048035383, 'util-BRAM': 0.14365596920251847}
+Val loss breakdown {'perf': 1.0380243897438048, 'util-LUT': 0.14732588529586793, 'util-FF': 0.11687319204211236, 'util-DSP': 0.21875286996364593, 'util-BRAM': 0.15190990045666694}
+Epoch: 100, Train Loss: 0.9575, Val loss: 1.6729, Test: 1.4120) Time: 59.933 secs
+Epoch 101 train
+Epoch 101 val
+Saved train model at epoch 100
+Epoch 101 test
+Train loss breakdown {'perf': 0.5466058438813145, 'util-LUT': 0.08388057606167752, 'util-FF': 0.07046761152080515, 'util-DSP': 0.12097980877892538, 'util-BRAM': 0.11074403770775958}
+Test loss breakdown {'perf': 0.8435908138751984, 'util-LUT': 0.13582366425544024, 'util-FF': 0.09764634370803833, 'util-DSP': 0.18752727657556534, 'util-BRAM': 0.1294742152094841}
+Val loss breakdown {'perf': 1.05591179728508, 'util-LUT': 0.14371127635240555, 'util-FF': 0.1108661137521267, 'util-DSP': 0.22981164753437042, 'util-BRAM': 0.12870113030076027}
+Epoch: 101, Train Loss: 0.9485, Val loss: 1.6690, Test: 1.3941) Time: 59.425 secs
+Epoch 102 train
+Epoch 102 val
+Saved val model at epoch 101
+Saved train model at epoch 101
+Epoch 102 test
+Train loss breakdown {'perf': 0.5559446229176088, 'util-LUT': 0.08299345370720733, 'util-FF': 0.065552459013733, 'util-DSP': 0.10625986839559945, 'util-BRAM': 0.10506698717786507}
+Test loss breakdown {'perf': 0.8696925222873688, 'util-LUT': 0.1367506854236126, 'util-FF': 0.08691527992486954, 'util-DSP': 0.18668000400066376, 'util-BRAM': 0.134266959130764}
+Val loss breakdown {'perf': 1.0128261983394622, 'util-LUT': 0.14113348610699178, 'util-FF': 0.1044337410479784, 'util-DSP': 0.21804376617074012, 'util-BRAM': 0.13862425610423088}
+Epoch: 102, Train Loss: 0.9205, Val loss: 1.6151, Test: 1.4143) Time: 58.896 secs
+Epoch 103 train
+Epoch 103 val
+Epoch 103 test
+Train loss breakdown {'perf': 0.5772308734330264, 'util-LUT': 0.08397176967595112, 'util-FF': 0.06569041983774779, 'util-DSP': 0.1158618571406061, 'util-BRAM': 0.10600180614908988}
+Test loss breakdown {'perf': 0.8710136771202087, 'util-LUT': 0.12972194831818343, 'util-FF': 0.09266694486141205, 'util-DSP': 0.1869468107819557, 'util-BRAM': 0.1323034271597862}
+Val loss breakdown {'perf': 1.075000238418579, 'util-LUT': 0.13966769613325597, 'util-FF': 0.11013093069195748, 'util-DSP': 0.2273618072271347, 'util-BRAM': 0.13577872961759568}
+Epoch: 103, Train Loss: 0.9507, Val loss: 1.6879, Test: 1.4127) Time: 59.708 secs
+Epoch 104 train
+Epoch 104 val
+Epoch 104 test
+Train loss breakdown {'perf': 0.5546425293961709, 'util-LUT': 0.08440339666875926, 'util-FF': 0.06876527687365358, 'util-DSP': 0.11876859642903913, 'util-BRAM': 0.10564222787930207}
+Test loss breakdown {'perf': 0.8534306049346924, 'util-LUT': 0.14618032090365887, 'util-FF': 0.09933606721460819, 'util-DSP': 0.19453079029917716, 'util-BRAM': 0.14171314761042594}
+Val loss breakdown {'perf': 1.0106139123439788, 'util-LUT': 0.15029538944363594, 'util-FF': 0.11104580014944077, 'util-DSP': 0.2220917284488678, 'util-BRAM': 0.14206702560186385}
+Epoch: 104, Train Loss: 0.9468, Val loss: 1.6361, Test: 1.4352) Time: 58.897 secs
+Epoch 105 train
+Epoch 105 val
+Epoch 105 test
+Train loss breakdown {'perf': 0.5675151388753544, 'util-LUT': 0.0881071850149469, 'util-FF': 0.06631591137159955, 'util-DSP': 0.11210588679056276, 'util-BRAM': 0.10933396127074957}
+Test loss breakdown {'perf': 0.8794565856456756, 'util-LUT': 0.13884612619876863, 'util-FF': 0.09068517908453941, 'util-DSP': 0.1835589252412319, 'util-BRAM': 0.1351083368062973}
+Val loss breakdown {'perf': 1.024023860692978, 'util-LUT': 0.13966555148363113, 'util-FF': 0.10650106221437454, 'util-DSP': 0.2158212445676327, 'util-BRAM': 0.13589257895946502}
+Epoch: 105, Train Loss: 0.9486, Val loss: 1.6219, Test: 1.4277) Time: 58.857 secs
+Epoch 106 train
+Epoch 106 val
+Saved val model at epoch 105
+Epoch 106 test
+Train loss breakdown {'perf': 0.5535801926797087, 'util-LUT': 0.08742881600152362, 'util-FF': 0.06570589914917946, 'util-DSP': 0.11992645466869528, 'util-BRAM': 0.10643282524225386}
+Test loss breakdown {'perf': 0.8358694553375244, 'util-LUT': 0.14799477607011796, 'util-FF': 0.10322884023189545, 'util-DSP': 0.1859376471489668, 'util-BRAM': 0.14099621772766113}
+Val loss breakdown {'perf': 1.007956612110138, 'util-LUT': 0.14515485167503356, 'util-FF': 0.11108537539839744, 'util-DSP': 0.20405982360243796, 'util-BRAM': 0.13487671092152595}
+Epoch: 106, Train Loss: 0.9310, Val loss: 1.6031, Test: 1.4140) Time: 59.695 secs
+Epoch 107 train
+Epoch 107 val
+Saved train model at epoch 106
+Epoch 107 test
+Train loss breakdown {'perf': 0.5257018694484775, 'util-LUT': 0.08373643297024748, 'util-FF': 0.07040067897601561, 'util-DSP': 0.11687018493698402, 'util-BRAM': 0.10529331998391585}
+Test loss breakdown {'perf': 0.8325022101402283, 'util-LUT': 0.14170214682817459, 'util-FF': 0.1105340600013733, 'util-DSP': 0.19778695963323117, 'util-BRAM': 0.1382036991417408}
+Val loss breakdown {'perf': 1.0797940075397492, 'util-LUT': 0.1382942609488964, 'util-FF': 0.11544991582632065, 'util-DSP': 0.21199386417865754, 'util-BRAM': 0.13339827060699463}
+Epoch: 107, Train Loss: 0.9168, Val loss: 1.6789, Test: 1.4207) Time: 59.448 secs
+Epoch 108 train
+Epoch 108 val
+Epoch 108 test
+Train loss breakdown {'perf': 0.5745277377692136, 'util-LUT': 0.08960767979310318, 'util-FF': 0.06770997409793464, 'util-DSP': 0.11343303610655395, 'util-BRAM': 0.11133781879801642}
+Test loss breakdown {'perf': 0.8871202349662781, 'util-LUT': 0.1445535145699978, 'util-FF': 0.0944596279412508, 'util-DSP': 0.19919947385787964, 'util-BRAM': 0.13918953463435174}
+Val loss breakdown {'perf': 1.0214544892311097, 'util-LUT': 0.16232074946165084, 'util-FF': 0.12374939322471619, 'util-DSP': 0.2529073543846607, 'util-BRAM': 0.1340494856238365}
+Epoch: 108, Train Loss: 0.9565, Val loss: 1.6945, Test: 1.4645) Time: 59.337 secs
+Epoch 109 train
+Epoch 109 val
+Epoch 109 test
+Train loss breakdown {'perf': 0.6765039251609282, 'util-LUT': 0.1098852212625471, 'util-FF': 0.08322657822546634, 'util-DSP': 0.17881750501692295, 'util-BRAM': 0.11454656652428886}
+Test loss breakdown {'perf': 0.9335937678813935, 'util-LUT': 0.13788233436644076, 'util-FF': 0.11502650529146194, 'util-DSP': 0.17972744032740592, 'util-BRAM': 0.15577546060085296}
+Val loss breakdown {'perf': 1.0277154207229615, 'util-LUT': 0.16544924676418304, 'util-FF': 0.14264813736081122, 'util-DSP': 0.2524680957198143, 'util-BRAM': 0.14511990770697594}
+Epoch: 109, Train Loss: 1.1702, Val loss: 1.7334, Test: 1.5220) Time: 59.574 secs
+Epoch 110 train
+Epoch 110 val
+Epoch 110 test
+Train loss breakdown {'perf': 0.8588446785103191, 'util-LUT': 0.1171822388741103, 'util-FF': 0.09832901092754169, 'util-DSP': 0.19653508744456552, 'util-BRAM': 0.12354798174717209}
+Test loss breakdown {'perf': 1.1427326798439026, 'util-LUT': 0.18039641082286834, 'util-FF': 0.13493044152855874, 'util-DSP': 0.2480090394616127, 'util-BRAM': 0.1520003706216812}
+Val loss breakdown {'perf': 1.1788780748844148, 'util-LUT': 0.20294425562024115, 'util-FF': 0.1600518472492695, 'util-DSP': 0.33152410984039304, 'util-BRAM': 0.14797508344054222}
+Epoch: 110, Train Loss: 1.3448, Val loss: 2.0214, Test: 1.8581) Time: 59.193 secs
+Epoch 111 train
+Epoch 111 val
+Epoch 111 test
+Train loss breakdown {'perf': 0.9155872904441573, 'util-LUT': 0.12416693788360465, 'util-FF': 0.10699591824298048, 'util-DSP': 0.2030652936717326, 'util-BRAM': 0.13036061662503265}
+Test loss breakdown {'perf': 0.970818555355072, 'util-LUT': 0.14309967570006848, 'util-FF': 0.10149352513253689, 'util-DSP': 0.188763839751482, 'util-BRAM': 0.1498526617884636}
+Val loss breakdown {'perf': 1.1243091225624084, 'util-LUT': 0.17236280478537083, 'util-FF': 0.13226058185100556, 'util-DSP': 0.2694647669792175, 'util-BRAM': 0.14768439531326294}
+Epoch: 111, Train Loss: 1.5016, Val loss: 1.8461, Test: 1.5540) Time: 59.639 secs
+Epoch 112 train
+Epoch 112 val
+Epoch 112 test
+Train loss breakdown {'perf': 0.7386549304832112, 'util-LUT': 0.11080922355706041, 'util-FF': 0.0891991492191499, 'util-DSP': 0.16453672810034317, 'util-BRAM': 0.12487275064499541}
+Test loss breakdown {'perf': 0.9235722422599792, 'util-LUT': 0.13311771266162395, 'util-FF': 0.10091140493750572, 'util-DSP': 0.16067409217357637, 'util-BRAM': 0.13826489672064782}
+Val loss breakdown {'perf': 1.0710505366325378, 'util-LUT': 0.15815775990486144, 'util-FF': 0.11965633556246758, 'util-DSP': 0.24137174114584922, 'util-BRAM': 0.14109807461500168}
+Epoch: 112, Train Loss: 1.2401, Val loss: 1.7313, Test: 1.4565) Time: 59.290 secs
+Epoch 113 train
+Epoch 113 val
+Epoch 113 test
+Train loss breakdown {'perf': 0.6693592274730856, 'util-LUT': 0.112058673561974, 'util-FF': 0.08406618525358764, 'util-DSP': 0.16505211693319408, 'util-BRAM': 0.11910819914191961}
+Test loss breakdown {'perf': 0.905563908815384, 'util-LUT': 0.13602715209126473, 'util-FF': 0.09663033895194531, 'util-DSP': 0.16245900020003318, 'util-BRAM': 0.13505493253469467}
+Val loss breakdown {'perf': 1.0562188446521759, 'util-LUT': 0.18743227124214173, 'util-FF': 0.14886145442724227, 'util-DSP': 0.2889231711626053, 'util-BRAM': 0.1441150613129139}
+Epoch: 113, Train Loss: 1.1628, Val loss: 1.8256, Test: 1.4357) Time: 59.794 secs
+Epoch 114 train
+Epoch 114 val
+Epoch 114 test
+Train loss breakdown {'perf': 0.6201023418794979, 'util-LUT': 0.09761592707681385, 'util-FF': 0.07748378076675264, 'util-DSP': 0.12913916268470613, 'util-BRAM': 0.11559005462649194}
+Test loss breakdown {'perf': 0.8554512917995453, 'util-LUT': 0.1339601444080472, 'util-FF': 0.08962684348225594, 'util-DSP': 0.1817794531583786, 'util-BRAM': 0.13529433086514472}
+Val loss breakdown {'perf': 1.0312058925628662, 'util-LUT': 0.16855103336274624, 'util-FF': 0.1314726073294878, 'util-DSP': 0.267461946606636, 'util-BRAM': 0.13438510447740554}
+Epoch: 114, Train Loss: 1.0516, Val loss: 1.7331, Test: 1.3961) Time: 59.404 secs
+Epoch 115 train
+Epoch 115 val
+Epoch 115 test
+Train loss breakdown {'perf': 0.5689320609989491, 'util-LUT': 0.0908011370761828, 'util-FF': 0.07042668311094696, 'util-DSP': 0.1287694810466333, 'util-BRAM': 0.10962247645313089}
+Test loss breakdown {'perf': 0.819796371459961, 'util-LUT': 0.13831385001540183, 'util-FF': 0.09663401246070862, 'util-DSP': 0.19356666132807732, 'util-BRAM': 0.1402959145605564}
+Val loss breakdown {'perf': 1.0363174200057983, 'util-LUT': 0.1625186800956726, 'util-FF': 0.12298470437526703, 'util-DSP': 0.2622082494199276, 'util-BRAM': 0.14030463621020317}
+Epoch: 115, Train Loss: 0.9762, Val loss: 1.7243, Test: 1.3886) Time: 58.367 secs
+Epoch 116 train
+Epoch 116 val
+Epoch 116 test
+Saved test model at epoch 115
+Train loss breakdown {'perf': 0.5541677149859342, 'util-LUT': 0.08408742770552635, 'util-FF': 0.06509277575903318, 'util-DSP': 0.11180684512311762, 'util-BRAM': 0.10734046425204724}
+Test loss breakdown {'perf': 0.8289260327816009, 'util-LUT': 0.12411908507347107, 'util-FF': 0.09180101118981839, 'util-DSP': 0.15980450846254826, 'util-BRAM': 0.14116504564881324}
+Val loss breakdown {'perf': 1.0095981806516647, 'util-LUT': 0.1474178746342659, 'util-FF': 0.11556949093937874, 'util-DSP': 0.22414843663573264, 'util-BRAM': 0.14410605579614638}
+Epoch: 116, Train Loss: 0.9294, Val loss: 1.6408, Test: 1.3458) Time: 58.942 secs
+Epoch 117 train
+Epoch 117 val
+Saved train model at epoch 116
+Epoch 117 test
+Saved test model at epoch 116
+Train loss breakdown {'perf': 0.5086472467942671, 'util-LUT': 0.0821699977598407, 'util-FF': 0.06263452607460997, 'util-DSP': 0.1072696503251791, 'util-BRAM': 0.10651910495520993}
+Test loss breakdown {'perf': 0.8187937438488007, 'util-LUT': 0.12506273277103902, 'util-FF': 0.0921781525015831, 'util-DSP': 0.16976831182837487, 'util-BRAM': 0.13825361132621766}
+Val loss breakdown {'perf': 1.0065256476402282, 'util-LUT': 0.14285250566899776, 'util-FF': 0.11225148439407348, 'util-DSP': 0.22316287830471992, 'util-BRAM': 0.1412443406879902}
+Epoch: 117, Train Loss: 0.8767, Val loss: 1.6260, Test: 1.3441) Time: 1.000 min
+Epoch 118 train
+Epoch 118 val
+Saved train model at epoch 117
+Epoch 118 test
+Train loss breakdown {'perf': 0.5222807689146562, 'util-LUT': 0.07929171215404164, 'util-FF': 0.06289971302348105, 'util-DSP': 0.10369644275951115, 'util-BRAM': 0.10190343975343487}
+Test loss breakdown {'perf': 0.8887768924236298, 'util-LUT': 0.13375466205179692, 'util-FF': 0.09805001281201839, 'util-DSP': 0.18191079869866372, 'util-BRAM': 0.14170673340559006}
+Val loss breakdown {'perf': 1.0493522226810454, 'util-LUT': 0.1410284262150526, 'util-FF': 0.11108978912234306, 'util-DSP': 0.22617530077695847, 'util-BRAM': 0.14153108820319177}
+Epoch: 118, Train Loss: 0.8729, Val loss: 1.6692, Test: 1.4442) Time: 58.631 secs
+Epoch 119 train
+Epoch 119 val
+Epoch 119 test
+Train loss breakdown {'perf': 0.8014437732371417, 'util-LUT': 0.12537704696032134, 'util-FF': 0.09784373302351344, 'util-DSP': 0.19166460701010443, 'util-BRAM': 0.13021692193367265}
+Test loss breakdown {'perf': 1.00228670835495, 'util-LUT': 0.13791730999946594, 'util-FF': 0.14030592143535614, 'util-DSP': 0.18399835079908372, 'util-BRAM': 0.13225845918059348}
+Val loss breakdown {'perf': 0.9848650753498077, 'util-LUT': 0.18158675730228424, 'util-FF': 0.17493581101298333, 'util-DSP': 0.28227449506521224, 'util-BRAM': 0.1451854556798935}
+Epoch: 119, Train Loss: 1.3512, Val loss: 1.7688, Test: 1.5968) Time: 59.631 secs
+Epoch 120 train
+Epoch 120 val
+Epoch 120 test
+Train loss breakdown {'perf': 0.7296891342848539, 'util-LUT': 0.12095550998029383, 'util-FF': 0.10379247121851552, 'util-DSP': 0.18895660814913837, 'util-BRAM': 0.12533388659358025}
+Test loss breakdown {'perf': 1.1566624224185944, 'util-LUT': 0.16432480216026307, 'util-FF': 0.1314753644168377, 'util-DSP': 0.23822922706604005, 'util-BRAM': 0.14852421209216118}
+Val loss breakdown {'perf': 1.2494768977165223, 'util-LUT': 0.19923188611865045, 'util-FF': 0.1707026869058609, 'util-DSP': 0.3581863045692444, 'util-BRAM': 0.16556926369667052}
+Epoch: 120, Train Loss: 1.2872, Val loss: 2.1432, Test: 1.8392) Time: 58.876 secs
+Epoch 121 train
+Epoch 121 val
+Epoch 121 test
+Train loss breakdown {'perf': 0.7843927449800752, 'util-LUT': 0.1414374066516757, 'util-FF': 0.11885293903337284, 'util-DSP': 0.2336529227481647, 'util-BRAM': 0.13646046080711213}
+Test loss breakdown {'perf': 0.9651881217956543, 'util-LUT': 0.1550453081727028, 'util-FF': 0.1294009268283844, 'util-DSP': 0.23025717362761497, 'util-BRAM': 0.14361077919602394}
+Val loss breakdown {'perf': 1.1200560212135315, 'util-LUT': 0.19420384243130684, 'util-FF': 0.16876031905412675, 'util-DSP': 0.33620037138462067, 'util-BRAM': 0.14603918194770812}
+Epoch: 121, Train Loss: 1.4306, Val loss: 1.9653, Test: 1.6235) Time: 59.767 secs
+Epoch 122 train
+Epoch 122 val
+Epoch 122 test
+Train loss breakdown {'perf': 0.6992584731091153, 'util-LUT': 0.13171011184088208, 'util-FF': 0.10723769338801503, 'util-DSP': 0.21565729441036555, 'util-BRAM': 0.12590851469642736}
+Test loss breakdown {'perf': 0.9569442212581635, 'util-LUT': 0.15566060245037078, 'util-FF': 0.11458213701844215, 'util-DSP': 0.22618499919772148, 'util-BRAM': 0.13074218407273291}
+Val loss breakdown {'perf': 1.0691679477691651, 'util-LUT': 0.16919299997389317, 'util-FF': 0.1395240992307663, 'util-DSP': 0.2657503053545952, 'util-BRAM': 0.144562316685915}
+Epoch: 122, Train Loss: 1.2987, Val loss: 1.7882, Test: 1.5841) Time: 58.239 secs
+Epoch 123 train
+Epoch 123 val
+Epoch 123 test
+Train loss breakdown {'perf': 0.9284101853316481, 'util-LUT': 0.13898254634643142, 'util-FF': 0.11092104652727192, 'util-DSP': 0.2315547110682184, 'util-BRAM': 0.13750435259531846}
+Test loss breakdown {'perf': 1.1326648414134979, 'util-LUT': 0.17071467600762844, 'util-FF': 0.11254473477602005, 'util-DSP': 0.24391445517539978, 'util-BRAM': 0.1497999034821987}
+Val loss breakdown {'perf': 1.2741504907608032, 'util-LUT': 0.21313518136739731, 'util-FF': 0.15572813972830774, 'util-DSP': 0.35703018829226496, 'util-BRAM': 0.1491962619125843}
+Epoch: 123, Train Loss: 1.5702, Val loss: 2.1492, Test: 1.8096) Time: 1.000 min
+Epoch 124 train
+Epoch 124 val
+Epoch 124 test
+Train loss breakdown {'perf': 0.793596279214729, 'util-LUT': 0.13430163890800692, 'util-FF': 0.11061468899292363, 'util-DSP': 0.22525701138444923, 'util-BRAM': 0.1299618105404079}
+Test loss breakdown {'perf': 0.9079822957515716, 'util-LUT': 0.1392279528081417, 'util-FF': 0.10713700503110886, 'util-DSP': 0.2014182686805725, 'util-BRAM': 0.13474126309156417}
+Val loss breakdown {'perf': 1.0372161209583282, 'util-LUT': 0.17713229022920132, 'util-FF': 0.14844972565770148, 'util-DSP': 0.30393639877438544, 'util-BRAM': 0.13679130300879477}
+Epoch: 124, Train Loss: 1.4125, Val loss: 1.8035, Test: 1.4905) Time: 59.737 secs
+Epoch 125 train
+Epoch 125 val
+Epoch 125 test
+Train loss breakdown {'perf': 0.7098958038470962, 'util-LUT': 0.11369126180017536, 'util-FF': 0.0920313413424248, 'util-DSP': 0.17926990274678578, 'util-BRAM': 0.12406287261877548}
+Test loss breakdown {'perf': 0.9290568649768829, 'util-LUT': 0.1282436978071928, 'util-FF': 0.0883900310844183, 'util-DSP': 0.17256057038903236, 'util-BRAM': 0.134972932189703}
+Val loss breakdown {'perf': 1.089622014760971, 'util-LUT': 0.1762027706950903, 'util-FF': 0.13595935069024562, 'util-DSP': 0.29229260310530664, 'util-BRAM': 0.1438339963555336}
+Epoch: 125, Train Loss: 1.2276, Val loss: 1.8379, Test: 1.4532) Time: 59.529 secs
+Epoch 126 train
+Epoch 126 val
+Epoch 126 test
+Train loss breakdown {'perf': 0.6644899973815138, 'util-LUT': 0.10770346012643793, 'util-FF': 0.0848741236735474, 'util-DSP': 0.1685317512601614, 'util-BRAM': 0.119648316367106}
+Test loss breakdown {'perf': 0.8581009805202484, 'util-LUT': 0.12356074824929238, 'util-FF': 0.1020701363682747, 'util-DSP': 0.16124754548072814, 'util-BRAM': 0.12707459852099418}
+Val loss breakdown {'perf': 0.9895909428596497, 'util-LUT': 0.1661175237968564, 'util-FF': 0.1367592953145504, 'util-DSP': 0.2758057214319706, 'util-BRAM': 0.13865578919649124}
+Epoch: 126, Train Loss: 1.1459, Val loss: 1.7069, Test: 1.3721) Time: 59.822 secs
+Epoch 127 train
+Epoch 127 val
+Epoch 127 test
+Train loss breakdown {'perf': 0.6329019794409926, 'util-LUT': 0.10193758678029884, 'util-FF': 0.08209679474715482, 'util-DSP': 0.15815438101576132, 'util-BRAM': 0.11661806677214125}
+Test loss breakdown {'perf': 0.842388904094696, 'util-LUT': 0.13061607256531715, 'util-FF': 0.08884861655533313, 'util-DSP': 0.15425084233283998, 'util-BRAM': 0.13264313638210296}
+Val loss breakdown {'perf': 1.0209605634212493, 'util-LUT': 0.16116430349647998, 'util-FF': 0.12541986107826233, 'util-DSP': 0.267768406867981, 'util-BRAM': 0.1354098379611969}
+Epoch: 127, Train Loss: 1.0971, Val loss: 1.7107, Test: 1.3487) Time: 58.691 secs
+Epoch 128 train
+Epoch 128 val
+Epoch 128 test
+Train loss breakdown {'perf': 0.6085326644507322, 'util-LUT': 0.09973524849523198, 'util-FF': 0.07560447053137151, 'util-DSP': 0.1422283420847221, 'util-BRAM': 0.11660863505676389}
+Test loss breakdown {'perf': 0.8640959858894348, 'util-LUT': 0.140579005330801, 'util-FF': 0.10081306174397468, 'util-DSP': 0.15551914423704147, 'util-BRAM': 0.13692352846264838}
+Val loss breakdown {'perf': 1.0247133255004883, 'util-LUT': 0.15063069984316826, 'util-FF': 0.12101498991250992, 'util-DSP': 0.2325640618801117, 'util-BRAM': 0.15011079460382462}
+Epoch: 128, Train Loss: 1.0550, Val loss: 1.6790, Test: 1.3979) Time: 59.854 secs
+Epoch 129 train
+Epoch 129 val
+Epoch 129 test
+Train loss breakdown {'perf': 0.5836999863386154, 'util-LUT': 0.09776208786801859, 'util-FF': 0.08096568921411579, 'util-DSP': 0.1374133595011451, 'util-BRAM': 0.12644141184335406}
+Test loss breakdown {'perf': 0.8371063351631165, 'util-LUT': 0.13564476519823074, 'util-FF': 0.09190948382019996, 'util-DSP': 0.18568734526634217, 'util-BRAM': 0.13181871324777603}
+Val loss breakdown {'perf': 1.0027084469795227, 'util-LUT': 0.14494020491838455, 'util-FF': 0.10982294157147407, 'util-DSP': 0.22088149264454843, 'util-BRAM': 0.14421500340104104}
+Epoch: 129, Train Loss: 1.0382, Val loss: 1.6226, Test: 1.3822) Time: 1.000 min
+Epoch 130 train
+Epoch 130 val
+Epoch 130 test
+Train loss breakdown {'perf': 0.5589736916802146, 'util-LUT': 0.09328256547451019, 'util-FF': 0.07136172140863808, 'util-DSP': 0.1299052583900365, 'util-BRAM': 0.11514164515855638}
+Test loss breakdown {'perf': 0.8168077051639557, 'util-LUT': 0.15300092548131944, 'util-FF': 0.08831068240106106, 'util-DSP': 0.21086032390594484, 'util-BRAM': 0.12568815127015115}
+Val loss breakdown {'perf': 1.0177800595760345, 'util-LUT': 0.14932513535022734, 'util-FF': 0.10609151870012283, 'util-DSP': 0.23766204714775085, 'util-BRAM': 0.14971494376659394}
+Epoch: 130, Train Loss: 0.9799, Val loss: 1.6606, Test: 1.3947) Time: 59.118 secs
+Epoch 131 train
+Epoch 131 val
+Saved val model at epoch 130
+Epoch 131 test
+Train loss breakdown {'perf': 0.5358472463082183, 'util-LUT': 0.0897361675108021, 'util-FF': 0.0683116362514821, 'util-DSP': 0.11706740383736113, 'util-BRAM': 0.11249393660744483}
+Test loss breakdown {'perf': 0.811815720796585, 'util-LUT': 0.13986217156052588, 'util-FF': 0.08493104204535484, 'util-DSP': 0.18245135098695756, 'util-BRAM': 0.12671434804797171}
+Val loss breakdown {'perf': 0.9498112499713898, 'util-LUT': 0.14282919019460677, 'util-FF': 0.10856867209076881, 'util-DSP': 0.21709149554371834, 'util-BRAM': 0.1376176059246063}
+Epoch: 131, Train Loss: 0.9340, Val loss: 1.5559, Test: 1.3458) Time: 1.000 min
+Epoch 132 train
+Epoch 132 val
+Epoch 132 test
+Saved test model at epoch 131
+Train loss breakdown {'perf': 0.5281667133623903, 'util-LUT': 0.08284022000787611, 'util-FF': 0.06406806168061766, 'util-DSP': 0.11131251203319566, 'util-BRAM': 0.10838676760481163}
+Test loss breakdown {'perf': 0.795516413450241, 'util-LUT': 0.12516525723040103, 'util-FF': 0.09322634041309356, 'util-DSP': 0.1721681423485279, 'util-BRAM': 0.12447444573044777}
+Val loss breakdown {'perf': 0.9731619358062744, 'util-LUT': 0.1432278636842966, 'util-FF': 0.1142601277679205, 'util-DSP': 0.2174364596605301, 'util-BRAM': 0.1368379432708025}
+Epoch: 132, Train Loss: 0.9065, Val loss: 1.5849, Test: 1.3106) Time: 59.467 secs
+Epoch 133 train
+Epoch 133 val
+Epoch 133 test
+Train loss breakdown {'perf': 0.5237171649932861, 'util-LUT': 0.08331903006712144, 'util-FF': 0.06387077255005186, 'util-DSP': 0.10761608748527413, 'util-BRAM': 0.10699613462202251}
+Test loss breakdown {'perf': 0.7601658999919891, 'util-LUT': 0.13923170268535615, 'util-FF': 0.08862098045647145, 'util-DSP': 0.20426931008696556, 'util-BRAM': 0.1297694370150566}
+Val loss breakdown {'perf': 0.9677513033151627, 'util-LUT': 0.14815618991851806, 'util-FF': 0.1108648419380188, 'util-DSP': 0.23603363558650017, 'util-BRAM': 0.13817238733172416}
+Epoch: 133, Train Loss: 0.8806, Val loss: 1.6010, Test: 1.3221) Time: 1.000 min
+Epoch 134 train
+Epoch 134 val
+Saved train model at epoch 133
+Epoch 134 test
+Saved test model at epoch 133
+Train loss breakdown {'perf': 0.48784276707605884, 'util-LUT': 0.0798391577025706, 'util-FF': 0.06680944180962714, 'util-DSP': 0.11676169152964246, 'util-BRAM': 0.10619740025140345}
+Test loss breakdown {'perf': 0.76946821808815, 'util-LUT': 0.12149201892316341, 'util-FF': 0.09691379889845848, 'util-DSP': 0.18341438323259354, 'util-BRAM': 0.12225933112204075}
+Val loss breakdown {'perf': 0.9648220807313919, 'util-LUT': 0.1360759034752846, 'util-FF': 0.1157097440212965, 'util-DSP': 0.2198421314358711, 'util-BRAM': 0.13641250282526016}
+Epoch: 134, Train Loss: 0.8699, Val loss: 1.5729, Test: 1.2935) Time: 59.326 secs
+Epoch 135 train
+Epoch 135 val
+Saved val model at epoch 134
+Saved train model at epoch 134
+Epoch 135 test
+Saved test model at epoch 134
+Train loss breakdown {'perf': 0.4971154955300418, 'util-LUT': 0.07834513612430204, 'util-FF': 0.06097997801209038, 'util-DSP': 0.10196654439311136, 'util-BRAM': 0.1056937415745448}
+Test loss breakdown {'perf': 0.75139519572258, 'util-LUT': 0.128071179240942, 'util-FF': 0.07992268912494183, 'util-DSP': 0.1591712012887001, 'util-BRAM': 0.1270957760512829}
+Val loss breakdown {'perf': 0.9281020313501358, 'util-LUT': 0.13545928597450257, 'util-FF': 0.1004110410809517, 'util-DSP': 0.20981115102767944, 'util-BRAM': 0.13947874158620835}
+Epoch: 135, Train Loss: 0.8366, Val loss: 1.5133, Test: 1.2457) Time: 58.700 secs
+Epoch 136 train
+Epoch 136 val
+Saved train model at epoch 135
+Epoch 136 test
+Saved test model at epoch 135
+Train loss breakdown {'perf': 0.43945509229194035, 'util-LUT': 0.07848697037182072, 'util-FF': 0.06292670702731068, 'util-DSP': 0.1075451998886737, 'util-BRAM': 0.10178397694306279}
+Test loss breakdown {'perf': 0.7570790648460388, 'util-LUT': 0.11786032356321811, 'util-FF': 0.08276602253317833, 'util-DSP': 0.16217899993062018, 'util-BRAM': 0.12349146753549575}
+Val loss breakdown {'perf': 0.9780281394720077, 'util-LUT': 0.14022331312298775, 'util-FF': 0.10877685062587261, 'util-DSP': 0.21992467418313028, 'util-BRAM': 0.1342440016567707}
+Epoch: 136, Train Loss: 0.8001, Val loss: 1.5812, Test: 1.2434) Time: 1.000 min
+Epoch 137 train
+Epoch 137 val
+Epoch 137 test
+Train loss breakdown {'perf': 0.48264695974913513, 'util-LUT': 0.07978005495599726, 'util-FF': 0.06251138702712276, 'util-DSP': 0.10616907562044534, 'util-BRAM': 0.10379055472598835}
+Test loss breakdown {'perf': 0.8906594216823578, 'util-LUT': 0.12572968415915967, 'util-FF': 0.09603644609451294, 'util-DSP': 0.1903328128159046, 'util-BRAM': 0.1328231118619442}
+Val loss breakdown {'perf': 0.9679747343063354, 'util-LUT': 0.1452312208712101, 'util-FF': 0.1195354238152504, 'util-DSP': 0.2274685710668564, 'util-BRAM': 0.14182047098875045}
+Epoch: 137, Train Loss: 0.8312, Val loss: 1.6020, Test: 1.4356) Time: 1.000 min
+Epoch 138 train
+Epoch 138 val
+Epoch 138 test
+Train loss breakdown {'perf': 0.625381094657562, 'util-LUT': 0.10781620400534435, 'util-FF': 0.08077565987001765, 'util-DSP': 0.16173718852752988, 'util-BRAM': 0.11678670588034121}
+Test loss breakdown {'perf': 0.8696747362613678, 'util-LUT': 0.14424629621207713, 'util-FF': 0.10570046305656433, 'util-DSP': 0.2066497977823019, 'util-BRAM': 0.14643482789397239}
+Val loss breakdown {'perf': 1.1239558398723601, 'util-LUT': 0.16576278768479824, 'util-FF': 0.12608704268932341, 'util-DSP': 0.2612989291548729, 'util-BRAM': 0.14405763596296312}
+Epoch: 138, Train Loss: 1.1097, Val loss: 1.8212, Test: 1.4727) Time: 59.370 secs
+Epoch 139 train
+Epoch 139 val
+Epoch 139 test
+Train loss breakdown {'perf': 0.6269083165309646, 'util-LUT': 0.10378986859524791, 'util-FF': 0.07944931386207993, 'util-DSP': 0.15561049025167117, 'util-BRAM': 0.11754349195821719}
+Test loss breakdown {'perf': 0.8190756380558014, 'util-LUT': 0.13849755823612214, 'util-FF': 0.08470411635935307, 'util-DSP': 0.18788660541176797, 'util-BRAM': 0.13072749152779578}
+Val loss breakdown {'perf': 0.9962075799703598, 'util-LUT': 0.16258758977055549, 'util-FF': 0.11793924830853939, 'util-DSP': 0.2616749793291092, 'util-BRAM': 0.132710150629282}
+Epoch: 139, Train Loss: 1.0926, Val loss: 1.6711, Test: 1.3609) Time: 59.652 secs
+Epoch 140 train
+Epoch 140 val
+Epoch 140 test
+Train loss breakdown {'perf': 0.5201728120446205, 'util-LUT': 0.09565359100022099, 'util-FF': 0.0705129722641273, 'util-DSP': 0.14266761239956727, 'util-BRAM': 0.10882217657159675}
+Test loss breakdown {'perf': 0.7765010833740235, 'util-LUT': 0.12868943270295857, 'util-FF': 0.10391922444105148, 'util-DSP': 0.18800488039851188, 'util-BRAM': 0.12927126288414}
+Val loss breakdown {'perf': 0.9868579715490341, 'util-LUT': 0.13681647516787052, 'util-FF': 0.11339925490319729, 'util-DSP': 0.21444238126277923, 'util-BRAM': 0.13322407752275467}
+Epoch: 140, Train Loss: 0.9343, Val loss: 1.5847, Test: 1.3264) Time: 1.000 min
+Epoch 141 train
+Epoch 141 val
+Epoch 141 test
+Train loss breakdown {'perf': 0.5106723750518127, 'util-LUT': 0.09122706869278442, 'util-FF': 0.07409930068322203, 'util-DSP': 0.14401499622247435, 'util-BRAM': 0.10530327950519594}
+Test loss breakdown {'perf': 0.7630017757415771, 'util-LUT': 0.13208350241184236, 'util-FF': 0.09474520683288574, 'util-DSP': 0.1803423013538122, 'util-BRAM': 0.129764898866415}
+Val loss breakdown {'perf': 0.9662771046161651, 'util-LUT': 0.13909184485673903, 'util-FF': 0.11203140839934349, 'util-DSP': 0.21289677694439887, 'util-BRAM': 0.1349684063345194}
+Epoch: 141, Train Loss: 0.9404, Val loss: 1.5653, Test: 1.2999) Time: 59.792 secs
+Epoch 142 train
+Epoch 142 val
+Epoch 142 test
+Train loss breakdown {'perf': 0.51985362815586, 'util-LUT': 0.08357719001783566, 'util-FF': 0.06269288685342128, 'util-DSP': 0.11806122412566435, 'util-BRAM': 0.10498519775203684}
+Test loss breakdown {'perf': 0.8462976098060608, 'util-LUT': 0.12341736741364003, 'util-FF': 0.08785755410790444, 'util-DSP': 0.18547284305095674, 'util-BRAM': 0.1351399041712284}
+Val loss breakdown {'perf': 1.0109628736972809, 'util-LUT': 0.13717487901449205, 'util-FF': 0.11333122961223126, 'util-DSP': 0.23756407126784324, 'util-BRAM': 0.13798788115382193}
+Epoch: 142, Train Loss: 0.9019, Val loss: 1.6370, Test: 1.3782) Time: 1.000 min
+Epoch 143 train
+Epoch 143 val
+Epoch 143 test
+Train loss breakdown {'perf': 0.5233123729174788, 'util-LUT': 0.08203821959481998, 'util-FF': 0.06460710250857202, 'util-DSP': 0.12227985415269028, 'util-BRAM': 0.10218350341628221}
+Test loss breakdown {'perf': 0.7865152359008789, 'util-LUT': 0.1305363729596138, 'util-FF': 0.09641310907900333, 'util-DSP': 0.18088151514530182, 'util-BRAM': 0.1327011153101921}
+Val loss breakdown {'perf': 0.9546810477972031, 'util-LUT': 0.14140519201755525, 'util-FF': 0.10832814015448093, 'util-DSP': 0.21959657371044158, 'util-BRAM': 0.13546381443738936}
+Epoch: 143, Train Loss: 0.9026, Val loss: 1.5595, Test: 1.3270) Time: 59.100 secs
+Epoch 144 train
+Epoch 144 val
+Epoch 144 test
+Train loss breakdown {'perf': 0.52450976182114, 'util-LUT': 0.0812425905499946, 'util-FF': 0.06527219357138331, 'util-DSP': 0.11962482062253085, 'util-BRAM': 0.10372809828682379}
+Test loss breakdown {'perf': 0.8186548769474029, 'util-LUT': 0.12395726963877678, 'util-FF': 0.08137610517442226, 'util-DSP': 0.17977015748620034, 'util-BRAM': 0.1413875550031662}
+Val loss breakdown {'perf': 1.0308605194091798, 'util-LUT': 0.14461255222558975, 'util-FF': 0.10697593614459038, 'util-DSP': 0.235130375623703, 'util-BRAM': 0.13696258068084716}
+Epoch: 144, Train Loss: 0.8909, Val loss: 1.6545, Test: 1.3451) Time: 59.752 secs
+Epoch 145 train
+Epoch 145 val
+Epoch 145 test
+Train loss breakdown {'perf': 0.4878991168331016, 'util-LUT': 0.07640351719138297, 'util-FF': 0.05863211490213871, 'util-DSP': 0.10691458579491485, 'util-BRAM': 0.09766466712409799}
+Test loss breakdown {'perf': 0.8269170224666595, 'util-LUT': 0.12019795812666416, 'util-FF': 0.07804418280720711, 'util-DSP': 0.16424470618367196, 'util-BRAM': 0.13225154653191568}
+Val loss breakdown {'perf': 0.993312680721283, 'util-LUT': 0.13860407210886477, 'util-FF': 0.09756695218384266, 'util-DSP': 0.21599141135811806, 'util-BRAM': 0.13512062430381774}
+Epoch: 145, Train Loss: 0.8320, Val loss: 1.5806, Test: 1.3217) Time: 1.000 min
+Epoch 146 train
+Epoch 146 val
+Epoch 146 test
+Train loss breakdown {'perf': 0.7707462527535178, 'util-LUT': 0.1154502739452503, 'util-FF': 0.09394300331107595, 'util-DSP': 0.16165550298650155, 'util-BRAM': 0.1291862086138942}
+Test loss breakdown {'perf': 1.148814457654953, 'util-LUT': 0.14389079660177231, 'util-FF': 0.10040786378085613, 'util-DSP': 0.18766503557562828, 'util-BRAM': 0.13924432620406152}
+Val loss breakdown {'perf': 1.2505332052707672, 'util-LUT': 0.20365126803517342, 'util-FF': 0.15999532788991927, 'util-DSP': 0.3458565719425678, 'util-BRAM': 0.14758224189281463}
+Epoch: 146, Train Loss: 1.2749, Val loss: 2.1076, Test: 1.7200) Time: 59.606 secs
+Epoch 147 train
+Epoch 147 val
+Epoch 147 test
+Train loss breakdown {'perf': 0.9256575791673227, 'util-LUT': 0.16377222144298934, 'util-FF': 0.13627234355292536, 'util-DSP': 0.2932223037562587, 'util-BRAM': 0.1533157043159008}
+Test loss breakdown {'perf': 0.987244325876236, 'util-LUT': 0.14090931043028831, 'util-FF': 0.09901709631085395, 'util-DSP': 0.19765499383211135, 'util-BRAM': 0.1610092543065548}
+Val loss breakdown {'perf': 1.136956614255905, 'util-LUT': 0.197164074331522, 'util-FF': 0.15429020151495934, 'util-DSP': 0.312632093578577, 'util-BRAM': 0.14970784187316893}
+Epoch: 147, Train Loss: 1.6960, Val loss: 1.9508, Test: 1.5858) Time: 59.731 secs
+Epoch 148 train
+Epoch 148 val
+Epoch 148 test
+Train loss breakdown {'perf': 0.7359141680327329, 'util-LUT': 0.1267999755218625, 'util-FF': 0.09835787769407034, 'util-DSP': 0.2131257395852696, 'util-BRAM': 0.13155774382705038}
+Test loss breakdown {'perf': 0.841763037443161, 'util-LUT': 0.13347971439361572, 'util-FF': 0.11664399281144142, 'util-DSP': 0.1601053483784199, 'util-BRAM': 0.13846355080604553}
+Val loss breakdown {'perf': 1.0646170526742935, 'util-LUT': 0.15569397509098054, 'util-FF': 0.1384605884552002, 'util-DSP': 0.2496528632938862, 'util-BRAM': 0.1376517429947853}
+Epoch: 148, Train Loss: 1.3173, Val loss: 1.7461, Test: 1.3905) Time: 1.000 min
+Epoch 149 train
+Epoch 149 val
+Epoch 149 test
+Train loss breakdown {'perf': 0.6235949776389382, 'util-LUT': 0.10249346892603418, 'util-FF': 0.08501302095299418, 'util-DSP': 0.15736377916552804, 'util-BRAM': 0.11066322794861415}
+Test loss breakdown {'perf': 0.8029534637928009, 'util-LUT': 0.12455750741064549, 'util-FF': 0.09033964648842811, 'util-DSP': 0.15049506202340127, 'util-BRAM': 0.13760434985160827}
+Val loss breakdown {'perf': 1.0175079524517059, 'util-LUT': 0.15254361256957055, 'util-FF': 0.11816440708935261, 'util-DSP': 0.2685727089643478, 'util-BRAM': 0.13539657220244408}
+Epoch: 149, Train Loss: 1.0941, Val loss: 1.6922, Test: 1.3060) Time: 1.000 min
+Epoch 150 train
+Epoch 150 val
+Epoch 150 test
+Train loss breakdown {'perf': 0.540472820316526, 'util-LUT': 0.09418779954483564, 'util-FF': 0.07221335473216393, 'util-DSP': 0.12921493593603373, 'util-BRAM': 0.10564269883219492}
+Test loss breakdown {'perf': 0.7879077911376953, 'util-LUT': 0.12005208171904087, 'util-FF': 0.08351557143032551, 'util-DSP': 0.15962911620736123, 'util-BRAM': 0.14086685255169867}
+Val loss breakdown {'perf': 1.004099151492119, 'util-LUT': 0.13495411686599254, 'util-FF': 0.10680807717144489, 'util-DSP': 0.2209071472287178, 'util-BRAM': 0.13712591901421547}
+Epoch: 150, Train Loss: 0.9596, Val loss: 1.6039, Test: 1.2920) Time: 58.440 secs
+Epoch 151 train
+Epoch 151 val
+Epoch 151 test
+Train loss breakdown {'perf': 0.513742437416857, 'util-LUT': 0.07937487587332726, 'util-FF': 0.062311562624844635, 'util-DSP': 0.11042845350774852, 'util-BRAM': 0.09828262454406782}
+Test loss breakdown {'perf': 0.7699665427207947, 'util-LUT': 0.11897526104003191, 'util-FF': 0.08328133411705493, 'util-DSP': 0.1607808694243431, 'util-BRAM': 0.13680112808942796}
+Val loss breakdown {'perf': 1.0246469736099244, 'util-LUT': 0.13760966807603836, 'util-FF': 0.109429245069623, 'util-DSP': 0.23217682540416718, 'util-BRAM': 0.13962994366884232}
+Epoch: 151, Train Loss: 0.8700, Val loss: 1.6435, Test: 1.2698) Time: 1.000 min
+Epoch 152 train
+Epoch 152 val
+Epoch 152 test
+Train loss breakdown {'perf': 0.4987983161752874, 'util-LUT': 0.0834059753370556, 'util-FF': 0.06861717351288958, 'util-DSP': 0.11836001903496006, 'util-BRAM': 0.0987557519057935}
+Test loss breakdown {'perf': 0.7646772205829621, 'util-LUT': 0.12701748460531234, 'util-FF': 0.10059629306197167, 'util-DSP': 0.1832050107419491, 'util-BRAM': 0.1409008577466011}
+Val loss breakdown {'perf': 0.9883804798126221, 'util-LUT': 0.1292671598494053, 'util-FF': 0.10818386152386665, 'util-DSP': 0.1990567274391651, 'util-BRAM': 0.13617231473326682}
+Epoch: 152, Train Loss: 0.8782, Val loss: 1.5611, Test: 1.3164) Time: 1.000 min
+Epoch 153 train
+Epoch 153 val
+Epoch 153 test
+Train loss breakdown {'perf': 0.5109613124619831, 'util-LUT': 0.07814719494093549, 'util-FF': 0.06598330306058581, 'util-DSP': 0.11128895154053514, 'util-BRAM': 0.09764306695962494}
+Test loss breakdown {'perf': 0.7667249739170074, 'util-LUT': 0.13168061934411526, 'util-FF': 0.09918492995202541, 'util-DSP': 0.19868818297982216, 'util-BRAM': 0.1365806557238102}
+Val loss breakdown {'perf': 0.9892240852117539, 'util-LUT': 0.12880225144326687, 'util-FF': 0.10869557484984398, 'util-DSP': 0.2103656657040119, 'util-BRAM': 0.13380891382694243}
+Epoch: 153, Train Loss: 0.8576, Val loss: 1.5709, Test: 1.3329) Time: 59.606 secs
+Epoch 154 train
+Epoch 154 val
+Epoch 154 test
+Train loss breakdown {'perf': 0.4645645266229456, 'util-LUT': 0.07584976972165433, 'util-FF': 0.05875763919373805, 'util-DSP': 0.10442618703977628, 'util-BRAM': 0.09813607484102249}
+Test loss breakdown {'perf': 0.7272546499967575, 'util-LUT': 0.12126199882477522, 'util-FF': 0.09236804582178593, 'util-DSP': 0.17465389296412467, 'util-BRAM': 0.1368563748896122}
+Val loss breakdown {'perf': 1.0010069519281388, 'util-LUT': 0.13263040408492088, 'util-FF': 0.10497843697667122, 'util-DSP': 0.21314440071582794, 'util-BRAM': 0.13765547350049018}
+Epoch: 154, Train Loss: 0.8055, Val loss: 1.5894, Test: 1.2524) Time: 59.458 secs
+Epoch 155 train
+Epoch 155 val
+Saved train model at epoch 154
+Epoch 155 test
+Train loss breakdown {'perf': 0.4650198519229889, 'util-LUT': 0.07418117054145444, 'util-FF': 0.060745599256320434, 'util-DSP': 0.1031149627471512, 'util-BRAM': 0.0931858430531892}
+Test loss breakdown {'perf': 0.741478443145752, 'util-LUT': 0.12337075751274824, 'util-FF': 0.09039089120924473, 'util-DSP': 0.18348809853196144, 'util-BRAM': 0.1377289041876793}
+Val loss breakdown {'perf': 0.9315534412860871, 'util-LUT': 0.13437792137265206, 'util-FF': 0.10261552929878234, 'util-DSP': 0.21448071524500847, 'util-BRAM': 0.13094916567206383}
+Epoch: 155, Train Loss: 0.7940, Val loss: 1.5140, Test: 1.2765) Time: 59.635 secs
+Epoch 156 train
+Epoch 156 val
+Saved train model at epoch 155
+Epoch 156 test
+Saved test model at epoch 155
+Train loss breakdown {'perf': 0.42184640196236695, 'util-LUT': 0.07311228569597006, 'util-FF': 0.057167702015828, 'util-DSP': 0.10432906889102676, 'util-BRAM': 0.09390823128209873}
+Test loss breakdown {'perf': 0.7276023805141449, 'util-LUT': 0.11903449669480323, 'util-FF': 0.08455297611653805, 'util-DSP': 0.16715719178318977, 'util-BRAM': 0.13354786932468415}
+Val loss breakdown {'perf': 0.9493343591690063, 'util-LUT': 0.13071402981877328, 'util-FF': 0.09890828132629395, 'util-DSP': 0.20607279241085052, 'util-BRAM': 0.13519563600420953}
+Epoch: 156, Train Loss: 0.7625, Val loss: 1.5202, Test: 1.2319) Time: 58.877 secs
+Epoch 157 train
+Epoch 157 val
+Saved train model at epoch 156
+Epoch 157 test
+Train loss breakdown {'perf': 0.43643447147174314, 'util-LUT': 0.07236605146053163, 'util-FF': 0.05688413046300411, 'util-DSP': 0.09849208838899028, 'util-BRAM': 0.09272085892205889}
+Test loss breakdown {'perf': 0.792780876159668, 'util-LUT': 0.11813943684101105, 'util-FF': 0.08062506690621377, 'util-DSP': 0.17875508219003677, 'util-BRAM': 0.13180626854300498}
+Val loss breakdown {'perf': 1.0888442188501357, 'util-LUT': 0.13724234998226165, 'util-FF': 0.10065228678286076, 'util-DSP': 0.22899216264486313, 'util-BRAM': 0.1369046911597252}
+Epoch: 157, Train Loss: 0.7598, Val loss: 1.6926, Test: 1.3021) Time: 59.171 secs
+Epoch 158 train
+Epoch 158 val
+Saved train model at epoch 157
+Epoch 158 test
+Train loss breakdown {'perf': 0.43855140696872363, 'util-LUT': 0.07365407472984357, 'util-FF': 0.0547720268368721, 'util-DSP': 0.09701391072435812, 'util-BRAM': 0.09119413335892287}
+Test loss breakdown {'perf': 0.795581167936325, 'util-LUT': 0.11436586081981659, 'util-FF': 0.09713346734642983, 'util-DSP': 0.1691861033439636, 'util-BRAM': 0.1354490928351879}
+Val loss breakdown {'perf': 1.0130745053291321, 'util-LUT': 0.1304754965007305, 'util-FF': 0.11080161854624748, 'util-DSP': 0.20990521758794783, 'util-BRAM': 0.13271400853991508}
+Epoch: 158, Train Loss: 0.7548, Val loss: 1.5970, Test: 1.3117) Time: 59.672 secs
+Epoch 159 train
+Epoch 159 val
+Saved train model at epoch 158
+Epoch 159 test
+Train loss breakdown {'perf': 0.413407697934996, 'util-LUT': 0.0698308855379847, 'util-FF': 0.058481410230425274, 'util-DSP': 0.09520450128581036, 'util-BRAM': 0.09067928236485882}
+Test loss breakdown {'perf': 0.7746520578861237, 'util-LUT': 0.1211776465177536, 'util-FF': 0.08323232159018516, 'util-DSP': 0.17773385122418403, 'util-BRAM': 0.12900217883288861}
+Val loss breakdown {'perf': 1.0300820171833038, 'util-LUT': 0.13008624762296678, 'util-FF': 0.09663442149758339, 'util-DSP': 0.2061907283961773, 'util-BRAM': 0.13442073985934258}
+Epoch: 159, Train Loss: 0.7380, Val loss: 1.5974, Test: 1.2858) Time: 59.382 secs
+Epoch 160 train
+Epoch 160 val
+Saved train model at epoch 159
+Epoch 160 test
+Saved test model at epoch 159
+Train loss breakdown {'perf': 0.415041042661125, 'util-LUT': 0.06846098737283186, 'util-FF': 0.05333978301760825, 'util-DSP': 0.08596585119481791, 'util-BRAM': 0.08874081854115833}
+Test loss breakdown {'perf': 0.7270487576723099, 'util-LUT': 0.11474630907177925, 'util-FF': 0.09234517887234688, 'util-DSP': 0.16710018664598464, 'util-BRAM': 0.12856392785906792}
+Val loss breakdown {'perf': 0.9736641824245453, 'util-LUT': 0.12814325839281082, 'util-FF': 0.10310053676366807, 'util-DSP': 0.20509537383913995, 'util-BRAM': 0.1327586904168129}
+Epoch: 160, Train Loss: 0.7083, Val loss: 1.5428, Test: 1.2298) Time: 58.827 secs
+Epoch 161 train
+Epoch 161 val
+Epoch 161 test
+Train loss breakdown {'perf': 0.40855567470531573, 'util-LUT': 0.0687204218808223, 'util-FF': 0.05651750621671619, 'util-DSP': 0.0904772130095146, 'util-BRAM': 0.0880558834919198}
+Test loss breakdown {'perf': 0.7566123604774475, 'util-LUT': 0.12241491712629796, 'util-FF': 0.08747435659170151, 'util-DSP': 0.17858017906546592, 'util-BRAM': 0.12869775667786598}
+Val loss breakdown {'perf': 1.0256216913461684, 'util-LUT': 0.13874357119202613, 'util-FF': 0.10333151444792747, 'util-DSP': 0.21726196259260178, 'util-BRAM': 0.13115458860993384}
+Epoch: 161, Train Loss: 0.7254, Val loss: 1.6161, Test: 1.2738) Time: 59.512 secs
+Epoch 162 train
+Epoch 162 val
+Saved val model at epoch 161
+Epoch 162 test
+Train loss breakdown {'perf': 0.42396190389990807, 'util-LUT': 0.07118813735856251, 'util-FF': 0.053278603167696434, 'util-DSP': 0.09076736130836335, 'util-BRAM': 0.08738113715398041}
+Test loss breakdown {'perf': 0.7467057406902313, 'util-LUT': 0.11718158423900604, 'util-FF': 0.0855917852371931, 'util-DSP': 0.1678173065185547, 'util-BRAM': 0.12667568027973175}
+Val loss breakdown {'perf': 0.8996474504470825, 'util-LUT': 0.12701801359653472, 'util-FF': 0.09789755307137966, 'util-DSP': 0.20002128407359124, 'util-BRAM': 0.13011038228869437}
+Epoch: 162, Train Loss: 0.7234, Val loss: 1.4547, Test: 1.2440) Time: 59.583 secs
+Epoch 163 train
+Epoch 163 val
+Epoch 163 test
+Train loss breakdown {'perf': 0.4111122667620128, 'util-LUT': 0.06806648725813086, 'util-FF': 0.057366911745206875, 'util-DSP': 0.09502692977813157, 'util-BRAM': 0.08745933476496827}
+Test loss breakdown {'perf': 0.7549820303916931, 'util-LUT': 0.11619586423039437, 'util-FF': 0.0857939887791872, 'util-DSP': 0.16247627064585685, 'util-BRAM': 0.13036470487713814}
+Val loss breakdown {'perf': 0.984525465965271, 'util-LUT': 0.1307178296148777, 'util-FF': 0.09619524776935577, 'util-DSP': 0.204914328455925, 'util-BRAM': 0.1359436072409153}
+Epoch: 163, Train Loss: 0.7298, Val loss: 1.5523, Test: 1.2498) Time: 59.557 secs
+Epoch 164 train
+Epoch 164 val
+Saved train model at epoch 163
+Epoch 164 test
+Saved test model at epoch 163
+Train loss breakdown {'perf': 0.4093620391054587, 'util-LUT': 0.0655428705398332, 'util-FF': 0.053244528783993286, 'util-DSP': 0.08535175296393308, 'util-BRAM': 0.08671795669943094}
+Test loss breakdown {'perf': 0.7239568322896958, 'util-LUT': 0.11410358808934688, 'util-FF': 0.08347384184598923, 'util-DSP': 0.16882222294807434, 'util-BRAM': 0.12966442629694938}
+Val loss breakdown {'perf': 0.9284732729196549, 'util-LUT': 0.12585999593138694, 'util-FF': 0.09270091131329536, 'util-DSP': 0.20549004152417183, 'util-BRAM': 0.13681642040610315}
+Epoch: 164, Train Loss: 0.6950, Val loss: 1.4893, Test: 1.2200) Time: 59.698 secs
+Epoch 165 train
+Epoch 165 val
+Epoch 165 test
+Train loss breakdown {'perf': 0.4013749460943721, 'util-LUT': 0.06631492768329653, 'util-FF': 0.054578692906282165, 'util-DSP': 0.08939942692152479, 'util-BRAM': 0.08732913906516676}
+Test loss breakdown {'perf': 0.7692754030227661, 'util-LUT': 0.11581296473741531, 'util-FF': 0.08664322532713413, 'util-DSP': 0.1710497111082077, 'util-BRAM': 0.12474803104996682}
+Val loss breakdown {'perf': 0.9974701553583145, 'util-LUT': 0.12561587989330292, 'util-FF': 0.09337926469743252, 'util-DSP': 0.19654892906546592, 'util-BRAM': 0.12829260975122453}
+Epoch: 165, Train Loss: 0.7111, Val loss: 1.5413, Test: 1.2675) Time: 59.826 secs
+Epoch 166 train
+Epoch 166 val
+Epoch 166 test
+Train loss breakdown {'perf': 0.4252481565556743, 'util-LUT': 0.06752467968247154, 'util-FF': 0.05737968902526931, 'util-DSP': 0.09203517936508764, 'util-BRAM': 0.0877271852646531}
+Test loss breakdown {'perf': 0.8002555131912231, 'util-LUT': 0.10976198837161064, 'util-FF': 0.09077589996159077, 'util-DSP': 0.1517365373671055, 'util-BRAM': 0.12710050716996193}
+Val loss breakdown {'perf': 1.0644170463085174, 'util-LUT': 0.13781857565045358, 'util-FF': 0.11164077669382096, 'util-DSP': 0.21759222075343132, 'util-BRAM': 0.12863121554255486}
+Epoch: 166, Train Loss: 0.7262, Val loss: 1.6601, Test: 1.2796) Time: 59.900 secs
+Epoch 167 train
+Epoch 167 val
+Epoch 167 test
+Train loss breakdown {'perf': 0.40630914304744115, 'util-LUT': 0.06557460156777366, 'util-FF': 0.05750838802619414, 'util-DSP': 0.09190529318187725, 'util-BRAM': 0.08750494645739143}
+Test loss breakdown {'perf': 0.7792993187904358, 'util-LUT': 0.11739285811781883, 'util-FF': 0.08558558262884616, 'util-DSP': 0.15959264412522317, 'util-BRAM': 0.12166869416832923}
+Val loss breakdown {'perf': 1.0318876564502717, 'util-LUT': 0.12875375151634216, 'util-FF': 0.09814256727695465, 'util-DSP': 0.21177069693803788, 'util-BRAM': 0.13031561747193338}
+Epoch: 167, Train Loss: 0.7216, Val loss: 1.6009, Test: 1.2635) Time: 59.912 secs
+Epoch 168 train
+Epoch 168 val
+Epoch 168 test
+Train loss breakdown {'perf': 0.4337476044893265, 'util-LUT': 0.06741609890013933, 'util-FF': 0.054763115011155605, 'util-DSP': 0.09300380259413611, 'util-BRAM': 0.08835832512175495}
+Test loss breakdown {'perf': 0.7726588368415832, 'util-LUT': 0.11126312632113695, 'util-FF': 0.07848513834178447, 'util-DSP': 0.1624605618417263, 'util-BRAM': 0.12801341935992241}
+Val loss breakdown {'perf': 1.022703355550766, 'util-LUT': 0.13407135382294655, 'util-FF': 0.09980380684137344, 'util-DSP': 0.2081204928457737, 'util-BRAM': 0.13014233931899072}
+Epoch: 168, Train Loss: 0.7385, Val loss: 1.5948, Test: 1.2529) Time: 59.837 secs
+Epoch 169 train
+Epoch 169 val
+Epoch 169 test
+Train loss breakdown {'perf': 0.4410977851260792, 'util-LUT': 0.06999973969703371, 'util-FF': 0.05935556983405894, 'util-DSP': 0.09285544718361714, 'util-BRAM': 0.08674115348945964}
+Test loss breakdown {'perf': 0.7521822810173034, 'util-LUT': 0.11693865731358528, 'util-FF': 0.08560171872377395, 'util-DSP': 0.1506977081298828, 'util-BRAM': 0.13178445100784303}
+Val loss breakdown {'perf': 1.0116933703422546, 'util-LUT': 0.12816820964217185, 'util-FF': 0.0986998736858368, 'util-DSP': 0.19863203689455985, 'util-BRAM': 0.13097438141703605}
+Epoch: 169, Train Loss: 0.7470, Val loss: 1.5682, Test: 1.2372) Time: 59.485 secs
+Epoch 170 train
+Epoch 170 val
+Epoch 170 test
+Saved test model at epoch 169
+Train loss breakdown {'perf': 0.4110488896681504, 'util-LUT': 0.06648636704564771, 'util-FF': 0.05350425394929268, 'util-DSP': 0.09090568912638859, 'util-BRAM': 0.09233795157210394}
+Test loss breakdown {'perf': 0.7374624609947205, 'util-LUT': 0.1131238128989935, 'util-FF': 0.09074383825063706, 'util-DSP': 0.15374058559536935, 'util-BRAM': 0.12361942380666732}
+Val loss breakdown {'perf': 0.9934732407331467, 'util-LUT': 0.12754785045981407, 'util-FF': 0.10404359102249146, 'util-DSP': 0.19766804203391075, 'util-BRAM': 0.13167960569262505}
+Epoch: 170, Train Loss: 0.7242, Val loss: 1.5544, Test: 1.2187) Time: 58.419 secs
+Epoch 171 train
+Epoch 171 val
+Saved train model at epoch 170
+Epoch 171 test
+Saved test model at epoch 170
+Train loss breakdown {'perf': 0.39521462334827945, 'util-LUT': 0.06404052378440445, 'util-FF': 0.05505500064993447, 'util-DSP': 0.08760408769277009, 'util-BRAM': 0.08434599722650918}
+Test loss breakdown {'perf': 0.7257278203964234, 'util-LUT': 0.1128676675260067, 'util-FF': 0.08398688435554505, 'util-DSP': 0.14336414858698845, 'util-BRAM': 0.12794303223490716}
+Val loss breakdown {'perf': 0.9862366408109665, 'util-LUT': 0.12792858034372329, 'util-FF': 0.10255047082901, 'util-DSP': 0.2011021174490452, 'util-BRAM': 0.13123023957014085}
+Epoch: 171, Train Loss: 0.6923, Val loss: 1.5490, Test: 1.1939) Time: 59.359 secs
+Epoch 172 train
+Epoch 172 val
+Epoch 172 test
+Train loss breakdown {'perf': 0.4016206653958017, 'util-LUT': 0.0638234573628076, 'util-FF': 0.052266950930722735, 'util-DSP': 0.09002452953295274, 'util-BRAM': 0.08500324299728329}
+Test loss breakdown {'perf': 0.7520717263221741, 'util-LUT': 0.12239840403199195, 'util-FF': 0.09555961452424526, 'util-DSP': 0.16965937837958336, 'util-BRAM': 0.12978813499212266}
+Val loss breakdown {'perf': 1.0176935255527497, 'util-LUT': 0.12492620274424553, 'util-FF': 0.10183642506599426, 'util-DSP': 0.1916399583220482, 'util-BRAM': 0.1285276383161545}
+Epoch: 172, Train Loss: 0.6997, Val loss: 1.5646, Test: 1.2695) Time: 58.360 secs
+Epoch 173 train
+Epoch 173 val
+Epoch 173 test
+Train loss breakdown {'perf': 0.3960021754557436, 'util-LUT': 0.06511153450066393, 'util-FF': 0.054996352939104494, 'util-DSP': 0.09494537872854959, 'util-BRAM': 0.08539803118698976}
+Test loss breakdown {'perf': 0.7572998940944672, 'util-LUT': 0.11591021344065666, 'util-FF': 0.07968212738633156, 'util-DSP': 0.17488283067941665, 'util-BRAM': 0.12672098577022553}
+Val loss breakdown {'perf': 1.0613659203052521, 'util-LUT': 0.12931981682777405, 'util-FF': 0.09974713660776616, 'util-DSP': 0.2172209933400154, 'util-BRAM': 0.1293505199253559}
+Epoch: 173, Train Loss: 0.7058, Val loss: 1.6370, Test: 1.2545) Time: 59.394 secs
+Epoch 174 train
+Epoch 174 val
+Saved train model at epoch 173
+Epoch 174 test
+Train loss breakdown {'perf': 0.40469481999223883, 'util-LUT': 0.060421204787086354, 'util-FF': 0.050948134157806635, 'util-DSP': 0.08504320003769615, 'util-BRAM': 0.08476542562923649}
+Test loss breakdown {'perf': 0.6948389351367951, 'util-LUT': 0.11965332627296447, 'util-FF': 0.10216781869530678, 'util-DSP': 0.16240659430623056, 'util-BRAM': 0.1250687576830387}
+Val loss breakdown {'perf': 0.9400935411453247, 'util-LUT': 0.13775355592370034, 'util-FF': 0.11477491557598114, 'util-DSP': 0.20368921905755996, 'util-BRAM': 0.1277151808142662}
+Epoch: 174, Train Loss: 0.6865, Val loss: 1.5240, Test: 1.2041) Time: 59.531 secs
+Epoch 175 train
+Epoch 175 val
+Saved train model at epoch 174
+Epoch 175 test
+Train loss breakdown {'perf': 0.3804617558013309, 'util-LUT': 0.06303019603629681, 'util-FF': 0.055057252376255666, 'util-DSP': 0.09156581704420122, 'util-BRAM': 0.08293776075482708}
+Test loss breakdown {'perf': 0.761995542049408, 'util-LUT': 0.11434805504977703, 'util-FF': 0.0802880447357893, 'util-DSP': 0.13709564432501792, 'util-BRAM': 0.13022033050656318}
+Val loss breakdown {'perf': 1.0696033000946046, 'util-LUT': 0.13115362226963043, 'util-FF': 0.1015581615269184, 'util-DSP': 0.21118676289916039, 'util-BRAM': 0.1331498369574547}
+Epoch: 175, Train Loss: 0.6845, Val loss: 1.6467, Test: 1.2239) Time: 1.000 min
+Epoch 176 train
+Epoch 176 val
+Saved train model at epoch 175
+Epoch 176 test
+Train loss breakdown {'perf': 0.3697719567201354, 'util-LUT': 0.061962327073243534, 'util-FF': 0.05396089609712362, 'util-DSP': 0.09143452913585035, 'util-BRAM': 0.08221654729409651}
+Test loss breakdown {'perf': 0.7369143426418304, 'util-LUT': 0.10905637480318546, 'util-FF': 0.08512989170849324, 'util-DSP': 0.15272067114710808, 'util-BRAM': 0.11734509468078613}
+Val loss breakdown {'perf': 1.024212110042572, 'util-LUT': 0.12865377329289912, 'util-FF': 0.10317092016339302, 'util-DSP': 0.20495467856526375, 'util-BRAM': 0.12340685054659843}
+Epoch: 176, Train Loss: 0.6623, Val loss: 1.5844, Test: 1.2012) Time: 59.715 secs
+Epoch 177 train
+Epoch 177 val
+Epoch 177 test
+Train loss breakdown {'perf': 0.3901089064099572, 'util-LUT': 0.06011525351046161, 'util-FF': 0.051336263814433056, 'util-DSP': 0.08486842931332914, 'util-BRAM': 0.08025608406486837}
+Test loss breakdown {'perf': 0.8322808742523193, 'util-LUT': 0.11482636108994485, 'util-FF': 0.0956750676035881, 'util-DSP': 0.1572243057191372, 'util-BRAM': 0.12101247981190681}
+Val loss breakdown {'perf': 1.1369038641452789, 'util-LUT': 0.13237805627286434, 'util-FF': 0.11621743440628052, 'util-DSP': 0.21300652176141738, 'util-BRAM': 0.13274240642786025}
+Epoch: 177, Train Loss: 0.6756, Val loss: 1.7312, Test: 1.3210) Time: 59.408 secs
+Epoch 178 train
+Epoch 178 val
+Epoch 178 test
+Train loss breakdown {'perf': 0.4208499606360089, 'util-LUT': 0.05857807308943434, 'util-FF': 0.05698057170957327, 'util-DSP': 0.08392505898055705, 'util-BRAM': 0.0837101988833059}
+Test loss breakdown {'perf': 0.8138948678970337, 'util-LUT': 0.10982313491404057, 'util-FF': 0.083058463037014, 'util-DSP': 0.15170246809720994, 'util-BRAM': 0.12141038179397583}
+Val loss breakdown {'perf': 1.1022834181785583, 'util-LUT': 0.1316444393247366, 'util-FF': 0.10144477561116219, 'util-DSP': 0.20115811824798585, 'util-BRAM': 0.12943300232291222}
+Epoch: 178, Train Loss: 0.7092, Val loss: 1.6660, Test: 1.2799) Time: 58.626 secs
+Epoch 179 train
+Epoch 179 val
+Saved train model at epoch 178
+Epoch 179 test
+Train loss breakdown {'perf': 0.38362680104645813, 'util-LUT': 0.05721048384227536, 'util-FF': 0.04779260000213981, 'util-DSP': 0.0769128833304752, 'util-BRAM': 0.08077134869315407}
+Test loss breakdown {'perf': 0.7513679325580597, 'util-LUT': 0.11471131443977356, 'util-FF': 0.0882800031453371, 'util-DSP': 0.15649416148662568, 'util-BRAM': 0.11894289925694465}
+Val loss breakdown {'perf': 0.9787753045558929, 'util-LUT': 0.127319897338748, 'util-FF': 0.10463369488716126, 'util-DSP': 0.19898828119039536, 'util-BRAM': 0.1279199354350567}
+Epoch: 179, Train Loss: 0.6490, Val loss: 1.5376, Test: 1.2298) Time: 57.786 secs
+Epoch 180 train
+Epoch 180 val
+Epoch 180 test
+Train loss breakdown {'perf': 0.39888854561881587, 'util-LUT': 0.05925190749324181, 'util-FF': 0.05329212851145051, 'util-DSP': 0.08918218890374358, 'util-BRAM': 0.08274246625263583}
+Test loss breakdown {'perf': 0.8002615451812745, 'util-LUT': 0.11589408442378044, 'util-FF': 0.08412895649671555, 'util-DSP': 0.17081701532006263, 'util-BRAM': 0.12369607128202915}
+Val loss breakdown {'perf': 1.0929078578948974, 'util-LUT': 0.1281284362077713, 'util-FF': 0.09917280972003936, 'util-DSP': 0.21779622063040732, 'util-BRAM': 0.12626047059893608}
+Epoch: 180, Train Loss: 0.6907, Val loss: 1.6643, Test: 1.2948) Time: 58.207 secs
+Epoch 181 train
+Epoch 181 val
+Saved train model at epoch 180
+Epoch 181 test
+Train loss breakdown {'perf': 0.3769602592695843, 'util-LUT': 0.057420351542532444, 'util-FF': 0.04815963901240717, 'util-DSP': 0.07875051552599127, 'util-BRAM': 0.0809423379092054}
+Test loss breakdown {'perf': 0.8129791438579559, 'util-LUT': 0.10762491375207901, 'util-FF': 0.07518550269305706, 'util-DSP': 0.14726617969572545, 'util-BRAM': 0.12016052156686782}
+Val loss breakdown {'perf': 1.0477480828762054, 'util-LUT': 0.12645442597568035, 'util-FF': 0.09218255914747715, 'util-DSP': 0.1973026543855667, 'util-BRAM': 0.13020911514759065}
+Epoch: 181, Train Loss: 0.6446, Val loss: 1.5939, Test: 1.2632) Time: 59.300 secs
+Epoch 182 train
+Epoch 182 val
+Epoch 182 test
+Train loss breakdown {'perf': 0.425522044301033, 'util-LUT': 0.054789116119288585, 'util-FF': 0.04636166905137626, 'util-DSP': 0.07535111370750448, 'util-BRAM': 0.0806254450210624}
+Test loss breakdown {'perf': 0.7617816507816315, 'util-LUT': 0.1096940789371729, 'util-FF': 0.0822858527302742, 'util-DSP': 0.14367585740983485, 'util-BRAM': 0.1268242008984089}
+Val loss breakdown {'perf': 1.0305592000484467, 'util-LUT': 0.12432959005236625, 'util-FF': 0.10391782894730568, 'util-DSP': 0.19643556401133538, 'util-BRAM': 0.12941645309329033}
+Epoch: 182, Train Loss: 0.6924, Val loss: 1.5847, Test: 1.2243) Time: 59.822 secs
+Epoch 183 train
+Epoch 183 val
+Epoch 183 test
+Train loss breakdown {'perf': 0.40794276175173844, 'util-LUT': 0.05957660984925248, 'util-FF': 0.050618749535219235, 'util-DSP': 0.08738587686622684, 'util-BRAM': 0.08390315291895108}
+Test loss breakdown {'perf': 0.7476923793554306, 'util-LUT': 0.11484230682253838, 'util-FF': 0.10126519538462161, 'util-DSP': 0.15382600277662278, 'util-BRAM': 0.12335961423814297}
+Val loss breakdown {'perf': 1.022749787569046, 'util-LUT': 0.12942341715097427, 'util-FF': 0.11329266130924225, 'util-DSP': 0.19952009841799737, 'util-BRAM': 0.12805841602385043}
+Epoch: 183, Train Loss: 0.6924, Val loss: 1.5930, Test: 1.2410) Time: 59.494 secs
+Epoch 184 train
+Epoch 184 val
+Epoch 184 test
+Train loss breakdown {'perf': 0.4547571682117202, 'util-LUT': 0.06889534237879244, 'util-FF': 0.0631244185549969, 'util-DSP': 0.09627048731569877, 'util-BRAM': 0.08457627867094496}
+Test loss breakdown {'perf': 0.75194111764431, 'util-LUT': 0.11121615767478943, 'util-FF': 0.08455473482608795, 'util-DSP': 0.15921340361237526, 'util-BRAM': 0.12473051398992538}
+Val loss breakdown {'perf': 0.9308994323015213, 'util-LUT': 0.12647686526179314, 'util-FF': 0.1006739892065525, 'util-DSP': 0.21181123182177544, 'util-BRAM': 0.1245785791426897}
+Epoch: 184, Train Loss: 0.7815, Val loss: 1.4944, Test: 1.2317) Time: 59.362 secs
+Epoch 185 train
+Epoch 185 val
+Epoch 185 test
+Train loss breakdown {'perf': 0.48008244687860663, 'util-LUT': 0.06534269079566002, 'util-FF': 0.057020459144206885, 'util-DSP': 0.09254130289297212, 'util-BRAM': 0.08743195786056193}
+Test loss breakdown {'perf': 0.8681915104389191, 'util-LUT': 0.11741751879453659, 'util-FF': 0.09833019897341728, 'util-DSP': 0.1555876389145851, 'util-BRAM': 0.13210795298218728}
+Val loss breakdown {'perf': 1.021994811296463, 'util-LUT': 0.12713712453842163, 'util-FF': 0.11230774223804474, 'util-DSP': 0.20568024441599847, 'util-BRAM': 0.13128453344106675}
+Epoch: 185, Train Loss: 0.7878, Val loss: 1.5984, Test: 1.3716) Time: 59.921 secs
+Epoch 186 train
+Epoch 186 val
+Epoch 186 test
+Train loss breakdown {'perf': 0.45255104994232004, 'util-LUT': 0.06756724298677662, 'util-FF': 0.06110628345049918, 'util-DSP': 0.09910976031625812, 'util-BRAM': 0.08609164455397562}
+Test loss breakdown {'perf': 0.7189814865589141, 'util-LUT': 0.11649858951568604, 'util-FF': 0.08616265840828419, 'util-DSP': 0.1514878310263157, 'util-BRAM': 0.12716292664408685}
+Val loss breakdown {'perf': 0.9970584958791733, 'util-LUT': 0.136294886469841, 'util-FF': 0.10373672172427177, 'util-DSP': 0.2039191760122776, 'util-BRAM': 0.12884116992354394}
+Epoch: 186, Train Loss: 0.7781, Val loss: 1.5699, Test: 1.2003) Time: 59.207 secs
+Epoch 187 train
+Epoch 187 val
+Epoch 187 test
+Saved test model at epoch 186
+Train loss breakdown {'perf': 0.4008543061261827, 'util-LUT': 0.0614142971303822, 'util-FF': 0.056903908748857, 'util-DSP': 0.091090041636066, 'util-BRAM': 0.0839088570792228}
+Test loss breakdown {'perf': 0.6984551280736924, 'util-LUT': 0.11639189347624779, 'util-FF': 0.07871396727859974, 'util-DSP': 0.16185994297266007, 'util-BRAM': 0.12076906114816666}
+Val loss breakdown {'perf': 0.9252862870693207, 'util-LUT': 0.12587203606963157, 'util-FF': 0.0913324762135744, 'util-DSP': 0.1932900942862034, 'util-BRAM': 0.1283196322619915}
+Epoch: 187, Train Loss: 0.7036, Val loss: 1.4641, Test: 1.1762) Time: 1.000 min
+Epoch 188 train
+Epoch 188 val
+Saved train model at epoch 187
+Epoch 188 test
+Train loss breakdown {'perf': 0.3708931041712111, 'util-LUT': 0.05730435015125708, 'util-FF': 0.04711360793391412, 'util-DSP': 0.07861133563247594, 'util-BRAM': 0.08197578828019852}
+Test loss breakdown {'perf': 0.7145840644836425, 'util-LUT': 0.11000195387750863, 'util-FF': 0.08627376109361648, 'util-DSP': 0.15791393145918847, 'util-BRAM': 0.12699659988284112}
+Val loss breakdown {'perf': 0.9742139756679535, 'util-LUT': 0.12314429394900799, 'util-FF': 0.09598191566765309, 'util-DSP': 0.20047146528959275, 'util-BRAM': 0.129375222325325}
+Epoch: 188, Train Loss: 0.6427, Val loss: 1.5232, Test: 1.1958) Time: 59.518 secs
+Epoch 189 train
+Epoch 189 val
+Epoch 189 test
+Train loss breakdown {'perf': 0.3861631771380251, 'util-LUT': 0.05520621259612116, 'util-FF': 0.049871748948300425, 'util-DSP': 0.0811783028978177, 'util-BRAM': 0.07789844706315886}
+Test loss breakdown {'perf': 0.7326423346996307, 'util-LUT': 0.1061777736991644, 'util-FF': 0.07857602052390575, 'util-DSP': 0.1490804821252823, 'util-BRAM': 0.11887018159031867}
+Val loss breakdown {'perf': 0.9851186752319336, 'util-LUT': 0.12736183777451515, 'util-FF': 0.09400415048003197, 'util-DSP': 0.18865705281496048, 'util-BRAM': 0.11892972216010093}
+Epoch: 189, Train Loss: 0.6531, Val loss: 1.5141, Test: 1.1853) Time: 59.977 secs
+Epoch 190 train
+Epoch 190 val
+Epoch 190 test
+Train loss breakdown {'perf': 0.37986008992249315, 'util-LUT': 0.05649602112614296, 'util-FF': 0.046260184163905003, 'util-DSP': 0.07930260361172259, 'util-BRAM': 0.0787840129130266}
+Test loss breakdown {'perf': 0.7451113313436508, 'util-LUT': 0.10639570411294699, 'util-FF': 0.07293016128242016, 'util-DSP': 0.14495329558849335, 'util-BRAM': 0.12313914000988006}
+Val loss breakdown {'perf': 0.9534906506538391, 'util-LUT': 0.12535122074186802, 'util-FF': 0.095151362195611, 'util-DSP': 0.20531820952892305, 'util-BRAM': 0.12809190899133682}
+Epoch: 190, Train Loss: 0.6500, Val loss: 1.5074, Test: 1.1925) Time: 58.774 secs
+Epoch 191 train
+Epoch 191 val
+Epoch 191 test
+Train loss breakdown {'perf': 0.3791073222051967, 'util-LUT': 0.06259447607127103, 'util-FF': 0.050247292457656426, 'util-DSP': 0.0895107142965902, 'util-BRAM': 0.07969109273769638}
+Test loss breakdown {'perf': 0.719587641954422, 'util-LUT': 0.11489734500646591, 'util-FF': 0.08259240500628948, 'util-DSP': 0.1380525678396225, 'util-BRAM': 0.12352375313639641}
+Val loss breakdown {'perf': 0.9696796745061874, 'util-LUT': 0.13080550059676171, 'util-FF': 0.10553178340196609, 'util-DSP': 0.194755719602108, 'util-BRAM': 0.12685926221311092}
+Epoch: 191, Train Loss: 0.6673, Val loss: 1.5276, Test: 1.1787) Time: 58.651 secs
+Epoch 192 train
+Epoch 192 val
+Saved train model at epoch 191
+Epoch 192 test
+Train loss breakdown {'perf': 0.3618811958215453, 'util-LUT': 0.05837436532601714, 'util-FF': 0.04861726290123029, 'util-DSP': 0.07963390483266929, 'util-BRAM': 0.07707503268664534}
+Test loss breakdown {'perf': 0.7428324848413468, 'util-LUT': 0.10911347381770611, 'util-FF': 0.07904017828404904, 'util-DSP': 0.13939666524529457, 'util-BRAM': 0.12391017526388168}
+Val loss breakdown {'perf': 0.9819395422935486, 'util-LUT': 0.1338616468012333, 'util-FF': 0.10760700106620788, 'util-DSP': 0.2097066394984722, 'util-BRAM': 0.1270171545445919}
+Epoch: 192, Train Loss: 0.6363, Val loss: 1.5601, Test: 1.1943) Time: 59.608 secs
+Epoch 193 train
+Epoch 193 val
+Epoch 193 test
+Train loss breakdown {'perf': 0.3990364064547149, 'util-LUT': 0.061819497919218105, 'util-FF': 0.049494308504191314, 'util-DSP': 0.0815773699009283, 'util-BRAM': 0.08131148721176115}
+Test loss breakdown {'perf': 0.7286483377218247, 'util-LUT': 0.1136436216533184, 'util-FF': 0.08335052467882634, 'util-DSP': 0.15499359369277954, 'util-BRAM': 0.12683787643909455}
+Val loss breakdown {'perf': 0.9193537205457687, 'util-LUT': 0.12983611039817333, 'util-FF': 0.10045804269611835, 'util-DSP': 0.1959405720233917, 'util-BRAM': 0.1279887281358242}
+Epoch: 193, Train Loss: 0.6776, Val loss: 1.4736, Test: 1.2075) Time: 58.991 secs
+Epoch 194 train
+Epoch 194 val
+Epoch 194 test
+Saved test model at epoch 193
+Train loss breakdown {'perf': 0.3796436742625453, 'util-LUT': 0.06674664433706891, 'util-FF': 0.05362039872191169, 'util-DSP': 0.09631188010627573, 'util-BRAM': 0.07944590860808437}
+Test loss breakdown {'perf': 0.6941945284605027, 'util-LUT': 0.11214549411088229, 'util-FF': 0.08085758797824383, 'util-DSP': 0.12865275517106056, 'util-BRAM': 0.12289311438798904}
+Val loss breakdown {'perf': 0.9691697984933854, 'util-LUT': 0.13181077502667904, 'util-FF': 0.10756949707865715, 'util-DSP': 0.19930291771888733, 'util-BRAM': 0.12153952307999134}
+Epoch: 194, Train Loss: 0.6762, Val loss: 1.5294, Test: 1.1387) Time: 59.839 secs
+Epoch 195 train
+Epoch 195 val
+Saved train model at epoch 194
+Epoch 195 test
+Train loss breakdown {'perf': 0.3513693863695318, 'util-LUT': 0.05815580842847174, 'util-FF': 0.050401599569754166, 'util-DSP': 0.07887549926950173, 'util-BRAM': 0.07757733965461905}
+Test loss breakdown {'perf': 0.700582093000412, 'util-LUT': 0.11104856953024864, 'util-FF': 0.08005344942212105, 'util-DSP': 0.14350399374961853, 'util-BRAM': 0.12357147336006165}
+Val loss breakdown {'perf': 0.929185637831688, 'util-LUT': 0.12634252533316612, 'util-FF': 0.09724037237465381, 'util-DSP': 0.1963131722062826, 'util-BRAM': 0.1313104435801506}
+Epoch: 195, Train Loss: 0.6203, Val loss: 1.4804, Test: 1.1588) Time: 59.030 secs
+Epoch 196 train
+Epoch 196 val
+Epoch 196 test
+Train loss breakdown {'perf': 0.3498428551988168, 'util-LUT': 0.0604439303278923, 'util-FF': 0.04878772977231578, 'util-DSP': 0.07946702012453567, 'util-BRAM': 0.07896042215129868}
+Test loss breakdown {'perf': 0.7311806082725525, 'util-LUT': 0.1143088024109602, 'util-FF': 0.0972040556371212, 'util-DSP': 0.1372648537158966, 'util-BRAM': 0.12405857443809509}
+Val loss breakdown {'perf': 1.02731094956398, 'util-LUT': 0.12529807388782502, 'util-FF': 0.11306094899773597, 'util-DSP': 0.19448405615985392, 'util-BRAM': 0.1306693285703659}
+Epoch: 196, Train Loss: 0.6238, Val loss: 1.5908, Test: 1.2040) Time: 1.000 min
+Epoch 197 train
+Epoch 197 val
+Epoch 197 test
+Saved test model at epoch 196
+Train loss breakdown {'perf': 0.367462638088248, 'util-LUT': 0.05856983264146203, 'util-FF': 0.05267770484682511, 'util-DSP': 0.08438448946584355, 'util-BRAM': 0.07763568946922367}
+Test loss breakdown {'perf': 0.6825331836938858, 'util-LUT': 0.11520987153053283, 'util-FF': 0.07599869407713414, 'util-DSP': 0.13605535104870797, 'util-BRAM': 0.12422831431031227}
+Val loss breakdown {'perf': 0.9146146565675736, 'util-LUT': 0.13527148738503456, 'util-FF': 0.1004632767289877, 'util-DSP': 0.2150380678474903, 'util-BRAM': 0.12491357773542404}
+Epoch: 197, Train Loss: 0.6476, Val loss: 1.4903, Test: 1.1340) Time: 58.458 secs
+Epoch 198 train
+Epoch 198 val
+Saved train model at epoch 197
+Epoch 198 test
+Train loss breakdown {'perf': 0.3380377675321969, 'util-LUT': 0.058717771263962444, 'util-FF': 0.048279455143281004, 'util-DSP': 0.08319576931270686, 'util-BRAM': 0.07842315386303446}
+Test loss breakdown {'perf': 0.7277275383472442, 'util-LUT': 0.11073120012879371, 'util-FF': 0.08309204131364822, 'util-DSP': 0.11970852576196193, 'util-BRAM': 0.12837383300065994}
+Val loss breakdown {'perf': 0.9512829571962357, 'util-LUT': 0.12940941266715528, 'util-FF': 0.10329146906733513, 'util-DSP': 0.1972515404224396, 'util-BRAM': 0.12902062013745308}
+Epoch: 198, Train Loss: 0.6133, Val loss: 1.5103, Test: 1.1696) Time: 1.000 min
+Epoch 199 train
+Epoch 199 val
+Epoch 199 test
+Train loss breakdown {'perf': 0.3690119720995426, 'util-LUT': 0.06095335514030673, 'util-FF': 0.054531840184195476, 'util-DSP': 0.08692830826409838, 'util-BRAM': 0.07715303370390426}
+Test loss breakdown {'perf': 0.7175198167562484, 'util-LUT': 0.12385800257325172, 'util-FF': 0.08774875067174434, 'util-DSP': 0.17992443963885307, 'util-BRAM': 0.1218580450862646}
+Val loss breakdown {'perf': 1.0008383631706237, 'util-LUT': 0.13239840269088746, 'util-FF': 0.09422801621258259, 'util-DSP': 0.20502703562378882, 'util-BRAM': 0.12239819467067718}
+Epoch: 199, Train Loss: 0.6467, Val loss: 1.5549, Test: 1.2309) Time: 59.025 secs
+Epoch 200 train
+Epoch 200 val
+Epoch 200 test
+Train loss breakdown {'perf': 0.4192738580432805, 'util-LUT': 0.0671699233353138, 'util-FF': 0.0543836916542866, 'util-DSP': 0.09323056346990845, 'util-BRAM': 0.08474110756386918}
+Test loss breakdown {'perf': 0.7345026671886444, 'util-LUT': 0.11261582933366299, 'util-FF': 0.09548048079013824, 'util-DSP': 0.14288681447505952, 'util-BRAM': 0.12188031449913979}
+Val loss breakdown {'perf': 0.9669191002845764, 'util-LUT': 0.12931451685726641, 'util-FF': 0.10654342100024224, 'util-DSP': 0.19561853632330894, 'util-BRAM': 0.12897609546780586}
+Epoch: 200, Train Loss: 0.7257, Val loss: 1.5274, Test: 1.2074) Time: 59.724 secs
+Epoch 201 train
+Epoch 201 val
+Epoch 201 test
+Train loss breakdown {'perf': 0.38989946246147156, 'util-LUT': 0.06680505070835352, 'util-FF': 0.06134612730238587, 'util-DSP': 0.09090298854491928, 'util-BRAM': 0.08385079049251297}
+Test loss breakdown {'perf': 0.7301113545894623, 'util-LUT': 0.11001453287899494, 'util-FF': 0.07747789807617664, 'util-DSP': 0.1280317299067974, 'util-BRAM': 0.12276132218539715}
+Val loss breakdown {'perf': 1.030031791329384, 'util-LUT': 0.13742611482739447, 'util-FF': 0.1082147378474474, 'util-DSP': 0.20305156111717224, 'util-BRAM': 0.11956876516342163}
+Epoch: 201, Train Loss: 0.6975, Val loss: 1.5983, Test: 1.1684) Time: 59.505 secs
+Epoch 202 train
+Epoch 202 val
+Epoch 202 test
+Saved test model at epoch 201
+Train loss breakdown {'perf': 0.38414725254882465, 'util-LUT': 0.061734499663791874, 'util-FF': 0.04938147909177298, 'util-DSP': 0.08825795064595612, 'util-BRAM': 0.08351876578209075}
+Test loss breakdown {'perf': 0.6716810166835785, 'util-LUT': 0.10367623902857304, 'util-FF': 0.08060185313224792, 'util-DSP': 0.1357511594891548, 'util-BRAM': 0.11937632970511913}
+Val loss breakdown {'perf': 0.9329551786184311, 'util-LUT': 0.127399468049407, 'util-FF': 0.09257728829979897, 'util-DSP': 0.195758917927742, 'util-BRAM': 0.11990346983075142}
+Epoch: 202, Train Loss: 0.6718, Val loss: 1.4686, Test: 1.1111) Time: 58.506 secs
+Epoch 203 train
+Epoch 203 val
+Epoch 203 test
+Train loss breakdown {'perf': 0.36394668133421376, 'util-LUT': 0.05847477117045359, 'util-FF': 0.049408748470754785, 'util-DSP': 0.08627408785237507, 'util-BRAM': 0.07757206591354175}
+Test loss breakdown {'perf': 0.726531907916069, 'util-LUT': 0.10758201256394387, 'util-FF': 0.08654321543872356, 'util-DSP': 0.15042789578437804, 'util-BRAM': 0.12351099476218223}
+Val loss breakdown {'perf': 0.9873040318489075, 'util-LUT': 0.1236073050647974, 'util-FF': 0.09082517623901368, 'util-DSP': 0.1853044241666794, 'util-BRAM': 0.12034080922603607}
+Epoch: 203, Train Loss: 0.6422, Val loss: 1.5074, Test: 1.1946) Time: 59.746 secs
+Epoch 204 train
+Epoch 204 val
+Epoch 204 test
+Train loss breakdown {'perf': 0.35714939778501337, 'util-LUT': 0.0553955806800249, 'util-FF': 0.052174304611980915, 'util-DSP': 0.07656989343972369, 'util-BRAM': 0.07852278962011704}
+Test loss breakdown {'perf': 0.7073530972003936, 'util-LUT': 0.1080322191119194, 'util-FF': 0.07561724446713924, 'util-DSP': 0.13863315656781197, 'util-BRAM': 0.11841152943670749}
+Val loss breakdown {'perf': 1.0060886234045028, 'util-LUT': 0.12456881366670132, 'util-FF': 0.09016200639307499, 'util-DSP': 0.18313367739319802, 'util-BRAM': 0.11622554138302803}
+Epoch: 204, Train Loss: 0.6258, Val loss: 1.5202, Test: 1.1480) Time: 1.000 min
+Epoch 205 train
+Epoch 205 val
+Epoch 205 test
+Train loss breakdown {'perf': 0.4830409166487781, 'util-LUT': 0.07393627478317781, 'util-FF': 0.059971222738650715, 'util-DSP': 0.10579746910794215, 'util-BRAM': 0.09518897609615867}
+Test loss breakdown {'perf': 1.029231983423233, 'util-LUT': 0.1186241291463375, 'util-FF': 0.08950814343988896, 'util-DSP': 0.14950658567249775, 'util-BRAM': 0.1361279793083668}
+Val loss breakdown {'perf': 1.0408712089061738, 'util-LUT': 0.16518412828445433, 'util-FF': 0.120369229093194, 'util-DSP': 0.2534019313752651, 'util-BRAM': 0.1500872939825058}
+Epoch: 205, Train Loss: 0.8157, Val loss: 1.7299, Test: 1.5230) Time: 58.258 secs
+Epoch 206 train
+Epoch 206 val
+Epoch 206 test
+Train loss breakdown {'perf': 0.6062765602361072, 'util-LUT': 0.09490872851826927, 'util-FF': 0.07521652523428202, 'util-DSP': 0.14821117760782893, 'util-BRAM': 0.10951255990022962}
+Test loss breakdown {'perf': 0.9124909102916717, 'util-LUT': 0.1367392584681511, 'util-FF': 0.08871039822697639, 'util-DSP': 0.1610174708068371, 'util-BRAM': 0.13545277193188668}
+Val loss breakdown {'perf': 1.090297532081604, 'util-LUT': 0.1623418614268303, 'util-FF': 0.1125651866197586, 'util-DSP': 0.2055203579366207, 'util-BRAM': 0.1329806461930275}
+Epoch: 206, Train Loss: 1.0433, Val loss: 1.7037, Test: 1.4344) Time: 59.707 secs
+Epoch 207 train
+Epoch 207 val
+Epoch 207 test
+Train loss breakdown {'perf': 0.5869303020563993, 'util-LUT': 0.08986756434156136, 'util-FF': 0.06556815924969586, 'util-DSP': 0.1293454703620889, 'util-BRAM': 0.10290124673735011}
+Test loss breakdown {'perf': 0.7917817234992981, 'util-LUT': 0.11967563591897487, 'util-FF': 0.08332230187952519, 'util-DSP': 0.15540045499801636, 'util-BRAM': 0.1254820667207241}
+Val loss breakdown {'perf': 0.9882003158330918, 'util-LUT': 0.1577696219086647, 'util-FF': 0.11743110194802284, 'util-DSP': 0.23319974839687346, 'util-BRAM': 0.13575038686394691}
+Epoch: 207, Train Loss: 0.9783, Val loss: 1.6324, Test: 1.2757) Time: 59.254 secs
+Epoch 208 train
+Epoch 208 val
+Epoch 208 test
+Train loss breakdown {'perf': 0.4783898393877528, 'util-LUT': 0.0839978044175289, 'util-FF': 0.061890570923093365, 'util-DSP': 0.12767513731325214, 'util-BRAM': 0.09459589959376237}
+Test loss breakdown {'perf': 0.8225821375846862, 'util-LUT': 0.1201801273971796, 'util-FF': 0.08817966617643833, 'util-DSP': 0.15313855782151223, 'util-BRAM': 0.13281218856573104}
+Val loss breakdown {'perf': 1.0072862327098846, 'util-LUT': 0.1515749841928482, 'util-FF': 0.11190499067306518, 'util-DSP': 0.21935335099697112, 'util-BRAM': 0.12877474054694177}
+Epoch: 208, Train Loss: 0.8593, Val loss: 1.6189, Test: 1.3169) Time: 59.155 secs
+Epoch 209 train
+Epoch 209 val
+Epoch 209 test
+Train loss breakdown {'perf': 0.4588931101289662, 'util-LUT': 0.07827713611451062, 'util-FF': 0.05918946798721498, 'util-DSP': 0.1219008866358887, 'util-BRAM': 0.09380118066275661}
+Test loss breakdown {'perf': 0.7780472248792648, 'util-LUT': 0.11892053969204426, 'util-FF': 0.09337239004671574, 'util-DSP': 0.16234590709209443, 'util-BRAM': 0.12314378842711449}
+Val loss breakdown {'perf': 0.9681557387113571, 'util-LUT': 0.14307264611124992, 'util-FF': 0.10628875717520714, 'util-DSP': 0.22249383181333543, 'util-BRAM': 0.12209212556481361}
+Epoch: 209, Train Loss: 0.8171, Val loss: 1.5621, Test: 1.2758) Time: 1.000 min
+Epoch 210 train
+Epoch 210 val
+Epoch 210 test
+Train loss breakdown {'perf': 0.5158288248560645, 'util-LUT': 0.0860841850834814, 'util-FF': 0.0752938614142212, 'util-DSP': 0.13833503611385822, 'util-BRAM': 0.09888977684419263}
+Test loss breakdown {'perf': 0.8023230969905853, 'util-LUT': 0.1172885026782751, 'util-FF': 0.08933991715312004, 'util-DSP': 0.15712768360972404, 'util-BRAM': 0.13392431363463403}
+Val loss breakdown {'perf': 0.9777229934930801, 'util-LUT': 0.1334902223199606, 'util-FF': 0.1105147909373045, 'util-DSP': 0.22374619841575621, 'util-BRAM': 0.13048123940825462}
+Epoch: 210, Train Loss: 0.9255, Val loss: 1.5760, Test: 1.3000) Time: 58.474 secs
+Epoch 211 train
+Epoch 211 val
+Epoch 211 test
+Train loss breakdown {'perf': 0.49348328533497726, 'util-LUT': 0.08208034543151205, 'util-FF': 0.06536247979172251, 'util-DSP': 0.13384157749400896, 'util-BRAM': 0.0975657378916036}
+Test loss breakdown {'perf': 0.7478360056877136, 'util-LUT': 0.12120805978775025, 'util-FF': 0.09436874687671662, 'util-DSP': 0.16499981582164763, 'util-BRAM': 0.12351114451885223}
+Val loss breakdown {'perf': 0.9409709125757217, 'util-LUT': 0.1319024946540594, 'util-FF': 0.1086564190685749, 'util-DSP': 0.2016232855618, 'util-BRAM': 0.12584991231560708}
+Epoch: 211, Train Loss: 0.8798, Val loss: 1.5090, Test: 1.2519) Time: 57.623 secs
+Epoch 212 train
+Epoch 212 val
+Epoch 212 test
+Train loss breakdown {'perf': 0.44784985381093895, 'util-LUT': 0.07904043082486499, 'util-FF': 0.06130821202796968, 'util-DSP': 0.11982667209072546, 'util-BRAM': 0.08934513856233521}
+Test loss breakdown {'perf': 0.7593015372753144, 'util-LUT': 0.1410340428352356, 'util-FF': 0.09042982533574104, 'util-DSP': 0.16708001494407654, 'util-BRAM': 0.12644794583320618}
+Val loss breakdown {'perf': 0.9733446806669235, 'util-LUT': 0.14374154359102248, 'util-FF': 0.09869116619229316, 'util-DSP': 0.1951100043952465, 'util-BRAM': 0.1316606283187866}
+Epoch: 212, Train Loss: 0.8084, Val loss: 1.5425, Test: 1.2843) Time: 59.526 secs
+Epoch 213 train
+Epoch 213 val
+Epoch 213 test
+Train loss breakdown {'perf': 0.44219995323907246, 'util-LUT': 0.0719110495834188, 'util-FF': 0.05510769153691151, 'util-DSP': 0.10177652698687532, 'util-BRAM': 0.08493806845085188}
+Test loss breakdown {'perf': 0.7243064641952515, 'util-LUT': 0.11797078773379326, 'util-FF': 0.09583970569074154, 'util-DSP': 0.16224580109119416, 'util-BRAM': 0.1274568848311901}
+Val loss breakdown {'perf': 0.8997099339962006, 'util-LUT': 0.12648684866726398, 'util-FF': 0.10230099633336068, 'util-DSP': 0.1986932009458542, 'util-BRAM': 0.12835636883974075}
+Epoch: 213, Train Loss: 0.7656, Val loss: 1.4555, Test: 1.2278) Time: 59.895 secs
+Epoch 214 train
+Epoch 214 val
+Epoch 214 test
+Train loss breakdown {'perf': 0.40773762864145363, 'util-LUT': 0.06678896778347818, 'util-FF': 0.056661784098568285, 'util-DSP': 0.10160663774745031, 'util-BRAM': 0.08184354506771672}
+Test loss breakdown {'perf': 0.7414821356534957, 'util-LUT': 0.1260000817477703, 'util-FF': 0.08212360329926013, 'util-DSP': 0.1586836688220501, 'util-BRAM': 0.12724830135703086}
+Val loss breakdown {'perf': 0.9404971718788147, 'util-LUT': 0.13436854407191276, 'util-FF': 0.09758763797581196, 'util-DSP': 0.2057225488126278, 'util-BRAM': 0.12330262139439582}
+Epoch: 214, Train Loss: 0.7158, Val loss: 1.5015, Test: 1.2355) Time: 59.404 secs
+Epoch 215 train
+Epoch 215 val
+Epoch 215 test
+Train loss breakdown {'perf': 0.4130477986552499, 'util-LUT': 0.06689269993115556, 'util-FF': 0.05267202269963243, 'util-DSP': 0.10068559358743104, 'util-BRAM': 0.08347136065871878}
+Test loss breakdown {'perf': 0.7412726610898972, 'util-LUT': 0.1114759424701333, 'util-FF': 0.08994942381978036, 'util-DSP': 0.1440916083753109, 'util-BRAM': 0.12925848811864854}
+Val loss breakdown {'perf': 0.9674491226673126, 'util-LUT': 0.13047162890434266, 'util-FF': 0.10165363475680352, 'util-DSP': 0.20438372120261192, 'util-BRAM': 0.12393486052751541}
+Epoch: 215, Train Loss: 0.7238, Val loss: 1.5279, Test: 1.2160) Time: 59.301 secs
+Epoch 216 train
+Epoch 216 val
+Epoch 216 test
+Train loss breakdown {'perf': 0.4077018865130164, 'util-LUT': 0.06332523121752522, 'util-FF': 0.05427917427468029, 'util-DSP': 0.09517635049467738, 'util-BRAM': 0.08657242560928519}
+Test loss breakdown {'perf': 0.7278288185596467, 'util-LUT': 0.1184505756944418, 'util-FF': 0.07673177514225245, 'util-DSP': 0.1521797828376293, 'util-BRAM': 0.13210796415805817}
+Val loss breakdown {'perf': 0.9501029253005981, 'util-LUT': 0.1370362713932991, 'util-FF': 0.09879496544599534, 'util-DSP': 0.20962382331490517, 'util-BRAM': 0.1280806101858616}
+Epoch: 216, Train Loss: 0.7147, Val loss: 1.5236, Test: 1.2073) Time: 59.270 secs
+Epoch 217 train
+Epoch 217 val
+Epoch 217 test
+Train loss breakdown {'perf': 0.38206322355703876, 'util-LUT': 0.0658384778282859, 'util-FF': 0.049721481881781736, 'util-DSP': 0.09652263815091415, 'util-BRAM': 0.08313166680322452}
+Test loss breakdown {'perf': 0.6944350153207779, 'util-LUT': 0.11610296070575714, 'util-FF': 0.08060070648789405, 'util-DSP': 0.1546248123049736, 'util-BRAM': 0.1208015501499176}
+Val loss breakdown {'perf': 0.948665764927864, 'util-LUT': 0.1257550150156021, 'util-FF': 0.09164219498634338, 'util-DSP': 0.1929817944765091, 'util-BRAM': 0.11542534902691841}
+Epoch: 217, Train Loss: 0.6836, Val loss: 1.4745, Test: 1.1666) Time: 59.201 secs
+Epoch 218 train
+Epoch 218 val
+Epoch 218 test
+Train loss breakdown {'perf': 0.3632936335422776, 'util-LUT': 0.06107570565390316, 'util-FF': 0.05161817050115629, 'util-DSP': 0.08866181300783699, 'util-BRAM': 0.08193770330399275}
+Test loss breakdown {'perf': 0.7384067237377167, 'util-LUT': 0.11859823688864708, 'util-FF': 0.08084855489432811, 'util-DSP': 0.16033004820346833, 'util-BRAM': 0.12646256536245346}
+Val loss breakdown {'perf': 0.9704441070556641, 'util-LUT': 0.1348570343106985, 'util-FF': 0.09251652806997299, 'util-DSP': 0.21036069020628928, 'util-BRAM': 0.12516735047101973}
+Epoch: 218, Train Loss: 0.6529, Val loss: 1.5333, Test: 1.2246) Time: 1.000 min
+Epoch 219 train
+Epoch 219 val
+Epoch 219 test
+Train loss breakdown {'perf': 0.4200360848653046, 'util-LUT': 0.07108841311525214, 'util-FF': 0.061313994313505565, 'util-DSP': 0.1148434468460354, 'util-BRAM': 0.08725661234083501}
+Test loss breakdown {'perf': 0.9102051317691803, 'util-LUT': 0.1547243995591998, 'util-FF': 0.11869952157139778, 'util-DSP': 0.2861768424510956, 'util-BRAM': 0.12929771170020105}
+Val loss breakdown {'perf': 1.055101227760315, 'util-LUT': 0.14493459314107895, 'util-FF': 0.11284979060292244, 'util-DSP': 0.2856843464076519, 'util-BRAM': 0.13625762686133386}
+Epoch: 219, Train Loss: 0.7673, Val loss: 1.7348, Test: 1.5991) Time: 59.249 secs
+Epoch 220 train
+Epoch 220 val
+Epoch 220 test
+Train loss breakdown {'perf': 0.9876986024054614, 'util-LUT': 0.1494498263028535, 'util-FF': 0.12086213193833828, 'util-DSP': 0.2545006325976415, 'util-BRAM': 0.1479862682860006}
+Test loss breakdown {'perf': 1.0587307035923004, 'util-LUT': 0.16492385566234588, 'util-FF': 0.10773205533623695, 'util-DSP': 0.23744938895106316, 'util-BRAM': 0.1471310980618}
+Val loss breakdown {'perf': 1.2719426691532134, 'util-LUT': 0.21558801755309104, 'util-FF': 0.1555203080177307, 'util-DSP': 0.32420938536524774, 'util-BRAM': 0.14599246755242348}
+Epoch: 220, Train Loss: 1.6550, Val loss: 2.1133, Test: 1.7160) Time: 58.374 secs
+Epoch 221 train
+Epoch 221 val
+Epoch 221 test
+Train loss breakdown {'perf': 0.7908414710651744, 'util-LUT': 0.13962191292508083, 'util-FF': 0.10410571229559454, 'util-DSP': 0.23073823275891217, 'util-BRAM': 0.12856768715110692}
+Test loss breakdown {'perf': 0.8658179461956024, 'util-LUT': 0.13600626364350318, 'util-FF': 0.10009842850267887, 'util-DSP': 0.16483609676361083, 'util-BRAM': 0.14013873934745788}
+Val loss breakdown {'perf': 1.0671830296516418, 'util-LUT': 0.17741692811250687, 'util-FF': 0.12855951376259328, 'util-DSP': 0.2669964611530304, 'util-BRAM': 0.1418268896639347}
+Epoch: 221, Train Loss: 1.4153, Val loss: 1.7820, Test: 1.4069) Time: 57.762 secs
+Epoch 222 train
+Epoch 222 val
+Epoch 222 test
+Train loss breakdown {'perf': 0.6566416316411712, 'util-LUT': 0.12292050870812753, 'util-FF': 0.09664299347522584, 'util-DSP': 0.2035287092016502, 'util-BRAM': 0.11244062850759788}
+Test loss breakdown {'perf': 0.9233285784721375, 'util-LUT': 0.1544506825506687, 'util-FF': 0.10400025993585586, 'util-DSP': 0.2253498390316963, 'util-BRAM': 0.13874286115169526}
+Val loss breakdown {'perf': 1.1172693610191344, 'util-LUT': 0.1933697834610939, 'util-FF': 0.13898190781474112, 'util-DSP': 0.3055779360234737, 'util-BRAM': 0.14007826820015906}
+Epoch: 222, Train Loss: 1.1994, Val loss: 1.8953, Test: 1.5459) Time: 1.000 min
+Epoch 223 train
+Epoch 223 val
+Epoch 223 test
+Train loss breakdown {'perf': 0.6320708014748313, 'util-LUT': 0.12502671930600295, 'util-FF': 0.09639409535818479, 'util-DSP': 0.2153890017758716, 'util-BRAM': 0.11603012384677475}
+Test loss breakdown {'perf': 0.7795007109642029, 'util-LUT': 0.15366460606455803, 'util-FF': 0.10874402932822705, 'util-DSP': 0.19287441521883011, 'util-BRAM': 0.14051424115896224}
+Val loss breakdown {'perf': 0.9520801544189453, 'util-LUT': 0.15647344440221786, 'util-FF': 0.11750688999891282, 'util-DSP': 0.23914293870329856, 'util-BRAM': 0.13130161613225938}
+Epoch: 223, Train Loss: 1.1985, Val loss: 1.5965, Test: 1.3753) Time: 1.000 min
+Epoch 224 train
+Epoch 224 val
+Epoch 224 test
+Train loss breakdown {'perf': 0.5697735703804276, 'util-LUT': 0.10485338859937408, 'util-FF': 0.08377156745303761, 'util-DSP': 0.17619873210787773, 'util-BRAM': 0.11129962898452174}
+Test loss breakdown {'perf': 0.7864848554134369, 'util-LUT': 0.14008415006101133, 'util-FF': 0.09086964055895805, 'util-DSP': 0.1515233598649502, 'util-BRAM': 0.14208927005529404}
+Val loss breakdown {'perf': 1.0266258478164674, 'util-LUT': 0.13887737616896628, 'util-FF': 0.11372267752885819, 'util-DSP': 0.23658860698342324, 'util-BRAM': 0.13575027734041215}
+Epoch: 224, Train Loss: 1.0479, Val loss: 1.6516, Test: 1.3111) Time: 59.410 secs
+Epoch 225 train
+Epoch 225 val
+Epoch 225 test
+Train loss breakdown {'perf': 0.5108974081548777, 'util-LUT': 0.09311959833245385, 'util-FF': 0.06718192004006017, 'util-DSP': 0.14408998606218534, 'util-BRAM': 0.0989576405422254}
+Test loss breakdown {'perf': 0.7902799129486084, 'util-LUT': 0.13051241785287857, 'util-FF': 0.1007161371409893, 'util-DSP': 0.18511234372854232, 'util-BRAM': 0.15038028880953788}
+Val loss breakdown {'perf': 1.051182621717453, 'util-LUT': 0.14571920186281204, 'util-FF': 0.11328002363443375, 'util-DSP': 0.24318674057722092, 'util-BRAM': 0.14306806549429893}
+Epoch: 225, Train Loss: 0.9285, Val loss: 1.6964, Test: 1.3570) Time: 58.837 secs
+Epoch 226 train
+Epoch 226 val
+Epoch 226 test
+Train loss breakdown {'perf': 0.4667695584622296, 'util-LUT': 0.07659030553292144, 'util-FF': 0.06104375760663639, 'util-DSP': 0.11415151235732166, 'util-BRAM': 0.0972791113467379}
+Test loss breakdown {'perf': 0.78486770093441, 'util-LUT': 0.12357907108962536, 'util-FF': 0.10230704620480538, 'util-DSP': 0.1570674642920494, 'util-BRAM': 0.1376092441380024}
+Val loss breakdown {'perf': 1.0253936529159546, 'util-LUT': 0.13840195238590242, 'util-FF': 0.1194711185991764, 'util-DSP': 0.22811036109924315, 'util-BRAM': 0.13719873055815696}
+Epoch: 226, Train Loss: 0.8221, Val loss: 1.6486, Test: 1.3054) Time: 1.000 min
+Epoch 227 train
+Epoch 227 val
+Epoch 227 test
+Train loss breakdown {'perf': 0.4549466134472327, 'util-LUT': 0.08230218138884414, 'util-FF': 0.0673947993835265, 'util-DSP': 0.1160117115994746, 'util-BRAM': 0.09997610053555532}
+Test loss breakdown {'perf': 0.7644042611122132, 'util-LUT': 0.11561448872089386, 'util-FF': 0.09239371903240681, 'util-DSP': 0.13959207907319068, 'util-BRAM': 0.13672981411218643}
+Val loss breakdown {'perf': 0.9935754477977753, 'util-LUT': 0.13787649162113666, 'util-FF': 0.11816806681454181, 'util-DSP': 0.2270864024758339, 'util-BRAM': 0.12968083173036576}
+Epoch: 227, Train Loss: 0.8263, Val loss: 1.6064, Test: 1.2487) Time: 1.000 min
+Epoch 228 train
+Epoch 228 val
+Epoch 228 test
+Train loss breakdown {'perf': 0.4528126052834771, 'util-LUT': 0.07640929621728984, 'util-FF': 0.06023686815222556, 'util-DSP': 0.11489608071067116, 'util-BRAM': 0.09631710846654394}
+Test loss breakdown {'perf': 0.7450678765773773, 'util-LUT': 0.11563073806464672, 'util-FF': 0.09169443100690841, 'util-DSP': 0.12721128314733504, 'util-BRAM': 0.1289394073188305}
+Val loss breakdown {'perf': 1.0139299392700196, 'util-LUT': 0.14951272904872895, 'util-FF': 0.11620624288916588, 'util-DSP': 0.21953220292925835, 'util-BRAM': 0.13485097438097}
+Epoch: 228, Train Loss: 0.8039, Val loss: 1.6340, Test: 1.2085) Time: 1.000 min
+Epoch 229 train
